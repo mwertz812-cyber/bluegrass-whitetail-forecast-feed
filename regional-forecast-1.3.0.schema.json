@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bluegrasswhitetail.com/schemas/regional-forecast-1.3.0.json",
+  "title": "Bluegrass Whitetail Regional Forecast",
+  "description": "Stable Wix-facing contract. Minor versions may add fields; breaking changes require a new major version.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "valid_until",
+    "data_status",
+    "source",
+    "limitations",
+    "regions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.3.0"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "valid_until": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "data_status": {
+      "type": "object",
+      "required": [
+        "weather",
+        "harvest",
+        "mast",
+        "pressure"
+      ],
+      "properties": {
+        "weather": {
+          "enum": [
+            "current",
+            "unavailable"
+          ]
+        },
+        "harvest": {
+          "enum": [
+            "current",
+            "unavailable"
+          ]
+        },
+        "harvest_retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "harvest_statewide_total": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "mast": {
+          "type": "string"
+        },
+        "pressure": {
+          "enum": [
+            "estimated"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "source": {
+      "type": "object"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "regions": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "region_id",
+          "region_name",
+          "score",
+          "inputs",
+          "evidence",
+          "best_window",
+          "tactic",
+          "periods",
+          "sample_points"
+        ],
+        "properties": {
+          "region_id": {
+            "enum": [
+              "purchase-region",
+              "green-river-region",
+              "bluegrass-region",
+              "northeast-region",
+              "southeast-region"
+            ]
+          },
+          "region_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "score": {
+            "type": "object",
+            "required": [
+              "value",
+              "label"
+            ],
+            "properties": {
+              "value": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10
+              },
+              "label": {
+                "enum": [
+                  "poor",
+                  "fair",
+                  "good",
+                  "excellent"
+                ]
+              }
+            },
+            "additionalProperties": true
+          },
+          "inputs": {
+            "type": "object",
+            "required": [
+              "weather_score",
+              "season_phase_score",
+              "food_score",
+              "pressure_score",
+              "harvest_signal_score"
+            ],
+            "properties": {
+              "weather_score": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10
+              },
+              "season_phase_score": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10
+              },
+              "food_score": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10
+              },
+              "pressure_score": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10
+              },
+              "harvest_signal_score": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10
+              }
+            },
+            "additionalProperties": true
+          },
+          "evidence": {
+            "type": "object",
+            "required": [
+              "food",
+              "pressure",
+              "harvest"
+            ]
+          },
+          "best_window": {
+            "type": "string"
+          },
+          "tactic": {
+            "type": "string"
+          },
+          "periods": {
+            "type": "array"
+          },
+          "sample_points": {
+            "type": "array",
+            "minItems": 3
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
