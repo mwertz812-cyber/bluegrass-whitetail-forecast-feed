@@ -1,0 +1,820 @@
+{
+  "schema_version": "1.3.0",
+  "generated_at": "2026-09-21T01:32:52.011178+00:00",
+  "valid_until": "2026-09-23T16:00:00+00:00",
+  "data_status": {
+    "weather": "current",
+    "harvest": "current",
+    "harvest_retrieved_at": "2026-09-21T01:32:53.215682+00:00",
+    "harvest_statewide_total": 4498,
+    "mast": "latest-available-prior-season",
+    "pressure": "estimated"
+  },
+  "source": {
+    "weather_provider": "NOAA National Weather Service",
+    "weather_api": "https://api.weather.gov",
+    "harvest": "https://app.fw.ky.gov/harvestdata/Records/Records?animal=Deer&report=resultsTotal",
+    "mast": "https://fw.ky.gov/Hunt/Documents/2025-mast-report.pdf",
+    "pressure_seasons": "https://fw.ky.gov/Hunt/Pages/Deer.aspx",
+    "geography": "KDFWR Regional Biologists and Coordinators map"
+  },
+  "limitations": [
+    "Weather is sampled at three representative communities per region.",
+    "The latest available 2025 mast survey is a low-confidence East/West baseline, not a claim about current 2026 mast conditions.",
+    "Hunting pressure is an estimated index based on calendar effects and relative public-land exposure, not measured hunter counts.",
+    "Current harvest automatically falls back to neutral if KDFWR data cannot be retrieved or validated.",
+    "The score is decision support, not a guarantee of deer movement."
+  ],
+  "regions": [
+    {
+      "region_id": "purchase-region",
+      "region_name": "Purchase Region",
+      "score": {
+        "value": 6.0,
+        "label": "good"
+      },
+      "inputs": {
+        "weather_score": 6.6,
+        "season_phase_score": 5.5,
+        "food_score": 5.8,
+        "pressure_score": 6.8,
+        "harvest_signal_score": 4.4
+      },
+      "evidence": {
+        "food": {
+          "score": 5.8,
+          "status": "latest-available-prior-season",
+          "confidence": 0.5,
+          "forest_region": "West",
+          "white_oak_pba": 61,
+          "red_oak_pba": 69,
+          "rating": "Good",
+          "source_year": 2025,
+          "source_url": "https://fw.ky.gov/Hunt/Documents/2025-mast-report.pdf"
+        },
+        "pressure": {
+          "status": "estimated",
+          "pressure_index": 3.2,
+          "score": 6.8,
+          "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
+          "components": {
+            "season_events_and_holidays": 3.0,
+            "day_of_week": 2.0,
+            "public_land_exposure": 6.0
+          },
+          "weights": {
+            "season_events_and_holidays": 0.6,
+            "day_of_week": 0.25,
+            "public_land_exposure": 0.15
+          },
+          "active_events": [],
+          "active_holidays": [],
+          "model_version": "1.0.0",
+          "source_url": "https://fw.ky.gov/Hunt/Pages/Deer.aspx",
+          "limitations": [
+            "This is an estimated pressure index, not a measured hunter count.",
+            "Public-land exposure is a relative regional proxy and does not measure private-land access or local crowding.",
+            "Season dates are configuration data and must be reviewed against each annual KDFWR hunting guide."
+          ]
+        },
+        "harvest": {
+          "county_count": 14,
+          "male": 189,
+          "female": 215,
+          "total": 404,
+          "harvest_per_county": 28.9,
+          "activity_index": 0.77,
+          "score": 4.4
+        }
+      },
+      "best_window": "Monday Night",
+      "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
+      "periods": [
+        {
+          "name": "Tonight",
+          "start_time": "2026-09-20T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 72.0,
+          "wind_mph": 2.2,
+          "precipitation_probability": 3.7,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Monday",
+          "start_time": "2026-09-21T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 93.3,
+          "wind_mph": 3.8,
+          "precipitation_probability": 13.7,
+          "short_forecast": "Mostly Sunny"
+        },
+        {
+          "name": "Monday Night",
+          "start_time": "2026-09-21T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 65.7,
+          "wind_mph": 5.2,
+          "precipitation_probability": 40.7,
+          "short_forecast": "Slight Chance Showers And Thunderstorms"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-22T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 83.0,
+          "wind_mph": 6.3,
+          "precipitation_probability": 18.7,
+          "short_forecast": "Slight Chance Rain Showers"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-22T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 60.7,
+          "wind_mph": 6.7,
+          "precipitation_probability": 10.7,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Wednesday",
+          "start_time": "2026-09-23T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 79.3,
+          "wind_mph": 7.2,
+          "precipitation_probability": 2.0,
+          "short_forecast": "Mostly Sunny"
+        },
+        {
+          "name": "Wednesday Night",
+          "start_time": "2026-09-23T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 57.0,
+          "wind_mph": 5.2,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Mostly Clear"
+        },
+        {
+          "name": "Thursday",
+          "start_time": "2026-09-24T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 79.3,
+          "wind_mph": 5.7,
+          "precipitation_probability": 0.3,
+          "short_forecast": "Mostly Sunny"
+        }
+      ],
+      "sample_points": [
+        {
+          "id": "paducah",
+          "name": "Paducah",
+          "latitude": 37.0834,
+          "longitude": -88.6
+        },
+        {
+          "id": "murray",
+          "name": "Murray",
+          "latitude": 36.6103,
+          "longitude": -88.3148
+        },
+        {
+          "id": "hopkinsville",
+          "name": "Hopkinsville",
+          "latitude": 36.8656,
+          "longitude": -87.4886
+        }
+      ]
+    },
+    {
+      "region_id": "green-river-region",
+      "region_name": "Green River Region",
+      "score": {
+        "value": 6.1,
+        "label": "good"
+      },
+      "inputs": {
+        "weather_score": 6.7,
+        "season_phase_score": 5.5,
+        "food_score": 5.8,
+        "pressure_score": 7.0,
+        "harvest_signal_score": 5.1
+      },
+      "evidence": {
+        "food": {
+          "score": 5.8,
+          "status": "latest-available-prior-season",
+          "confidence": 0.5,
+          "forest_region": "West",
+          "white_oak_pba": 61,
+          "red_oak_pba": 69,
+          "rating": "Good",
+          "source_year": 2025,
+          "source_url": "https://fw.ky.gov/Hunt/Documents/2025-mast-report.pdf"
+        },
+        "pressure": {
+          "status": "estimated",
+          "pressure_index": 3.0,
+          "score": 7.0,
+          "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
+          "components": {
+            "season_events_and_holidays": 3.0,
+            "day_of_week": 2.0,
+            "public_land_exposure": 4.5
+          },
+          "weights": {
+            "season_events_and_holidays": 0.6,
+            "day_of_week": 0.25,
+            "public_land_exposure": 0.15
+          },
+          "active_events": [],
+          "active_holidays": [],
+          "model_version": "1.0.0",
+          "source_url": "https://fw.ky.gov/Hunt/Pages/Deer.aspx",
+          "limitations": [
+            "This is an estimated pressure index, not a measured hunter count.",
+            "Public-land exposure is a relative regional proxy and does not measure private-land access or local crowding.",
+            "Season dates are configuration data and must be reviewed against each annual KDFWR hunting guide."
+          ]
+        },
+        "harvest": {
+          "county_count": 25,
+          "male": 552,
+          "female": 439,
+          "total": 991,
+          "harvest_per_county": 39.6,
+          "activity_index": 1.058,
+          "score": 5.1
+        }
+      },
+      "best_window": "Monday Night",
+      "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
+      "periods": [
+        {
+          "name": "Tonight",
+          "start_time": "2026-09-20T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 71.7,
+          "wind_mph": 3.0,
+          "precipitation_probability": 7.7,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Monday",
+          "start_time": "2026-09-21T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 91.7,
+          "wind_mph": 3.8,
+          "precipitation_probability": 15.3,
+          "short_forecast": "Partly Sunny"
+        },
+        {
+          "name": "Monday Night",
+          "start_time": "2026-09-21T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 65.0,
+          "wind_mph": 6.3,
+          "precipitation_probability": 34.3,
+          "short_forecast": "Partly Cloudy then Chance Rain Showers"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-22T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 81.0,
+          "wind_mph": 6.2,
+          "precipitation_probability": 27.7,
+          "short_forecast": "Chance Rain Showers"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-22T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 61.3,
+          "wind_mph": 6.0,
+          "precipitation_probability": 17.3,
+          "short_forecast": "Slight Chance Rain Showers then Mostly Cloudy"
+        },
+        {
+          "name": "Wednesday",
+          "start_time": "2026-09-23T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 78.0,
+          "wind_mph": 6.8,
+          "precipitation_probability": 7.7,
+          "short_forecast": "Partly Sunny"
+        },
+        {
+          "name": "Wednesday Night",
+          "start_time": "2026-09-23T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 58.0,
+          "wind_mph": 5.5,
+          "precipitation_probability": 2.7,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Thursday",
+          "start_time": "2026-09-24T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 78.0,
+          "wind_mph": 5.0,
+          "precipitation_probability": 1.0,
+          "short_forecast": "Mostly Sunny"
+        }
+      ],
+      "sample_points": [
+        {
+          "id": "owensboro",
+          "name": "Owensboro",
+          "latitude": 37.7719,
+          "longitude": -87.1112
+        },
+        {
+          "id": "bowling-green",
+          "name": "Bowling Green",
+          "latitude": 36.9685,
+          "longitude": -86.4808
+        },
+        {
+          "id": "elizabethtown",
+          "name": "Elizabethtown",
+          "latitude": 37.7031,
+          "longitude": -85.8649
+        }
+      ]
+    },
+    {
+      "region_id": "bluegrass-region",
+      "region_name": "Bluegrass Region",
+      "score": {
+        "value": 6.2,
+        "label": "good"
+      },
+      "inputs": {
+        "weather_score": 6.8,
+        "season_phase_score": 5.5,
+        "food_score": 5.8,
+        "pressure_score": 7.2,
+        "harvest_signal_score": 5.0
+      },
+      "evidence": {
+        "food": {
+          "score": 5.8,
+          "status": "latest-available-prior-season",
+          "confidence": 0.5,
+          "forest_region": "West",
+          "white_oak_pba": 61,
+          "red_oak_pba": 69,
+          "rating": "Good",
+          "source_year": 2025,
+          "source_url": "https://fw.ky.gov/Hunt/Documents/2025-mast-report.pdf"
+        },
+        "pressure": {
+          "status": "estimated",
+          "pressure_index": 2.8,
+          "score": 7.2,
+          "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
+          "components": {
+            "season_events_and_holidays": 3.0,
+            "day_of_week": 2.0,
+            "public_land_exposure": 3.0
+          },
+          "weights": {
+            "season_events_and_holidays": 0.6,
+            "day_of_week": 0.25,
+            "public_land_exposure": 0.15
+          },
+          "active_events": [],
+          "active_holidays": [],
+          "model_version": "1.0.0",
+          "source_url": "https://fw.ky.gov/Hunt/Pages/Deer.aspx",
+          "limitations": [
+            "This is an estimated pressure index, not a measured hunter count.",
+            "Public-land exposure is a relative regional proxy and does not measure private-land access or local crowding.",
+            "Season dates are configuration data and must be reviewed against each annual KDFWR hunting guide."
+          ]
+        },
+        "harvest": {
+          "county_count": 31,
+          "male": 690,
+          "female": 493,
+          "total": 1183,
+          "harvest_per_county": 38.2,
+          "activity_index": 1.018,
+          "score": 5.0
+        }
+      },
+      "best_window": "Monday Night",
+      "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
+      "periods": [
+        {
+          "name": "Tonight",
+          "start_time": "2026-09-20T20:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 69.3,
+          "wind_mph": 4.7,
+          "precipitation_probability": 27.0,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Monday",
+          "start_time": "2026-09-21T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 84.3,
+          "wind_mph": 5.8,
+          "precipitation_probability": 32.0,
+          "short_forecast": "Partly Sunny then Slight Chance Showers And Thunderstorms"
+        },
+        {
+          "name": "Monday Night",
+          "start_time": "2026-09-21T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 61.3,
+          "wind_mph": 7.5,
+          "precipitation_probability": 29.3,
+          "short_forecast": "Chance Showers And Thunderstorms"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-22T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 75.7,
+          "wind_mph": 7.0,
+          "precipitation_probability": 26.3,
+          "short_forecast": "Chance Rain Showers"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-22T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 59.0,
+          "wind_mph": 6.8,
+          "precipitation_probability": 10.7,
+          "short_forecast": "Mostly Cloudy"
+        },
+        {
+          "name": "Wednesday",
+          "start_time": "2026-09-23T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 73.7,
+          "wind_mph": 6.8,
+          "precipitation_probability": 16.7,
+          "short_forecast": "Partly Sunny"
+        },
+        {
+          "name": "Wednesday Night",
+          "start_time": "2026-09-23T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 57.3,
+          "wind_mph": 7.2,
+          "precipitation_probability": 16.3,
+          "short_forecast": "Mostly Cloudy"
+        },
+        {
+          "name": "Thursday",
+          "start_time": "2026-09-24T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 73.3,
+          "wind_mph": 7.5,
+          "precipitation_probability": 12.7,
+          "short_forecast": "Partly Sunny"
+        }
+      ],
+      "sample_points": [
+        {
+          "id": "louisville",
+          "name": "Louisville",
+          "latitude": 38.2527,
+          "longitude": -85.7585
+        },
+        {
+          "id": "lexington",
+          "name": "Lexington",
+          "latitude": 38.0406,
+          "longitude": -84.5037
+        },
+        {
+          "id": "covington",
+          "name": "Covington",
+          "latitude": 39.0837,
+          "longitude": -84.5086
+        }
+      ]
+    },
+    {
+      "region_id": "northeast-region",
+      "region_name": "Northeast Region",
+      "score": {
+        "value": 6.0,
+        "label": "good"
+      },
+      "inputs": {
+        "weather_score": 6.5,
+        "season_phase_score": 5.5,
+        "food_score": 5.7,
+        "pressure_score": 6.7,
+        "harvest_signal_score": 5.2
+      },
+      "evidence": {
+        "food": {
+          "score": 5.7,
+          "status": "latest-available-prior-season",
+          "confidence": 0.5,
+          "forest_region": "East",
+          "white_oak_pba": 65,
+          "red_oak_pba": 62,
+          "rating": "Good",
+          "source_year": 2025,
+          "source_url": "https://fw.ky.gov/Hunt/Documents/2025-mast-report.pdf"
+        },
+        "pressure": {
+          "status": "estimated",
+          "pressure_index": 3.3,
+          "score": 6.7,
+          "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
+          "components": {
+            "season_events_and_holidays": 3.0,
+            "day_of_week": 2.0,
+            "public_land_exposure": 6.5
+          },
+          "weights": {
+            "season_events_and_holidays": 0.6,
+            "day_of_week": 0.25,
+            "public_land_exposure": 0.15
+          },
+          "active_events": [],
+          "active_holidays": [],
+          "model_version": "1.0.0",
+          "source_url": "https://fw.ky.gov/Hunt/Pages/Deer.aspx",
+          "limitations": [
+            "This is an estimated pressure index, not a measured hunter count.",
+            "Public-land exposure is a relative regional proxy and does not measure private-land access or local crowding.",
+            "Season dates are configuration data and must be reviewed against each annual KDFWR hunting guide."
+          ]
+        },
+        "harvest": {
+          "county_count": 21,
+          "male": 525,
+          "female": 336,
+          "total": 861,
+          "harvest_per_county": 41.0,
+          "activity_index": 1.094,
+          "score": 5.2
+        }
+      },
+      "best_window": "Wednesday Night",
+      "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
+      "periods": [
+        {
+          "name": "Tonight",
+          "start_time": "2026-09-20T21:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 65.3,
+          "wind_mph": 2.5,
+          "precipitation_probability": 36.7,
+          "short_forecast": "Slight Chance Showers And Thunderstorms"
+        },
+        {
+          "name": "Monday",
+          "start_time": "2026-09-21T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 84.3,
+          "wind_mph": 2.8,
+          "precipitation_probability": 33.0,
+          "short_forecast": "Chance Rain Showers"
+        },
+        {
+          "name": "Monday Night",
+          "start_time": "2026-09-21T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 60.7,
+          "wind_mph": 3.7,
+          "precipitation_probability": 47.7,
+          "short_forecast": "Chance Rain Showers then Mostly Cloudy"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-22T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 74.7,
+          "wind_mph": 3.5,
+          "precipitation_probability": 38.3,
+          "short_forecast": "Chance Rain Showers"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-22T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 59.7,
+          "wind_mph": 3.3,
+          "precipitation_probability": 30.7,
+          "short_forecast": "Mostly Cloudy"
+        },
+        {
+          "name": "Wednesday",
+          "start_time": "2026-09-23T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 72.3,
+          "wind_mph": 3.3,
+          "precipitation_probability": 63.0,
+          "short_forecast": "Chance Showers And Thunderstorms"
+        },
+        {
+          "name": "Wednesday Night",
+          "start_time": "2026-09-23T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 56.3,
+          "wind_mph": 5.2,
+          "precipitation_probability": 57.7,
+          "short_forecast": "Chance Showers And Thunderstorms"
+        },
+        {
+          "name": "Thursday",
+          "start_time": "2026-09-24T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 70.7,
+          "wind_mph": 4.7,
+          "precipitation_probability": 30.3,
+          "short_forecast": "Chance Rain Showers"
+        }
+      ],
+      "sample_points": [
+        {
+          "id": "maysville",
+          "name": "Maysville",
+          "latitude": 38.6412,
+          "longitude": -83.7444
+        },
+        {
+          "id": "morehead",
+          "name": "Morehead",
+          "latitude": 38.1831,
+          "longitude": -83.4327
+        },
+        {
+          "id": "paintsville",
+          "name": "Paintsville",
+          "latitude": 37.8145,
+          "longitude": -82.8071
+        }
+      ]
+    },
+    {
+      "region_id": "southeast-region",
+      "region_name": "Southeast Region",
+      "score": {
+        "value": 6.0,
+        "label": "good"
+      },
+      "inputs": {
+        "weather_score": 6.6,
+        "season_phase_score": 5.5,
+        "food_score": 5.7,
+        "pressure_score": 6.5,
+        "harvest_signal_score": 4.9
+      },
+      "evidence": {
+        "food": {
+          "score": 5.7,
+          "status": "latest-available-prior-season",
+          "confidence": 0.5,
+          "forest_region": "East",
+          "white_oak_pba": 65,
+          "red_oak_pba": 62,
+          "rating": "Good",
+          "source_year": 2025,
+          "source_url": "https://fw.ky.gov/Hunt/Documents/2025-mast-report.pdf"
+        },
+        "pressure": {
+          "status": "estimated",
+          "pressure_index": 3.5,
+          "score": 6.5,
+          "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
+          "components": {
+            "season_events_and_holidays": 3.0,
+            "day_of_week": 2.0,
+            "public_land_exposure": 8.0
+          },
+          "weights": {
+            "season_events_and_holidays": 0.6,
+            "day_of_week": 0.25,
+            "public_land_exposure": 0.15
+          },
+          "active_events": [],
+          "active_holidays": [],
+          "model_version": "1.0.0",
+          "source_url": "https://fw.ky.gov/Hunt/Pages/Deer.aspx",
+          "limitations": [
+            "This is an estimated pressure index, not a measured hunter count.",
+            "Public-land exposure is a relative regional proxy and does not measure private-land access or local crowding.",
+            "Season dates are configuration data and must be reviewed against each annual KDFWR hunting guide."
+          ]
+        },
+        "harvest": {
+          "county_count": 29,
+          "male": 650,
+          "female": 409,
+          "total": 1059,
+          "harvest_per_county": 36.5,
+          "activity_index": 0.974,
+          "score": 4.9
+        }
+      },
+      "best_window": "Monday Night",
+      "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
+      "periods": [
+        {
+          "name": "Tonight",
+          "start_time": "2026-09-20T20:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 68.0,
+          "wind_mph": 1.7,
+          "precipitation_probability": 11.0,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Monday",
+          "start_time": "2026-09-21T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 90.3,
+          "wind_mph": 3.8,
+          "precipitation_probability": 35.3,
+          "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms"
+        },
+        {
+          "name": "Monday Night",
+          "start_time": "2026-09-21T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 64.7,
+          "wind_mph": 3.7,
+          "precipitation_probability": 51.3,
+          "short_forecast": "Chance Showers And Thunderstorms"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-22T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 80.7,
+          "wind_mph": 3.5,
+          "precipitation_probability": 61.3,
+          "short_forecast": "Rain Showers Likely"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-22T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 61.3,
+          "wind_mph": 4.3,
+          "precipitation_probability": 47.3,
+          "short_forecast": "Chance Rain Showers"
+        },
+        {
+          "name": "Wednesday",
+          "start_time": "2026-09-23T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 76.0,
+          "wind_mph": 4.0,
+          "precipitation_probability": 64.3,
+          "short_forecast": "Chance Rain Showers"
+        },
+        {
+          "name": "Wednesday Night",
+          "start_time": "2026-09-23T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 58.7,
+          "wind_mph": 3.5,
+          "precipitation_probability": 48.7,
+          "short_forecast": "Chance Rain Showers"
+        },
+        {
+          "name": "Thursday",
+          "start_time": "2026-09-24T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 74.0,
+          "wind_mph": 3.5,
+          "precipitation_probability": 30.7,
+          "short_forecast": "Chance Rain Showers"
+        }
+      ],
+      "sample_points": [
+        {
+          "id": "somerset",
+          "name": "Somerset",
+          "latitude": 37.092,
+          "longitude": -84.6041
+        },
+        {
+          "id": "london",
+          "name": "London",
+          "latitude": 37.1289,
+          "longitude": -84.0833
+        },
+        {
+          "id": "hazard",
+          "name": "Hazard",
+          "latitude": 37.2495,
+          "longitude": -83.1932
+        }
+      ]
+    }
+  ]
+}
