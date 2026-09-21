@@ -1,11 +1,11 @@
 {
   "schema_version": "1.3.0",
-  "generated_at": "2026-09-21T02:13:38.266392+00:00",
+  "generated_at": "2026-09-21T02:13:57.558798+00:00",
   "valid_until": "2026-09-23T16:00:00+00:00",
   "data_status": {
     "weather": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-09-21T02:13:38.621578+00:00",
+    "harvest_retrieved_at": "2026-09-21T02:13:58.645843+00:00",
     "harvest_statewide_total": 4509,
     "mast": "latest-available-prior-season",
     "pressure": "estimated"
@@ -724,7 +724,7 @@
       "periods": [
         {
           "name": "Tonight",
-          "start_time": "2026-09-20T22:00:00-04:00",
+          "start_time": "2026-09-20T21:00:00-04:00",
           "is_daytime": false,
           "temperature_f": 68.0,
           "wind_mph": 1.7,
