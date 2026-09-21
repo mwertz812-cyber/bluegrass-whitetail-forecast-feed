@@ -1,12 +1,12 @@
 {
   "schema_version": "1.3.0",
-  "generated_at": "2026-09-21T01:32:52.011178+00:00",
+  "generated_at": "2026-09-21T02:04:35.360935+00:00",
   "valid_until": "2026-09-23T16:00:00+00:00",
   "data_status": {
     "weather": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-09-21T01:32:53.215682+00:00",
-    "harvest_statewide_total": 4498,
+    "harvest_retrieved_at": "2026-09-21T02:04:36.586140+00:00",
+    "harvest_statewide_total": 4506,
     "mast": "latest-available-prior-season",
     "pressure": "estimated"
   },
@@ -79,9 +79,9 @@
         },
         "harvest": {
           "county_count": 14,
-          "male": 189,
+          "male": 190,
           "female": 215,
-          "total": 404,
+          "total": 405,
           "harvest_per_county": 28.9,
           "activity_index": 0.77,
           "score": 4.4
@@ -95,7 +95,7 @@
           "start_time": "2026-09-20T18:00:00-05:00",
           "is_daytime": false,
           "temperature_f": 72.0,
-          "wind_mph": 2.2,
+          "wind_mph": 1.8,
           "precipitation_probability": 3.7,
           "short_forecast": "Partly Cloudy"
         },
@@ -238,10 +238,10 @@
         "harvest": {
           "county_count": 25,
           "male": 552,
-          "female": 439,
-          "total": 991,
-          "harvest_per_county": 39.6,
-          "activity_index": 1.058,
+          "female": 440,
+          "total": 992,
+          "harvest_per_county": 39.7,
+          "activity_index": 1.057,
           "score": 5.1
         }
       },
@@ -250,10 +250,10 @@
       "periods": [
         {
           "name": "Tonight",
-          "start_time": "2026-09-20T18:00:00-05:00",
+          "start_time": "2026-09-20T20:00:00-05:00",
           "is_daytime": false,
           "temperature_f": 71.7,
-          "wind_mph": 3.0,
+          "wind_mph": 2.7,
           "precipitation_probability": 7.7,
           "short_forecast": "Partly Cloudy"
         },
@@ -395,11 +395,11 @@
         },
         "harvest": {
           "county_count": 31,
-          "male": 690,
-          "female": 493,
-          "total": 1183,
-          "harvest_per_county": 38.2,
-          "activity_index": 1.018,
+          "male": 692,
+          "female": 494,
+          "total": 1186,
+          "harvest_per_county": 38.3,
+          "activity_index": 1.019,
           "score": 5.0
         }
       },
@@ -408,12 +408,12 @@
       "periods": [
         {
           "name": "Tonight",
-          "start_time": "2026-09-20T20:00:00-04:00",
+          "start_time": "2026-09-20T22:00:00-04:00",
           "is_daytime": false,
           "temperature_f": 69.3,
           "wind_mph": 4.7,
           "precipitation_probability": 27.0,
-          "short_forecast": "Partly Cloudy"
+          "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Monday",
@@ -554,9 +554,9 @@
         "harvest": {
           "county_count": 21,
           "male": 525,
-          "female": 336,
-          "total": 861,
-          "harvest_per_county": 41.0,
+          "female": 338,
+          "total": 863,
+          "harvest_per_county": 41.1,
           "activity_index": 1.094,
           "score": 5.2
         }
@@ -569,7 +569,7 @@
           "start_time": "2026-09-20T21:00:00-04:00",
           "is_daytime": false,
           "temperature_f": 65.3,
-          "wind_mph": 2.5,
+          "wind_mph": 2.0,
           "precipitation_probability": 36.7,
           "short_forecast": "Slight Chance Showers And Thunderstorms"
         },
@@ -712,10 +712,10 @@
         "harvest": {
           "county_count": 29,
           "male": 650,
-          "female": 409,
-          "total": 1059,
-          "harvest_per_county": 36.5,
-          "activity_index": 0.974,
+          "female": 410,
+          "total": 1060,
+          "harvest_per_county": 36.6,
+          "activity_index": 0.973,
           "score": 4.9
         }
       },
@@ -724,7 +724,7 @@
       "periods": [
         {
           "name": "Tonight",
-          "start_time": "2026-09-20T20:00:00-04:00",
+          "start_time": "2026-09-20T21:00:00-04:00",
           "is_daytime": false,
           "temperature_f": 68.0,
           "wind_mph": 1.7,
