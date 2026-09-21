@@ -1,0 +1,486 @@
+{
+  "schema_version": "1.0.0",
+  "state": "Kentucky",
+  "counties": [
+    {
+      "name": "Adair",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Allen",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Anderson",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Ballard",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Barren",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Bath",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Bell",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Boone",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Bourbon",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Boyd",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Boyle",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Bracken",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Breathitt",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Breckinridge",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Bullitt",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Butler",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Caldwell",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Calloway",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Campbell",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Carlisle",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Carroll",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Carter",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Casey",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Christian",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Clark",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Clay",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Clinton",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Crittenden",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Cumberland",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Daviess",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Edmonson",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Elliott",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Estill",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Fayette",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Fleming",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Floyd",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Franklin",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Fulton",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Gallatin",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Garrard",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Grant",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Graves",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Grayson",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Green",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Greenup",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Hancock",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Hardin",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Harlan",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Harrison",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Hart",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Henderson",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Henry",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Hickman",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Hopkins",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Jackson",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Jefferson",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Jessamine",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Johnson",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Kenton",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Knott",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Knox",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Larue",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Laurel",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Lawrence",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Lee",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Leslie",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Letcher",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Lewis",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Lincoln",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Livingston",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Logan",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Lyon",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Madison",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Magoffin",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Marion",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Marshall",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Martin",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Mason",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "McCracken",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "McCreary",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "McLean",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Meade",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Menifee",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Mercer",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Metcalfe",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Monroe",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Montgomery",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Morgan",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Muhlenberg",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Nelson",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Nicholas",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Ohio",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Oldham",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Owen",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Owsley",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Pendleton",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Perry",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Pike",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Powell",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Pulaski",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Robertson",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Rockcastle",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Rowan",
+      "region_id": "northeast-region"
+    },
+    {
+      "name": "Russell",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Scott",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Shelby",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Simpson",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Spencer",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Taylor",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Todd",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Trigg",
+      "region_id": "purchase-region"
+    },
+    {
+      "name": "Trimble",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Union",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Warren",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Washington",
+      "region_id": "bluegrass-region"
+    },
+    {
+      "name": "Wayne",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Webster",
+      "region_id": "green-river-region"
+    },
+    {
+      "name": "Whitley",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Wolfe",
+      "region_id": "southeast-region"
+    },
+    {
+      "name": "Woodford",
+      "region_id": "bluegrass-region"
+    }
+  ]
+}
