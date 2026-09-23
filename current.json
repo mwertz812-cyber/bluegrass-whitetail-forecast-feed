@@ -1,12 +1,12 @@
 {
   "schema_version": "1.3.0",
-  "generated_at": "2026-09-21T02:13:57.558798+00:00",
-  "valid_until": "2026-09-23T16:00:00+00:00",
+  "generated_at": "2026-09-23T19:18:08.658681+00:00",
+  "valid_until": "2026-09-27T10:00:00+00:00",
   "data_status": {
     "weather": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-09-21T02:13:58.645843+00:00",
-    "harvest_statewide_total": 4509,
+    "harvest_retrieved_at": "2026-09-23T19:18:09.655325+00:00",
+    "harvest_statewide_total": 4893,
     "mast": "latest-available-prior-season",
     "pressure": "estimated"
   },
@@ -30,15 +30,15 @@
       "region_id": "purchase-region",
       "region_name": "Purchase Region",
       "score": {
-        "value": 6.0,
+        "value": 6.3,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 6.6,
+        "weather_score": 7.5,
         "season_phase_score": 5.5,
         "food_score": 5.8,
         "pressure_score": 6.8,
-        "harvest_signal_score": 4.4
+        "harvest_signal_score": 4.5
       },
       "evidence": {
         "food": {
@@ -79,88 +79,88 @@
         },
         "harvest": {
           "county_count": 14,
-          "male": 190,
-          "female": 216,
-          "total": 406,
-          "harvest_per_county": 29.0,
-          "activity_index": 0.772,
-          "score": 4.4
+          "male": 206,
+          "female": 240,
+          "total": 446,
+          "harvest_per_county": 31.9,
+          "activity_index": 0.781,
+          "score": 4.5
         }
       },
-      "best_window": "Monday Night",
+      "best_window": "Friday Night",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
+          "name": "This Afternoon",
+          "start_time": "2026-09-23T14:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 71.3,
+          "wind_mph": 8.3,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Partly Sunny"
+        },
+        {
           "name": "Tonight",
-          "start_time": "2026-09-20T21:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 72.0,
-          "wind_mph": 1.7,
-          "precipitation_probability": 3.7,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-21T06:00:00-05:00",
-          "is_daytime": true,
-          "temperature_f": 93.3,
-          "wind_mph": 3.8,
-          "precipitation_probability": 13.7,
-          "short_forecast": "Mostly Sunny"
-        },
-        {
-          "name": "Monday Night",
-          "start_time": "2026-09-21T18:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 65.7,
-          "wind_mph": 5.2,
-          "precipitation_probability": 40.7,
-          "short_forecast": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "name": "Tuesday",
-          "start_time": "2026-09-22T06:00:00-05:00",
-          "is_daytime": true,
-          "temperature_f": 83.0,
-          "wind_mph": 6.3,
-          "precipitation_probability": 18.7,
-          "short_forecast": "Slight Chance Rain Showers"
-        },
-        {
-          "name": "Tuesday Night",
-          "start_time": "2026-09-22T18:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 60.7,
-          "wind_mph": 6.7,
-          "precipitation_probability": 10.7,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Wednesday",
-          "start_time": "2026-09-23T06:00:00-05:00",
-          "is_daytime": true,
-          "temperature_f": 79.3,
-          "wind_mph": 7.2,
-          "precipitation_probability": 2.0,
-          "short_forecast": "Mostly Sunny"
-        },
-        {
-          "name": "Wednesday Night",
           "start_time": "2026-09-23T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 57.0,
+          "temperature_f": 58.7,
           "wind_mph": 5.2,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "precipitation_probability": 3.3,
+          "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Thursday",
           "start_time": "2026-09-24T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 79.3,
-          "wind_mph": 5.7,
+          "temperature_f": 76.0,
+          "wind_mph": 5.0,
           "precipitation_probability": 0.3,
+          "short_forecast": "Partly Sunny"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-09-24T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 59.0,
+          "wind_mph": 3.8,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Friday",
+          "start_time": "2026-09-25T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 80.0,
+          "wind_mph": 4.5,
+          "precipitation_probability": 0.7,
           "short_forecast": "Mostly Sunny"
+        },
+        {
+          "name": "Friday Night",
+          "start_time": "2026-09-25T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 56.0,
+          "wind_mph": 5.0,
+          "precipitation_probability": 0.3,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Saturday",
+          "start_time": "2026-09-26T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 77.3,
+          "wind_mph": 4.0,
+          "precipitation_probability": 3.7,
+          "short_forecast": "Partly Sunny"
+        },
+        {
+          "name": "Saturday Night",
+          "start_time": "2026-09-26T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 56.3,
+          "wind_mph": 3.2,
+          "precipitation_probability": 7.0,
+          "short_forecast": "Mostly Cloudy"
         }
       ],
       "sample_points": [
@@ -188,15 +188,15 @@
       "region_id": "green-river-region",
       "region_name": "Green River Region",
       "score": {
-        "value": 6.1,
+        "value": 6.4,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 6.7,
+        "weather_score": 7.5,
         "season_phase_score": 5.5,
         "food_score": 5.8,
         "pressure_score": 7.0,
-        "harvest_signal_score": 5.1
+        "harvest_signal_score": 5.2
       },
       "evidence": {
         "food": {
@@ -237,88 +237,88 @@
         },
         "harvest": {
           "county_count": 25,
-          "male": 552,
-          "female": 440,
-          "total": 992,
-          "harvest_per_county": 39.7,
-          "activity_index": 1.056,
-          "score": 5.1
+          "male": 590,
+          "female": 492,
+          "total": 1082,
+          "harvest_per_county": 43.3,
+          "activity_index": 1.061,
+          "score": 5.2
         }
       },
-      "best_window": "Monday Night",
+      "best_window": "Friday Night",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
+          "name": "This Afternoon",
+          "start_time": "2026-09-23T14:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 70.0,
+          "wind_mph": 6.7,
+          "precipitation_probability": 3.3,
+          "short_forecast": "Cloudy"
+        },
+        {
           "name": "Tonight",
-          "start_time": "2026-09-20T21:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 71.7,
-          "wind_mph": 2.7,
-          "precipitation_probability": 7.7,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-21T06:00:00-05:00",
-          "is_daytime": true,
-          "temperature_f": 91.7,
-          "wind_mph": 3.8,
-          "precipitation_probability": 15.3,
-          "short_forecast": "Partly Sunny"
-        },
-        {
-          "name": "Monday Night",
-          "start_time": "2026-09-21T18:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 65.0,
-          "wind_mph": 6.3,
-          "precipitation_probability": 34.3,
-          "short_forecast": "Partly Cloudy then Chance Rain Showers"
-        },
-        {
-          "name": "Tuesday",
-          "start_time": "2026-09-22T06:00:00-05:00",
-          "is_daytime": true,
-          "temperature_f": 81.0,
-          "wind_mph": 6.2,
-          "precipitation_probability": 27.7,
-          "short_forecast": "Chance Rain Showers"
-        },
-        {
-          "name": "Tuesday Night",
-          "start_time": "2026-09-22T18:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 61.3,
-          "wind_mph": 6.0,
-          "precipitation_probability": 17.3,
-          "short_forecast": "Slight Chance Rain Showers then Mostly Cloudy"
-        },
-        {
-          "name": "Wednesday",
-          "start_time": "2026-09-23T06:00:00-05:00",
-          "is_daytime": true,
-          "temperature_f": 78.0,
-          "wind_mph": 6.8,
-          "precipitation_probability": 7.7,
-          "short_forecast": "Partly Sunny"
-        },
-        {
-          "name": "Wednesday Night",
           "start_time": "2026-09-23T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 58.0,
-          "wind_mph": 5.5,
-          "precipitation_probability": 2.7,
-          "short_forecast": "Partly Cloudy"
+          "temperature_f": 61.3,
+          "wind_mph": 5.2,
+          "precipitation_probability": 4.7,
+          "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Thursday",
           "start_time": "2026-09-24T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 78.0,
-          "wind_mph": 5.0,
-          "precipitation_probability": 1.0,
+          "temperature_f": 75.7,
+          "wind_mph": 4.8,
+          "precipitation_probability": 5.7,
+          "short_forecast": "Mostly Cloudy"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-09-24T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 58.0,
+          "wind_mph": 5.3,
+          "precipitation_probability": 2.7,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Friday",
+          "start_time": "2026-09-25T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 77.7,
+          "wind_mph": 4.7,
+          "precipitation_probability": 0.3,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Friday Night",
+          "start_time": "2026-09-25T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 53.0,
+          "wind_mph": 5.7,
+          "precipitation_probability": 0.3,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Saturday",
+          "start_time": "2026-09-26T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 76.7,
+          "wind_mph": 4.3,
+          "precipitation_probability": 0.0,
           "short_forecast": "Mostly Sunny"
+        },
+        {
+          "name": "Saturday Night",
+          "start_time": "2026-09-26T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 54.0,
+          "wind_mph": 3.0,
+          "precipitation_probability": 3.0,
+          "short_forecast": "Mostly Cloudy"
         }
       ],
       "sample_points": [
@@ -346,11 +346,11 @@
       "region_id": "bluegrass-region",
       "region_name": "Bluegrass Region",
       "score": {
-        "value": 6.2,
+        "value": 6.5,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 6.8,
+        "weather_score": 7.5,
         "season_phase_score": 5.5,
         "food_score": 5.8,
         "pressure_score": 7.2,
@@ -395,88 +395,88 @@
         },
         "harvest": {
           "county_count": 31,
-          "male": 693,
-          "female": 495,
-          "total": 1188,
-          "harvest_per_county": 38.3,
-          "activity_index": 1.02,
+          "male": 743,
+          "female": 545,
+          "total": 1288,
+          "harvest_per_county": 41.5,
+          "activity_index": 1.019,
           "score": 5.0
         }
       },
-      "best_window": "Monday Night",
+      "best_window": "Friday Night",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
-          "name": "Tonight",
-          "start_time": "2026-09-20T20:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 69.3,
-          "wind_mph": 4.7,
-          "precipitation_probability": 25.7,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-21T06:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-09-23T15:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 84.3,
-          "wind_mph": 5.8,
-          "precipitation_probability": 32.0,
-          "short_forecast": "Partly Sunny then Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "name": "Monday Night",
-          "start_time": "2026-09-21T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 61.3,
-          "wind_mph": 7.5,
-          "precipitation_probability": 29.3,
-          "short_forecast": "Chance Showers And Thunderstorms"
-        },
-        {
-          "name": "Tuesday",
-          "start_time": "2026-09-22T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 75.7,
-          "wind_mph": 7.0,
-          "precipitation_probability": 26.3,
+          "temperature_f": 69.0,
+          "wind_mph": 7.3,
+          "precipitation_probability": 27.0,
           "short_forecast": "Chance Rain Showers"
         },
         {
-          "name": "Tuesday Night",
-          "start_time": "2026-09-22T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 59.0,
-          "wind_mph": 6.8,
-          "precipitation_probability": 10.7,
-          "short_forecast": "Mostly Cloudy"
-        },
-        {
-          "name": "Wednesday",
-          "start_time": "2026-09-23T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 73.7,
-          "wind_mph": 6.8,
-          "precipitation_probability": 16.7,
-          "short_forecast": "Partly Sunny"
-        },
-        {
-          "name": "Wednesday Night",
+          "name": "Tonight",
           "start_time": "2026-09-23T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 57.3,
-          "wind_mph": 7.2,
-          "precipitation_probability": 16.3,
-          "short_forecast": "Mostly Cloudy"
+          "temperature_f": 60.7,
+          "wind_mph": 6.5,
+          "precipitation_probability": 29.0,
+          "short_forecast": "Chance Rain Showers then Cloudy"
         },
         {
           "name": "Thursday",
           "start_time": "2026-09-24T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 73.3,
-          "wind_mph": 7.5,
-          "precipitation_probability": 12.7,
+          "temperature_f": 74.3,
+          "wind_mph": 6.5,
+          "precipitation_probability": 2.7,
           "short_forecast": "Partly Sunny"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-09-24T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 52.7,
+          "wind_mph": 6.2,
+          "precipitation_probability": 0.7,
+          "short_forecast": "Mostly Clear"
+        },
+        {
+          "name": "Friday",
+          "start_time": "2026-09-25T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 73.7,
+          "wind_mph": 6.3,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Friday Night",
+          "start_time": "2026-09-25T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 49.7,
+          "wind_mph": 5.3,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Mostly Clear"
+        },
+        {
+          "name": "Saturday",
+          "start_time": "2026-09-26T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 74.7,
+          "wind_mph": 4.7,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Saturday Night",
+          "start_time": "2026-09-26T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 51.7,
+          "wind_mph": 4.2,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Partly Cloudy"
         }
       ],
       "sample_points": [
@@ -504,11 +504,11 @@
       "region_id": "northeast-region",
       "region_name": "Northeast Region",
       "score": {
-        "value": 6.0,
+        "value": 6.5,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 6.5,
+        "weather_score": 7.8,
         "season_phase_score": 5.5,
         "food_score": 5.7,
         "pressure_score": 6.7,
@@ -553,88 +553,88 @@
         },
         "harvest": {
           "county_count": 21,
-          "male": 525,
-          "female": 338,
-          "total": 863,
-          "harvest_per_county": 41.1,
-          "activity_index": 1.094,
+          "male": 569,
+          "female": 366,
+          "total": 935,
+          "harvest_per_county": 44.5,
+          "activity_index": 1.092,
           "score": 5.2
         }
       },
-      "best_window": "Wednesday Night",
+      "best_window": "Thursday Night",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
-          "name": "Tonight",
-          "start_time": "2026-09-20T22:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 65.3,
-          "wind_mph": 2.0,
-          "precipitation_probability": 30.3,
-          "short_forecast": "Slight Chance Showers And Thunderstorms"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-21T06:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-09-23T15:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 84.3,
-          "wind_mph": 2.8,
-          "precipitation_probability": 33.0,
-          "short_forecast": "Chance Rain Showers"
-        },
-        {
-          "name": "Monday Night",
-          "start_time": "2026-09-21T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 60.7,
-          "wind_mph": 3.7,
-          "precipitation_probability": 47.7,
-          "short_forecast": "Chance Rain Showers then Mostly Cloudy"
-        },
-        {
-          "name": "Tuesday",
-          "start_time": "2026-09-22T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 74.7,
-          "wind_mph": 3.5,
-          "precipitation_probability": 38.3,
-          "short_forecast": "Chance Rain Showers"
-        },
-        {
-          "name": "Tuesday Night",
-          "start_time": "2026-09-22T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 59.7,
-          "wind_mph": 3.3,
-          "precipitation_probability": 30.7,
-          "short_forecast": "Mostly Cloudy"
-        },
-        {
-          "name": "Wednesday",
-          "start_time": "2026-09-23T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 72.3,
-          "wind_mph": 3.3,
-          "precipitation_probability": 63.0,
+          "temperature_f": 71.7,
+          "wind_mph": 5.3,
+          "precipitation_probability": 65.0,
           "short_forecast": "Chance Showers And Thunderstorms"
         },
         {
-          "name": "Wednesday Night",
+          "name": "Tonight",
           "start_time": "2026-09-23T18:00:00-04:00",
           "is_daytime": false,
           "temperature_f": 56.3,
-          "wind_mph": 5.2,
-          "precipitation_probability": 57.7,
-          "short_forecast": "Chance Showers And Thunderstorms"
+          "wind_mph": 6.7,
+          "precipitation_probability": 76.7,
+          "short_forecast": "Showers And Thunderstorms Likely then Mostly Cloudy"
         },
         {
           "name": "Thursday",
           "start_time": "2026-09-24T06:00:00-04:00",
           "is_daytime": true,
+          "temperature_f": 71.0,
+          "wind_mph": 6.7,
+          "precipitation_probability": 19.3,
+          "short_forecast": "Partly Sunny"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-09-24T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 49.0,
+          "wind_mph": 4.5,
+          "precipitation_probability": 1.7,
+          "short_forecast": "Mostly Clear"
+        },
+        {
+          "name": "Friday",
+          "start_time": "2026-09-25T06:00:00-04:00",
+          "is_daytime": true,
           "temperature_f": 70.7,
-          "wind_mph": 4.7,
-          "precipitation_probability": 30.3,
-          "short_forecast": "Chance Rain Showers"
+          "wind_mph": 4.5,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Friday Night",
+          "start_time": "2026-09-25T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 45.7,
+          "wind_mph": 3.0,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Mostly Clear"
+        },
+        {
+          "name": "Saturday",
+          "start_time": "2026-09-26T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 72.3,
+          "wind_mph": 3.0,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Saturday Night",
+          "start_time": "2026-09-26T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 48.0,
+          "wind_mph": 2.3,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Mostly Clear"
         }
       ],
       "sample_points": [
@@ -662,11 +662,11 @@
       "region_id": "southeast-region",
       "region_name": "Southeast Region",
       "score": {
-        "value": 6.0,
+        "value": 6.4,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 6.6,
+        "weather_score": 7.8,
         "season_phase_score": 5.5,
         "food_score": 5.7,
         "pressure_score": 6.5,
@@ -711,88 +711,88 @@
         },
         "harvest": {
           "county_count": 29,
-          "male": 650,
-          "female": 410,
-          "total": 1060,
-          "harvest_per_county": 36.6,
-          "activity_index": 0.973,
+          "male": 684,
+          "female": 458,
+          "total": 1142,
+          "harvest_per_county": 39.4,
+          "activity_index": 0.966,
           "score": 4.9
         }
       },
-      "best_window": "Monday Night",
+      "best_window": "Thursday Night",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
-          "name": "Tonight",
-          "start_time": "2026-09-20T21:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 68.0,
-          "wind_mph": 1.7,
-          "precipitation_probability": 11.0,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-21T06:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-09-23T15:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 90.3,
-          "wind_mph": 3.8,
-          "precipitation_probability": 35.3,
-          "short_forecast": "Mostly Sunny then Chance Showers And Thunderstorms"
-        },
-        {
-          "name": "Monday Night",
-          "start_time": "2026-09-21T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 64.7,
+          "temperature_f": 73.3,
           "wind_mph": 3.7,
-          "precipitation_probability": 51.3,
-          "short_forecast": "Chance Showers And Thunderstorms"
+          "precipitation_probability": 80.3,
+          "short_forecast": "Showers And Thunderstorms"
         },
         {
-          "name": "Tuesday",
-          "start_time": "2026-09-22T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 80.7,
-          "wind_mph": 3.5,
-          "precipitation_probability": 61.3,
-          "short_forecast": "Rain Showers Likely"
-        },
-        {
-          "name": "Tuesday Night",
-          "start_time": "2026-09-22T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 61.3,
-          "wind_mph": 4.3,
-          "precipitation_probability": 47.3,
-          "short_forecast": "Chance Rain Showers"
-        },
-        {
-          "name": "Wednesday",
-          "start_time": "2026-09-23T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 76.0,
-          "wind_mph": 4.0,
-          "precipitation_probability": 64.3,
-          "short_forecast": "Chance Rain Showers"
-        },
-        {
-          "name": "Wednesday Night",
+          "name": "Tonight",
           "start_time": "2026-09-23T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 58.7,
+          "temperature_f": 59.0,
           "wind_mph": 3.5,
-          "precipitation_probability": 48.7,
-          "short_forecast": "Chance Rain Showers"
+          "precipitation_probability": 74.3,
+          "short_forecast": "Showers And Thunderstorms then Patchy Fog"
         },
         {
           "name": "Thursday",
           "start_time": "2026-09-24T06:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 74.0,
-          "wind_mph": 3.5,
-          "precipitation_probability": 30.7,
-          "short_forecast": "Chance Rain Showers"
+          "wind_mph": 5.2,
+          "precipitation_probability": 22.7,
+          "short_forecast": "Patchy Fog"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-09-24T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 52.3,
+          "wind_mph": 4.7,
+          "precipitation_probability": 3.0,
+          "short_forecast": "Partly Cloudy"
+        },
+        {
+          "name": "Friday",
+          "start_time": "2026-09-25T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 73.3,
+          "wind_mph": 4.5,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Friday Night",
+          "start_time": "2026-09-25T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 46.3,
+          "wind_mph": 4.0,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Mostly Clear"
+        },
+        {
+          "name": "Saturday",
+          "start_time": "2026-09-26T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 74.0,
+          "wind_mph": 4.0,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Saturday Night",
+          "start_time": "2026-09-26T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 48.3,
+          "wind_mph": 2.7,
+          "precipitation_probability": 0.7,
+          "short_forecast": "Mostly Clear"
         }
       ],
       "sample_points": [
