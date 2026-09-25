@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bluegrasswhitetail.com/schemas/regional-forecast-1.4.0.json",
+  "title": "Bluegrass Whitetail Daily County Forecast",
+  "description": "Additive Wix-facing 1.x contract with daily county harvest, habitat tactics, and legend metadata.",
+  "type": "object",
+  "required": [
+    "schema_version", "generated_at", "valid_until", "data_status",
+    "source", "legend", "limitations", "regions", "counties"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.4.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "valid_until": {"type": "string", "format": "date-time"},
+    "data_status": {
+      "type": "object",
+      "required": ["weather", "harvest", "mast", "pressure"],
+      "properties": {
+        "weather": {"enum": ["current", "unavailable"]},
+        "harvest": {"enum": ["current", "unavailable"]},
+        "harvest_retrieved_at": {"type": ["string", "null"], "format": "date-time"},
+        "harvest_statewide_total": {"type": ["integer", "null"], "minimum": 0},
+        "harvest_comparison_date": {"type": ["string", "null"], "format": "date"},
+        "mast": {"type": "string"},
+        "pressure": {"enum": ["estimated"]}
+      },
+      "additionalProperties": true
+    },
+    "source": {"type": "object"},
+    "legend": {
+      "type": "object",
+      "required": [
+        "movement_rating", "best_window", "harvest_activity",
+        "food_outlook", "hunting_pressure", "county_tactic"
+      ]
+    },
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "regions": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "region_id", "region_name", "score", "inputs", "evidence",
+          "best_window", "tactic", "periods", "sample_points"
+        ],
+        "properties": {
+          "region_id": {
+            "enum": [
+              "purchase-region", "green-river-region", "bluegrass-region",
+              "northeast-region", "southeast-region"
+            ]
+          },
+          "region_name": {"type": "string", "minLength": 1},
+          "score": {
+            "type": "object",
+            "required": ["value", "label"],
+            "properties": {
+              "value": {"type": "number", "minimum": 0, "maximum": 10},
+              "label": {"enum": ["poor", "fair", "good", "excellent"]}
+            },
+            "additionalProperties": true
+          },
+          "inputs": {
+            "type": "object",
+            "required": [
+              "weather_score", "season_phase_score", "food_score",
+              "pressure_score", "harvest_signal_score"
+            ]
+          },
+          "evidence": {"type": "object", "required": ["food", "pressure", "harvest"]},
+          "best_window": {
+            "anyOf": [
+              {"const": "Unavailable"},
+              {"type": "string", "pattern": " (Morning|Afternoon)$"}
+            ]
+          },
+          "tactic": {"type": "string"},
+          "periods": {"type": "array"},
+          "sample_points": {"type": "array", "minItems": 3}
+        },
+        "additionalProperties": true
+      }
+    },
+    "counties": {
+      "type": "array",
+      "minItems": 120,
+      "maxItems": 120,
+      "items": {
+        "type": "object",
+        "required": ["county_name", "region_id", "habitat", "harvest", "tactic"],
+        "properties": {
+          "county_name": {"type": "string", "minLength": 1},
+          "region_id": {"type": "string"},
+          "habitat": {
+            "type": "object",
+            "required": ["profile", "terrain", "cover", "focus", "confidence", "basis"]
+          },
+          "harvest": {
+            "type": "object",
+            "required": [
+              "total", "male", "female",
+              "change_since_previous_snapshot", "comparison_date"
+            ],
+            "properties": {
+              "total": {"type": ["integer", "null"], "minimum": 0},
+              "male": {"type": ["integer", "null"], "minimum": 0},
+              "female": {"type": ["integer", "null"], "minimum": 0},
+              "change_since_previous_snapshot": {"type": ["integer", "null"]},
+              "comparison_date": {"type": ["string", "null"], "format": "date"}
+            },
+            "additionalProperties": true
+          },
+          "tactic": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
