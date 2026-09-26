@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
-  "generated_at": "2026-09-25T20:20:47.190626+00:00",
-  "valid_until": "2026-09-26T11:00:00+00:00",
+  "generated_at": "2026-09-26T14:49:03.019553+00:00",
+  "valid_until": "2026-09-27T11:00:00+00:00",
   "data_status": {
     "weather": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-09-25T20:20:47.191340+00:00",
-    "harvest_statewide_total": 5484,
-    "harvest_comparison_date": null,
+    "harvest_retrieved_at": "2026-09-26T14:49:03.020322+00:00",
+    "harvest_statewide_total": 6211,
+    "harvest_comparison_date": "2026-09-25",
     "mast": "latest-available-prior-season",
     "pressure": "estimated"
   },
@@ -66,15 +66,15 @@
       "region_id": "purchase-region",
       "region_name": "Purchase Region",
       "score": {
-        "value": 6.2,
+        "value": 6.1,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.5,
+        "weather_score": 7.3,
         "season_phase_score": 5.5,
         "food_score": 5.8,
-        "pressure_score": 6.2,
-        "harvest_signal_score": 4.5
+        "pressure_score": 5.3,
+        "harvest_signal_score": 4.6
       },
       "evidence": {
         "food": {
@@ -90,12 +90,12 @@
         },
         "pressure": {
           "status": "estimated",
-          "pressure_index": 3.8,
-          "score": 6.2,
+          "pressure_index": 4.7,
+          "score": 5.3,
           "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
           "components": {
             "season_events_and_holidays": 3.0,
-            "day_of_week": 4.5,
+            "day_of_week": 8.0,
             "public_land_exposure": 6.0
           },
           "weights": {
@@ -115,76 +115,58 @@
         },
         "harvest": {
           "county_count": 14,
-          "male": 227,
-          "female": 282,
-          "total": 509,
-          "harvest_per_county": 36.4,
-          "activity_index": 0.796,
-          "score": 4.5
+          "male": 235,
+          "female": 379,
+          "total": 614,
+          "harvest_per_county": 43.9,
+          "activity_index": 0.847,
+          "score": 4.6
         }
       },
-      "best_window": "Friday Afternoon",
+      "best_window": "Saturday Afternoon",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
-          "name": "This Afternoon",
-          "start_time": "2026-09-25T14:00:00-05:00",
+          "name": "Today",
+          "start_time": "2026-09-26T09:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 78.0,
-          "wind_mph": 7.3,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Sunny"
-        },
-        {
-          "name": "Tonight",
-          "start_time": "2026-09-25T18:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 55.7,
-          "wind_mph": 4.2,
-          "precipitation_probability": 2.0,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Saturday",
-          "start_time": "2026-09-26T06:00:00-05:00",
-          "is_daytime": true,
-          "temperature_f": 74.7,
-          "wind_mph": 4.0,
-          "precipitation_probability": 3.7,
+          "temperature_f": 75.0,
+          "wind_mph": 5.3,
+          "precipitation_probability": 2.7,
           "short_forecast": "Partly Sunny"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "start_time": "2026-09-26T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 57.0,
+          "temperature_f": 56.3,
           "wind_mph": 3.2,
-          "precipitation_probability": 3.0,
+          "precipitation_probability": 4.0,
           "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Sunday",
           "start_time": "2026-09-27T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 75.3,
-          "wind_mph": 3.8,
+          "temperature_f": 76.3,
+          "wind_mph": 4.0,
           "precipitation_probability": 3.3,
-          "short_forecast": "Partly Sunny"
+          "short_forecast": "Mostly Sunny"
         },
         {
           "name": "Sunday Night",
           "start_time": "2026-09-27T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 52.3,
-          "wind_mph": 2.5,
-          "precipitation_probability": 0.7,
+          "temperature_f": 50.7,
+          "wind_mph": 2.8,
+          "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
         },
         {
           "name": "Monday",
           "start_time": "2026-09-28T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 76.0,
+          "temperature_f": 76.7,
           "wind_mph": 2.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
@@ -193,10 +175,28 @@
           "name": "Monday Night",
           "start_time": "2026-09-28T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 54.7,
+          "temperature_f": 53.7,
           "wind_mph": 2.0,
-          "precipitation_probability": 0.3,
+          "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-29T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 80.3,
+          "wind_mph": 2.7,
+          "precipitation_probability": 0.7,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-29T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 62.3,
+          "wind_mph": 3.8,
+          "precipitation_probability": 1.3,
+          "short_forecast": "Partly Cloudy"
         }
       ],
       "sample_points": [
@@ -224,15 +224,15 @@
       "region_id": "green-river-region",
       "region_name": "Green River Region",
       "score": {
-        "value": 6.3,
+        "value": 6.2,
         "label": "good"
       },
       "inputs": {
         "weather_score": 7.5,
         "season_phase_score": 5.5,
         "food_score": 5.8,
-        "pressure_score": 6.4,
-        "harvest_signal_score": 5.2
+        "pressure_score": 5.5,
+        "harvest_signal_score": 5.3
       },
       "evidence": {
         "food": {
@@ -248,12 +248,12 @@
         },
         "pressure": {
           "status": "estimated",
-          "pressure_index": 3.6,
-          "score": 6.4,
+          "pressure_index": 4.5,
+          "score": 5.5,
           "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
           "components": {
             "season_events_and_holidays": 3.0,
-            "day_of_week": 4.5,
+            "day_of_week": 8.0,
             "public_land_exposure": 4.5
           },
           "weights": {
@@ -273,50 +273,32 @@
         },
         "harvest": {
           "county_count": 25,
-          "male": 646,
-          "female": 585,
-          "total": 1231,
-          "harvest_per_county": 49.2,
-          "activity_index": 1.077,
-          "score": 5.2
+          "male": 677,
+          "female": 768,
+          "total": 1445,
+          "harvest_per_county": 57.8,
+          "activity_index": 1.117,
+          "score": 5.3
         }
       },
-      "best_window": "Friday Afternoon",
+      "best_window": "Sunday Morning",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
-          "name": "This Afternoon",
-          "start_time": "2026-09-25T15:00:00-05:00",
+          "name": "Today",
+          "start_time": "2026-09-26T09:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 76.7,
-          "wind_mph": 7.3,
+          "wind_mph": 5.3,
           "precipitation_probability": 0.0,
-          "short_forecast": "Sunny"
-        },
-        {
-          "name": "Tonight",
-          "start_time": "2026-09-25T18:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 54.7,
-          "wind_mph": 4.2,
-          "precipitation_probability": 0.7,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Saturday",
-          "start_time": "2026-09-26T06:00:00-05:00",
-          "is_daytime": true,
-          "temperature_f": 74.0,
-          "wind_mph": 4.0,
-          "precipitation_probability": 0.7,
           "short_forecast": "Mostly Sunny"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "start_time": "2026-09-26T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 51.0,
-          "wind_mph": 3.2,
+          "temperature_f": 52.7,
+          "wind_mph": 3.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Partly Cloudy"
         },
@@ -324,16 +306,16 @@
           "name": "Sunday",
           "start_time": "2026-09-27T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 73.7,
-          "wind_mph": 3.5,
-          "precipitation_probability": 0.3,
+          "temperature_f": 77.0,
+          "wind_mph": 3.7,
+          "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
         {
           "name": "Sunday Night",
           "start_time": "2026-09-27T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 49.3,
+          "temperature_f": 47.3,
           "wind_mph": 2.5,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
@@ -342,7 +324,7 @@
           "name": "Monday",
           "start_time": "2026-09-28T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 74.7,
+          "temperature_f": 78.0,
           "wind_mph": 2.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Patchy Fog then Sunny"
@@ -351,10 +333,28 @@
           "name": "Monday Night",
           "start_time": "2026-09-28T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 51.3,
-          "wind_mph": 1.8,
+          "temperature_f": 50.7,
+          "wind_mph": 1.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Clear"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-29T06:00:00-05:00",
+          "is_daytime": true,
+          "temperature_f": 78.7,
+          "wind_mph": 1.7,
+          "precipitation_probability": 0.7,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-29T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 59.7,
+          "wind_mph": 3.0,
+          "precipitation_probability": 0.7,
+          "short_forecast": "Partly Cloudy"
         }
       ],
       "sample_points": [
@@ -382,14 +382,14 @@
       "region_id": "bluegrass-region",
       "region_name": "Bluegrass Region",
       "score": {
-        "value": 6.4,
+        "value": 6.2,
         "label": "good"
       },
       "inputs": {
         "weather_score": 7.5,
         "season_phase_score": 5.5,
         "food_score": 5.8,
-        "pressure_score": 6.6,
+        "pressure_score": 5.8,
         "harvest_signal_score": 5.0
       },
       "evidence": {
@@ -406,12 +406,12 @@
         },
         "pressure": {
           "status": "estimated",
-          "pressure_index": 3.4,
-          "score": 6.6,
+          "pressure_index": 4.2,
+          "score": 5.8,
           "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
           "components": {
             "season_events_and_holidays": 3.0,
-            "day_of_week": 4.5,
+            "day_of_week": 8.0,
             "public_land_exposure": 3.0
           },
           "weights": {
@@ -431,59 +431,41 @@
         },
         "harvest": {
           "county_count": 31,
-          "male": 810,
-          "female": 631,
-          "total": 1441,
-          "harvest_per_county": 46.5,
-          "activity_index": 1.017,
+          "male": 859,
+          "female": 725,
+          "total": 1584,
+          "harvest_per_county": 51.1,
+          "activity_index": 0.987,
           "score": 5.0
         }
       },
-      "best_window": "Saturday Morning",
+      "best_window": "Tuesday Morning",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
-          "name": "This Afternoon",
-          "start_time": "2026-09-25T16:00:00-04:00",
+          "name": "Today",
+          "start_time": "2026-09-26T10:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 72.7,
-          "wind_mph": 7.7,
+          "temperature_f": 74.7,
+          "wind_mph": 5.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
         {
           "name": "Tonight",
-          "start_time": "2026-09-25T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 51.3,
-          "wind_mph": 5.8,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Saturday",
-          "start_time": "2026-09-26T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 71.0,
-          "wind_mph": 5.5,
-          "precipitation_probability": 0.3,
-          "short_forecast": "Sunny"
-        },
-        {
-          "name": "Saturday Night",
           "start_time": "2026-09-26T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 49.0,
+          "temperature_f": 51.3,
           "wind_mph": 4.2,
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Partly Cloudy"
         },
         {
           "name": "Sunday",
           "start_time": "2026-09-27T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 71.7,
-          "wind_mph": 4.3,
+          "temperature_f": 75.0,
+          "wind_mph": 4.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -491,16 +473,16 @@
           "name": "Sunday Night",
           "start_time": "2026-09-27T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 50.7,
-          "wind_mph": 4.0,
+          "temperature_f": 48.7,
+          "wind_mph": 4.3,
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Clear"
         },
         {
           "name": "Monday",
           "start_time": "2026-09-28T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 73.0,
+          "temperature_f": 76.0,
           "wind_mph": 3.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
@@ -509,10 +491,28 @@
           "name": "Monday Night",
           "start_time": "2026-09-28T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 52.3,
+          "temperature_f": 52.7,
           "wind_mph": 2.3,
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Clear"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-29T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 76.7,
+          "wind_mph": 2.3,
+          "precipitation_probability": 0.3,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-29T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 58.0,
+          "wind_mph": 3.3,
+          "precipitation_probability": 1.7,
+          "short_forecast": "Partly Cloudy"
         }
       ],
       "sample_points": [
@@ -540,15 +540,15 @@
       "region_id": "northeast-region",
       "region_name": "Northeast Region",
       "score": {
-        "value": 6.2,
+        "value": 6.0,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.3,
+        "weather_score": 7.2,
         "season_phase_score": 5.5,
         "food_score": 5.7,
-        "pressure_score": 6.1,
-        "harvest_signal_score": 5.2
+        "pressure_score": 5.2,
+        "harvest_signal_score": 5.0
       },
       "evidence": {
         "food": {
@@ -564,12 +564,12 @@
         },
         "pressure": {
           "status": "estimated",
-          "pressure_index": 3.9,
-          "score": 6.1,
+          "pressure_index": 4.8,
+          "score": 5.2,
           "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
           "components": {
             "season_events_and_holidays": 3.0,
-            "day_of_week": 4.5,
+            "day_of_week": 8.0,
             "public_land_exposure": 6.5
           },
           "weights": {
@@ -589,69 +589,51 @@
         },
         "harvest": {
           "county_count": 21,
-          "male": 609,
-          "female": 414,
-          "total": 1023,
-          "harvest_per_county": 48.7,
-          "activity_index": 1.066,
-          "score": 5.2
+          "male": 645,
+          "female": 455,
+          "total": 1100,
+          "harvest_per_county": 52.4,
+          "activity_index": 1.012,
+          "score": 5.0
         }
       },
-      "best_window": "Saturday Morning",
+      "best_window": "Sunday Morning",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
-          "name": "This Afternoon",
-          "start_time": "2026-09-25T16:00:00-04:00",
+          "name": "Today",
+          "start_time": "2026-09-26T10:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 71.7,
-          "wind_mph": 6.0,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Sunny"
-        },
-        {
-          "name": "Tonight",
-          "start_time": "2026-09-25T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 46.3,
-          "wind_mph": 3.0,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Partly Cloudy then Patchy Fog"
-        },
-        {
-          "name": "Saturday",
-          "start_time": "2026-09-26T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 70.7,
-          "wind_mph": 3.0,
+          "temperature_f": 71.3,
+          "wind_mph": 3.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Patchy Fog then Sunny"
         },
         {
-          "name": "Saturday Night",
+          "name": "Tonight",
           "start_time": "2026-09-26T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 46.7,
-          "wind_mph": 2.5,
+          "temperature_f": 46.0,
+          "wind_mph": 2.3,
           "precipitation_probability": 0.0,
-          "short_forecast": "Clear"
+          "short_forecast": "Clear then Patchy Fog"
         },
         {
           "name": "Sunday",
           "start_time": "2026-09-27T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 71.0,
-          "wind_mph": 3.0,
+          "temperature_f": 72.0,
+          "wind_mph": 3.8,
           "precipitation_probability": 0.0,
-          "short_forecast": "Sunny"
+          "short_forecast": "Patchy Fog then Sunny"
         },
         {
           "name": "Sunday Night",
           "start_time": "2026-09-27T18:00:00-04:00",
           "is_daytime": false,
           "temperature_f": 46.7,
-          "wind_mph": 2.7,
-          "precipitation_probability": 0.0,
+          "wind_mph": 3.5,
+          "precipitation_probability": 0.3,
           "short_forecast": "Mostly Clear"
         },
         {
@@ -660,17 +642,35 @@
           "is_daytime": true,
           "temperature_f": 71.7,
           "wind_mph": 2.5,
-          "precipitation_probability": 0.0,
+          "precipitation_probability": 0.3,
           "short_forecast": "Sunny"
         },
         {
           "name": "Monday Night",
           "start_time": "2026-09-28T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 52.0,
-          "wind_mph": 1.5,
+          "temperature_f": 49.7,
+          "wind_mph": 1.8,
           "precipitation_probability": 0.0,
-          "short_forecast": "Partly Cloudy"
+          "short_forecast": "Mostly Clear"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-29T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 75.3,
+          "wind_mph": 1.3,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-29T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 54.3,
+          "wind_mph": 1.0,
+          "precipitation_probability": 0.3,
+          "short_forecast": "Mostly Clear"
         }
       ],
       "sample_points": [
@@ -698,14 +698,14 @@
       "region_id": "southeast-region",
       "region_name": "Southeast Region",
       "score": {
-        "value": 6.2,
+        "value": 6.0,
         "label": "good"
       },
       "inputs": {
         "weather_score": 7.3,
         "season_phase_score": 5.5,
         "food_score": 5.7,
-        "pressure_score": 5.9,
+        "pressure_score": 5.0,
         "harvest_signal_score": 4.9
       },
       "evidence": {
@@ -722,12 +722,12 @@
         },
         "pressure": {
           "status": "estimated",
-          "pressure_index": 4.1,
-          "score": 5.9,
+          "pressure_index": 5.0,
+          "score": 5.0,
           "interpretation": "Higher pressure_index means more estimated hunter pressure; score is inverted for forecast movement.",
           "components": {
             "season_events_and_holidays": 3.0,
-            "day_of_week": 4.5,
+            "day_of_week": 8.0,
             "public_land_exposure": 8.0
           },
           "weights": {
@@ -747,50 +747,32 @@
         },
         "harvest": {
           "county_count": 29,
-          "male": 744,
-          "female": 536,
-          "total": 1280,
-          "harvest_per_county": 44.1,
-          "activity_index": 0.966,
+          "male": 785,
+          "female": 683,
+          "total": 1468,
+          "harvest_per_county": 50.6,
+          "activity_index": 0.978,
           "score": 4.9
         }
       },
-      "best_window": "Saturday Morning",
+      "best_window": "Sunday Morning",
       "tactic": "Set up between secure bedding cover and the best current food source, with a clean wind.",
       "periods": [
         {
-          "name": "This Afternoon",
-          "start_time": "2026-09-25T16:00:00-04:00",
+          "name": "Today",
+          "start_time": "2026-09-26T10:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 74.0,
-          "wind_mph": 7.3,
+          "temperature_f": 75.3,
+          "wind_mph": 4.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
         {
           "name": "Tonight",
-          "start_time": "2026-09-25T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 47.3,
-          "wind_mph": 4.3,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Saturday",
-          "start_time": "2026-09-26T06:00:00-04:00",
-          "is_daytime": true,
-          "temperature_f": 73.3,
-          "wind_mph": 4.0,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Sunny"
-        },
-        {
-          "name": "Saturday Night",
           "start_time": "2026-09-26T18:00:00-04:00",
           "is_daytime": false,
           "temperature_f": 46.0,
-          "wind_mph": 3.0,
+          "wind_mph": 3.2,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
         },
@@ -798,8 +780,8 @@
           "name": "Sunday",
           "start_time": "2026-09-27T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 72.7,
-          "wind_mph": 3.2,
+          "temperature_f": 75.0,
+          "wind_mph": 4.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -807,8 +789,8 @@
           "name": "Sunday Night",
           "start_time": "2026-09-27T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 46.3,
-          "wind_mph": 2.8,
+          "temperature_f": 45.3,
+          "wind_mph": 3.5,
           "precipitation_probability": 0.0,
           "short_forecast": "Clear"
         },
@@ -816,8 +798,8 @@
           "name": "Monday",
           "start_time": "2026-09-28T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 74.3,
-          "wind_mph": 2.5,
+          "temperature_f": 75.0,
+          "wind_mph": 2.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -825,10 +807,28 @@
           "name": "Monday Night",
           "start_time": "2026-09-28T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 49.7,
-          "wind_mph": 2.0,
+          "temperature_f": 49.0,
+          "wind_mph": 2.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Clear"
+        },
+        {
+          "name": "Tuesday",
+          "start_time": "2026-09-29T06:00:00-04:00",
+          "is_daytime": true,
+          "temperature_f": 79.3,
+          "wind_mph": 1.7,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Tuesday Night",
+          "start_time": "2026-09-29T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 55.0,
+          "wind_mph": 1.7,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Mostly Clear"
         }
       ],
       "sample_points": [
@@ -868,11 +868,11 @@
       "harvest": {
         "county": "Adair",
         "region_id": "southeast-region",
-        "male": 47,
-        "female": 47,
-        "total": 94,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 48,
+        "female": 53,
+        "total": 101,
+        "change_since_previous_snapshot": 7,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Adair County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -891,11 +891,11 @@
       "harvest": {
         "county": "Allen",
         "region_id": "green-river-region",
-        "male": 40,
+        "male": 43,
         "female": 18,
-        "total": 58,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 61,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Allen County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -914,11 +914,11 @@
       "harvest": {
         "county": "Anderson",
         "region_id": "bluegrass-region",
-        "male": 64,
-        "female": 31,
-        "total": 95,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 67,
+        "female": 40,
+        "total": 107,
+        "change_since_previous_snapshot": 12,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Anderson County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -938,10 +938,10 @@
         "county": "Ballard",
         "region_id": "purchase-region",
         "male": 4,
-        "female": 5,
-        "total": 9,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 6,
+        "total": 10,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Ballard County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -960,11 +960,11 @@
       "harvest": {
         "county": "Barren",
         "region_id": "green-river-region",
-        "male": 25,
-        "female": 9,
-        "total": 34,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 27,
+        "female": 13,
+        "total": 40,
+        "change_since_previous_snapshot": 6,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Barren County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -983,11 +983,11 @@
       "harvest": {
         "county": "Bath",
         "region_id": "northeast-region",
-        "male": 13,
-        "female": 10,
-        "total": 23,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 14,
+        "female": 12,
+        "total": 26,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Bath County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1006,11 +1006,11 @@
       "harvest": {
         "county": "Bell",
         "region_id": "southeast-region",
-        "male": 12,
-        "female": 12,
-        "total": 24,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 13,
+        "female": 15,
+        "total": 28,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Bell County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1029,11 +1029,11 @@
       "harvest": {
         "county": "Boone",
         "region_id": "bluegrass-region",
-        "male": 14,
-        "female": 29,
-        "total": 43,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 16,
+        "female": 32,
+        "total": 48,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Boone County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1052,11 +1052,11 @@
       "harvest": {
         "county": "Bourbon",
         "region_id": "bluegrass-region",
-        "male": 2,
+        "male": 3,
         "female": 1,
-        "total": 3,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 4,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Bourbon County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1075,11 +1075,11 @@
       "harvest": {
         "county": "Boyd",
         "region_id": "northeast-region",
-        "male": 29,
-        "female": 21,
-        "total": 50,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 32,
+        "female": 24,
+        "total": 56,
+        "change_since_previous_snapshot": 6,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Boyd County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1099,10 +1099,10 @@
         "county": "Boyle",
         "region_id": "bluegrass-region",
         "male": 13,
-        "female": 6,
-        "total": 19,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 7,
+        "total": 20,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Boyle County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1121,11 +1121,11 @@
       "harvest": {
         "county": "Bracken",
         "region_id": "northeast-region",
-        "male": 39,
-        "female": 24,
-        "total": 63,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 40,
+        "female": 26,
+        "total": 66,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Bracken County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1144,11 +1144,11 @@
       "harvest": {
         "county": "Breathitt",
         "region_id": "southeast-region",
-        "male": 12,
+        "male": 13,
         "female": 5,
-        "total": 17,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 18,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Breathitt County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1167,11 +1167,11 @@
       "harvest": {
         "county": "Breckinridge",
         "region_id": "green-river-region",
-        "male": 45,
-        "female": 74,
-        "total": 119,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 47,
+        "female": 118,
+        "total": 165,
+        "change_since_previous_snapshot": 46,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Breckinridge County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1190,11 +1190,11 @@
       "harvest": {
         "county": "Bullitt",
         "region_id": "bluegrass-region",
-        "male": 30,
-        "female": 33,
-        "total": 63,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 31,
+        "female": 35,
+        "total": 66,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Bullitt County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1213,11 +1213,11 @@
       "harvest": {
         "county": "Butler",
         "region_id": "green-river-region",
-        "male": 40,
-        "female": 16,
-        "total": 56,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 41,
+        "female": 18,
+        "total": 59,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Butler County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1239,8 +1239,8 @@
         "male": 25,
         "female": 18,
         "total": 43,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Caldwell County, start with timber-to-crop transitions and elevated cover beside low bottoms. The broader landscape is mostly gentle terrain with creek bottoms and broad agricultural openings. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1259,11 +1259,11 @@
       "harvest": {
         "county": "Calloway",
         "region_id": "purchase-region",
-        "male": 15,
-        "female": 35,
-        "total": 50,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 17,
+        "female": 55,
+        "total": 72,
+        "change_since_previous_snapshot": 22,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Calloway County, start with timber-to-crop transitions and elevated cover beside low bottoms. The broader landscape is mostly gentle terrain with creek bottoms and broad agricultural openings. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1282,11 +1282,11 @@
       "harvest": {
         "county": "Campbell",
         "region_id": "bluegrass-region",
-        "male": 18,
-        "female": 9,
-        "total": 27,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 19,
+        "female": 13,
+        "total": 32,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Campbell County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1306,10 +1306,10 @@
         "county": "Carlisle",
         "region_id": "purchase-region",
         "male": 2,
-        "female": 3,
-        "total": 5,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 9,
+        "total": 11,
+        "change_since_previous_snapshot": 6,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Carlisle County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1328,11 +1328,11 @@
       "harvest": {
         "county": "Carroll",
         "region_id": "bluegrass-region",
-        "male": 5,
-        "female": 10,
-        "total": 15,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 6,
+        "female": 12,
+        "total": 18,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Carroll County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1351,11 +1351,11 @@
       "harvest": {
         "county": "Carter",
         "region_id": "northeast-region",
-        "male": 51,
-        "female": 25,
-        "total": 76,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 55,
+        "female": 27,
+        "total": 82,
+        "change_since_previous_snapshot": 6,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Carter County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1374,11 +1374,11 @@
       "harvest": {
         "county": "Casey",
         "region_id": "southeast-region",
-        "male": 30,
-        "female": 13,
-        "total": 43,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 31,
+        "female": 28,
+        "total": 59,
+        "change_since_previous_snapshot": 16,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Casey County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1397,11 +1397,11 @@
       "harvest": {
         "county": "Christian",
         "region_id": "purchase-region",
-        "male": 57,
-        "female": 45,
-        "total": 102,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 59,
+        "female": 46,
+        "total": 105,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Christian County, start with timber-to-crop transitions and elevated cover beside low bottoms. The broader landscape is mostly gentle terrain with creek bottoms and broad agricultural openings. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1423,8 +1423,8 @@
         "male": 9,
         "female": 6,
         "total": 15,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Clark County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1443,11 +1443,11 @@
       "harvest": {
         "county": "Clay",
         "region_id": "southeast-region",
-        "male": 34,
-        "female": 16,
-        "total": 50,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 36,
+        "female": 19,
+        "total": 55,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Clay County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1466,11 +1466,11 @@
       "harvest": {
         "county": "Clinton",
         "region_id": "southeast-region",
-        "male": 27,
+        "male": 29,
         "female": 11,
-        "total": 38,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 40,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Clinton County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1490,10 +1490,10 @@
         "county": "Crittenden",
         "region_id": "purchase-region",
         "male": 22,
-        "female": 36,
-        "total": 58,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 37,
+        "total": 59,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Crittenden County, start with timber-to-crop transitions and elevated cover beside low bottoms. The broader landscape is mostly gentle terrain with creek bottoms and broad agricultural openings. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1512,11 +1512,11 @@
       "harvest": {
         "county": "Cumberland",
         "region_id": "southeast-region",
-        "male": 25,
-        "female": 12,
-        "total": 37,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 27,
+        "female": 15,
+        "total": 42,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Cumberland County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1535,11 +1535,11 @@
       "harvest": {
         "county": "Daviess",
         "region_id": "green-river-region",
-        "male": 7,
-        "female": 4,
-        "total": 11,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 8,
+        "female": 5,
+        "total": 13,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Daviess County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1561,8 +1561,8 @@
         "male": 25,
         "female": 5,
         "total": 30,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Edmonson County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1581,11 +1581,11 @@
       "harvest": {
         "county": "Elliott",
         "region_id": "northeast-region",
-        "male": 26,
-        "female": 6,
-        "total": 32,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 27,
+        "female": 8,
+        "total": 35,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Elliott County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1604,11 +1604,11 @@
       "harvest": {
         "county": "Estill",
         "region_id": "southeast-region",
-        "male": 16,
-        "female": 15,
-        "total": 31,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 18,
+        "female": 16,
+        "total": 34,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Estill County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1630,8 +1630,8 @@
         "male": 9,
         "female": 7,
         "total": 16,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Fayette County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1650,11 +1650,11 @@
       "harvest": {
         "county": "Fleming",
         "region_id": "northeast-region",
-        "male": 27,
-        "female": 22,
-        "total": 49,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 30,
+        "female": 26,
+        "total": 56,
+        "change_since_previous_snapshot": 7,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Fleming County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1673,11 +1673,11 @@
       "harvest": {
         "county": "Floyd",
         "region_id": "northeast-region",
-        "male": 32,
-        "female": 11,
-        "total": 43,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 35,
+        "female": 12,
+        "total": 47,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Floyd County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1696,11 +1696,11 @@
       "harvest": {
         "county": "Franklin",
         "region_id": "bluegrass-region",
-        "male": 30,
-        "female": 25,
-        "total": 55,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 32,
+        "female": 27,
+        "total": 59,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Franklin County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1720,10 +1720,10 @@
         "county": "Fulton",
         "region_id": "purchase-region",
         "male": 0,
-        "female": 1,
-        "total": 1,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 8,
+        "total": 8,
+        "change_since_previous_snapshot": 7,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Fulton County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1745,8 +1745,8 @@
         "male": 9,
         "female": 4,
         "total": 13,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Gallatin County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1765,11 +1765,11 @@
       "harvest": {
         "county": "Garrard",
         "region_id": "bluegrass-region",
-        "male": 21,
-        "female": 10,
-        "total": 31,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 22,
+        "female": 12,
+        "total": 34,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Garrard County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1788,11 +1788,11 @@
       "harvest": {
         "county": "Grant",
         "region_id": "bluegrass-region",
-        "male": 33,
-        "female": 34,
-        "total": 67,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 35,
+        "female": 37,
+        "total": 72,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Grant County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1811,11 +1811,11 @@
       "harvest": {
         "county": "Graves",
         "region_id": "purchase-region",
-        "male": 9,
-        "female": 35,
-        "total": 44,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 11,
+        "female": 66,
+        "total": 77,
+        "change_since_previous_snapshot": 33,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Graves County, start with timber-to-crop transitions and elevated cover beside low bottoms. The broader landscape is mostly gentle terrain with creek bottoms and broad agricultural openings. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1834,11 +1834,11 @@
       "harvest": {
         "county": "Grayson",
         "region_id": "green-river-region",
-        "male": 39,
-        "female": 22,
-        "total": 61,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 40,
+        "female": 25,
+        "total": 65,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Grayson County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1857,11 +1857,11 @@
       "harvest": {
         "county": "Green",
         "region_id": "southeast-region",
-        "male": 54,
-        "female": 25,
-        "total": 79,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 55,
+        "female": 28,
+        "total": 83,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Green County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1880,11 +1880,11 @@
       "harvest": {
         "county": "Greenup",
         "region_id": "northeast-region",
-        "male": 33,
-        "female": 30,
-        "total": 63,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 34,
+        "female": 36,
+        "total": 70,
+        "change_since_previous_snapshot": 7,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Greenup County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1906,8 +1906,8 @@
         "male": 5,
         "female": 7,
         "total": 12,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Hancock County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1926,11 +1926,11 @@
       "harvest": {
         "county": "Hardin",
         "region_id": "green-river-region",
-        "male": 53,
-        "female": 52,
-        "total": 105,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 54,
+        "female": 94,
+        "total": 148,
+        "change_since_previous_snapshot": 43,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Hardin County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1950,10 +1950,10 @@
         "county": "Harlan",
         "region_id": "southeast-region",
         "male": 4,
-        "female": 7,
-        "total": 11,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 8,
+        "total": 12,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Harlan County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1972,11 +1972,11 @@
       "harvest": {
         "county": "Harrison",
         "region_id": "bluegrass-region",
-        "male": 46,
-        "female": 25,
-        "total": 71,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 51,
+        "female": 28,
+        "total": 79,
+        "change_since_previous_snapshot": 8,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Harrison County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -1995,11 +1995,11 @@
       "harvest": {
         "county": "Hart",
         "region_id": "green-river-region",
-        "male": 52,
-        "female": 31,
-        "total": 83,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 54,
+        "female": 33,
+        "total": 87,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Hart County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2018,11 +2018,11 @@
       "harvest": {
         "county": "Henderson",
         "region_id": "green-river-region",
-        "male": 9,
-        "female": 12,
-        "total": 21,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 10,
+        "female": 21,
+        "total": 31,
+        "change_since_previous_snapshot": 10,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Henderson County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2042,10 +2042,10 @@
         "county": "Henry",
         "region_id": "bluegrass-region",
         "male": 22,
-        "female": 21,
-        "total": 43,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 26,
+        "total": 48,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Henry County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2065,10 +2065,10 @@
         "county": "Hickman",
         "region_id": "purchase-region",
         "male": 4,
-        "female": 5,
-        "total": 9,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 12,
+        "total": 16,
+        "change_since_previous_snapshot": 7,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Hickman County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2087,11 +2087,11 @@
       "harvest": {
         "county": "Hopkins",
         "region_id": "green-river-region",
-        "male": 39,
-        "female": 53,
-        "total": 92,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 42,
+        "female": 55,
+        "total": 97,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Hopkins County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2110,11 +2110,11 @@
       "harvest": {
         "county": "Jackson",
         "region_id": "southeast-region",
-        "male": 51,
-        "female": 33,
-        "total": 84,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 53,
+        "female": 37,
+        "total": 90,
+        "change_since_previous_snapshot": 6,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Jackson County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2133,11 +2133,11 @@
       "harvest": {
         "county": "Jefferson",
         "region_id": "bluegrass-region",
-        "male": 22,
-        "female": 20,
-        "total": 42,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 24,
+        "female": 21,
+        "total": 45,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Jefferson County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2157,10 +2157,10 @@
         "county": "Jessamine",
         "region_id": "bluegrass-region",
         "male": 16,
-        "female": 10,
-        "total": 26,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 12,
+        "total": 28,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Jessamine County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2179,11 +2179,11 @@
       "harvest": {
         "county": "Johnson",
         "region_id": "northeast-region",
-        "male": 33,
-        "female": 30,
-        "total": 63,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 34,
+        "female": 31,
+        "total": 65,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Johnson County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2203,10 +2203,10 @@
         "county": "Kenton",
         "region_id": "bluegrass-region",
         "male": 19,
-        "female": 18,
-        "total": 37,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 23,
+        "total": 42,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Kenton County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2225,11 +2225,11 @@
       "harvest": {
         "county": "Knott",
         "region_id": "southeast-region",
-        "male": 15,
-        "female": 12,
-        "total": 27,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 17,
+        "female": 14,
+        "total": 31,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Knott County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2248,11 +2248,11 @@
       "harvest": {
         "county": "Knox",
         "region_id": "southeast-region",
-        "male": 22,
+        "male": 23,
         "female": 16,
-        "total": 38,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 39,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Knox County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2274,7 +2274,7 @@
         "male": null,
         "female": null,
         "change_since_previous_snapshot": null,
-        "comparison_date": null
+        "comparison_date": "2026-09-25"
       },
       "tactic": "In Larue County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
     },
@@ -2293,10 +2293,10 @@
         "county": "Laurel",
         "region_id": "southeast-region",
         "male": 46,
-        "female": 49,
-        "total": 95,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 62,
+        "total": 108,
+        "change_since_previous_snapshot": 13,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Laurel County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2315,11 +2315,11 @@
       "harvest": {
         "county": "Lawrence",
         "region_id": "northeast-region",
-        "male": 19,
-        "female": 28,
-        "total": 47,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 20,
+        "female": 32,
+        "total": 52,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Lawrence County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2338,11 +2338,11 @@
       "harvest": {
         "county": "Lee",
         "region_id": "southeast-region",
-        "male": 14,
+        "male": 16,
         "female": 8,
-        "total": 22,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 24,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Lee County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2361,11 +2361,11 @@
       "harvest": {
         "county": "Leslie",
         "region_id": "southeast-region",
-        "male": 12,
+        "male": 14,
         "female": 13,
-        "total": 25,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 27,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Leslie County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2384,11 +2384,11 @@
       "harvest": {
         "county": "Letcher",
         "region_id": "southeast-region",
-        "male": 15,
-        "female": 18,
-        "total": 33,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 16,
+        "female": 21,
+        "total": 37,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Letcher County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2407,11 +2407,11 @@
       "harvest": {
         "county": "Lewis",
         "region_id": "northeast-region",
-        "male": 38,
+        "male": 39,
         "female": 26,
-        "total": 64,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 65,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Lewis County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2430,11 +2430,11 @@
       "harvest": {
         "county": "Lincoln",
         "region_id": "southeast-region",
-        "male": 24,
-        "female": 16,
-        "total": 40,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 26,
+        "female": 36,
+        "total": 62,
+        "change_since_previous_snapshot": 22,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Lincoln County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2454,10 +2454,10 @@
         "county": "Livingston",
         "region_id": "purchase-region",
         "male": 10,
-        "female": 18,
-        "total": 28,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 21,
+        "total": 31,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Livingston County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2477,10 +2477,10 @@
         "county": "Logan",
         "region_id": "green-river-region",
         "male": 36,
-        "female": 7,
-        "total": 43,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 10,
+        "total": 46,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Logan County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2502,8 +2502,8 @@
         "male": 20,
         "female": 19,
         "total": 39,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Lyon County, start with timber-to-crop transitions and elevated cover beside low bottoms. The broader landscape is mostly gentle terrain with creek bottoms and broad agricultural openings. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2522,11 +2522,11 @@
       "harvest": {
         "county": "Madison",
         "region_id": "bluegrass-region",
-        "male": 15,
-        "female": 22,
-        "total": 37,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 17,
+        "female": 25,
+        "total": 42,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Madison County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2545,11 +2545,11 @@
       "harvest": {
         "county": "Magoffin",
         "region_id": "northeast-region",
-        "male": 33,
+        "male": 37,
         "female": 13,
-        "total": 46,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 50,
+        "change_since_previous_snapshot": 4,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Magoffin County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2568,11 +2568,11 @@
       "harvest": {
         "county": "Marion",
         "region_id": "bluegrass-region",
-        "male": 36,
-        "female": 23,
-        "total": 59,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 37,
+        "female": 27,
+        "total": 64,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Marion County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2592,10 +2592,10 @@
         "county": "Marshall",
         "region_id": "purchase-region",
         "male": 17,
-        "female": 35,
-        "total": 52,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 52,
+        "total": 69,
+        "change_since_previous_snapshot": 17,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Marshall County, start with timber-to-crop transitions and elevated cover beside low bottoms. The broader landscape is mostly gentle terrain with creek bottoms and broad agricultural openings. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2614,11 +2614,11 @@
       "harvest": {
         "county": "Martin",
         "region_id": "northeast-region",
-        "male": 17,
-        "female": 10,
-        "total": 27,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 18,
+        "female": 11,
+        "total": 29,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Martin County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2637,11 +2637,11 @@
       "harvest": {
         "county": "Mason",
         "region_id": "northeast-region",
-        "male": 39,
+        "male": 41,
         "female": 16,
-        "total": 55,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 57,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Mason County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2661,10 +2661,10 @@
         "county": "McCracken",
         "region_id": "purchase-region",
         "male": 7,
-        "female": 6,
-        "total": 13,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 8,
+        "total": 15,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In McCracken County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2683,11 +2683,11 @@
       "harvest": {
         "county": "McCreary",
         "region_id": "southeast-region",
-        "male": 18,
-        "female": 16,
-        "total": 34,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 20,
+        "female": 17,
+        "total": 37,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In McCreary County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2707,10 +2707,10 @@
         "county": "McLean",
         "region_id": "green-river-region",
         "male": 1,
-        "female": 13,
-        "total": 14,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 15,
+        "total": 16,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In McLean County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2729,11 +2729,11 @@
       "harvest": {
         "county": "Meade",
         "region_id": "green-river-region",
-        "male": 21,
-        "female": 27,
-        "total": 48,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 25,
+        "female": 37,
+        "total": 62,
+        "change_since_previous_snapshot": 14,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Meade County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2755,8 +2755,8 @@
         "male": 5,
         "female": 3,
         "total": 8,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Menifee County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2775,11 +2775,11 @@
       "harvest": {
         "county": "Mercer",
         "region_id": "bluegrass-region",
-        "male": 30,
-        "female": 15,
-        "total": 45,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 33,
+        "female": 17,
+        "total": 50,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Mercer County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2798,11 +2798,11 @@
       "harvest": {
         "county": "Metcalfe",
         "region_id": "green-river-region",
-        "male": 24,
-        "female": 42,
-        "total": 66,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 27,
+        "female": 46,
+        "total": 73,
+        "change_since_previous_snapshot": 7,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Metcalfe County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2821,11 +2821,11 @@
       "harvest": {
         "county": "Monroe",
         "region_id": "green-river-region",
-        "male": 10,
-        "female": 15,
-        "total": 25,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 11,
+        "female": 17,
+        "total": 28,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Monroe County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2847,8 +2847,8 @@
         "male": 11,
         "female": 5,
         "total": 16,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Montgomery County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2867,11 +2867,11 @@
       "harvest": {
         "county": "Morgan",
         "region_id": "northeast-region",
-        "male": 34,
-        "female": 20,
-        "total": 54,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 37,
+        "female": 24,
+        "total": 61,
+        "change_since_previous_snapshot": 7,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Morgan County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2890,11 +2890,11 @@
       "harvest": {
         "county": "Muhlenberg",
         "region_id": "green-river-region",
-        "male": 49,
-        "female": 49,
-        "total": 98,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 50,
+        "female": 58,
+        "total": 108,
+        "change_since_previous_snapshot": 10,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Muhlenberg County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2913,11 +2913,11 @@
       "harvest": {
         "county": "Nelson",
         "region_id": "bluegrass-region",
-        "male": 40,
-        "female": 52,
-        "total": 92,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 45,
+        "female": 53,
+        "total": 98,
+        "change_since_previous_snapshot": 6,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Nelson County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2937,10 +2937,10 @@
         "county": "Nicholas",
         "region_id": "northeast-region",
         "male": 19,
-        "female": 6,
-        "total": 25,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 7,
+        "total": 26,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Nicholas County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2960,10 +2960,10 @@
         "county": "Ohio",
         "region_id": "green-river-region",
         "male": 28,
-        "female": 30,
-        "total": 58,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 31,
+        "total": 59,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Ohio County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -2983,10 +2983,10 @@
         "county": "Oldham",
         "region_id": "bluegrass-region",
         "male": 21,
-        "female": 19,
-        "total": 40,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 21,
+        "total": 42,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Oldham County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3005,11 +3005,11 @@
       "harvest": {
         "county": "Owen",
         "region_id": "bluegrass-region",
-        "male": 15,
-        "female": 20,
-        "total": 35,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 16,
+        "female": 24,
+        "total": 40,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Owen County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3028,11 +3028,11 @@
       "harvest": {
         "county": "Owsley",
         "region_id": "southeast-region",
-        "male": 4,
+        "male": 5,
         "female": 2,
-        "total": 6,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 7,
+        "change_since_previous_snapshot": 1,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Owsley County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3051,11 +3051,11 @@
       "harvest": {
         "county": "Pendleton",
         "region_id": "bluegrass-region",
-        "male": 49,
-        "female": 42,
-        "total": 91,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 53,
+        "female": 52,
+        "total": 105,
+        "change_since_previous_snapshot": 14,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Pendleton County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3074,11 +3074,11 @@
       "harvest": {
         "county": "Perry",
         "region_id": "southeast-region",
-        "male": 21,
+        "male": 23,
         "female": 18,
-        "total": 39,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 41,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Perry County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3097,11 +3097,11 @@
       "harvest": {
         "county": "Pike",
         "region_id": "northeast-region",
-        "male": 73,
-        "female": 81,
-        "total": 154,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 76,
+        "female": 87,
+        "total": 163,
+        "change_since_previous_snapshot": 9,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Pike County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3120,11 +3120,11 @@
       "harvest": {
         "county": "Powell",
         "region_id": "southeast-region",
-        "male": 8,
-        "female": 10,
-        "total": 18,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 9,
+        "female": 14,
+        "total": 23,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Powell County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3143,11 +3143,11 @@
       "harvest": {
         "county": "Pulaski",
         "region_id": "southeast-region",
-        "male": 59,
-        "female": 39,
-        "total": 98,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 60,
+        "female": 68,
+        "total": 128,
+        "change_since_previous_snapshot": 30,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Pulaski County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3166,11 +3166,11 @@
       "harvest": {
         "county": "Robertson",
         "region_id": "northeast-region",
-        "male": 22,
-        "female": 16,
-        "total": 38,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 23,
+        "female": 17,
+        "total": 40,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Robertson County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3190,10 +3190,10 @@
         "county": "Rockcastle",
         "region_id": "southeast-region",
         "male": 23,
-        "female": 21,
-        "total": 44,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 29,
+        "total": 52,
+        "change_since_previous_snapshot": 8,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Rockcastle County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3212,11 +3212,11 @@
       "harvest": {
         "county": "Rowan",
         "region_id": "northeast-region",
-        "male": 16,
-        "female": 11,
-        "total": 27,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 18,
+        "female": 12,
+        "total": 30,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Rowan County, start with leeward points, benches, and the upper third of travel routes above creek bottoms. The broader landscape is steep ridges, points, benches, hollows, and narrow creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3236,10 +3236,10 @@
         "county": "Russell",
         "region_id": "southeast-region",
         "male": 22,
-        "female": 14,
-        "total": 36,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 26,
+        "total": 48,
+        "change_since_previous_snapshot": 12,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Russell County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3258,11 +3258,11 @@
       "harvest": {
         "county": "Scott",
         "region_id": "bluegrass-region",
-        "male": 28,
-        "female": 16,
-        "total": 44,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 29,
+        "female": 20,
+        "total": 49,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Scott County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3281,11 +3281,11 @@
       "harvest": {
         "county": "Shelby",
         "region_id": "bluegrass-region",
-        "male": 66,
-        "female": 33,
-        "total": 99,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 69,
+        "female": 36,
+        "total": 105,
+        "change_since_previous_snapshot": 6,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Shelby County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3304,11 +3304,11 @@
       "harvest": {
         "county": "Simpson",
         "region_id": "green-river-region",
-        "male": 8,
-        "female": 3,
-        "total": 11,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 10,
+        "female": 4,
+        "total": 14,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Simpson County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3327,11 +3327,11 @@
       "harvest": {
         "county": "Spencer",
         "region_id": "bluegrass-region",
-        "male": 33,
-        "female": 37,
-        "total": 70,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 36,
+        "female": 42,
+        "total": 78,
+        "change_since_previous_snapshot": 8,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Spencer County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3350,11 +3350,11 @@
       "harvest": {
         "county": "Taylor",
         "region_id": "southeast-region",
-        "male": 38,
-        "female": 27,
-        "total": 65,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 41,
+        "female": 32,
+        "total": 73,
+        "change_since_previous_snapshot": 8,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Taylor County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3373,11 +3373,11 @@
       "harvest": {
         "county": "Todd",
         "region_id": "green-river-region",
-        "male": 25,
-        "female": 9,
-        "total": 34,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 26,
+        "female": 10,
+        "total": 36,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Todd County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3396,11 +3396,11 @@
       "harvest": {
         "county": "Trigg",
         "region_id": "purchase-region",
-        "male": 35,
-        "female": 21,
-        "total": 56,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 37,
+        "female": 22,
+        "total": 59,
+        "change_since_previous_snapshot": 3,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Trigg County, start with timber-to-crop transitions and elevated cover beside low bottoms. The broader landscape is mostly gentle terrain with creek bottoms and broad agricultural openings. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3422,8 +3422,8 @@
         "male": 9,
         "female": 7,
         "total": 16,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "change_since_previous_snapshot": 0,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Trimble County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3442,11 +3442,11 @@
       "harvest": {
         "county": "Union",
         "region_id": "green-river-region",
-        "male": 7,
-        "female": 22,
-        "total": 29,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 9,
+        "female": 32,
+        "total": 41,
+        "change_since_previous_snapshot": 12,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Union County, start with slightly elevated travel cover between river-bottom bedding and crop or mast food. The broader landscape is broad river bottoms, tributary drainages, levees, and nearby rolling uplands. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3466,10 +3466,10 @@
         "county": "Warren",
         "region_id": "green-river-region",
         "male": 29,
-        "female": 17,
-        "total": 46,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 19,
+        "total": 48,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Warren County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3488,11 +3488,11 @@
       "harvest": {
         "county": "Washington",
         "region_id": "bluegrass-region",
-        "male": 75,
-        "female": 39,
-        "total": 114,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 79,
+        "female": 50,
+        "total": 129,
+        "change_since_previous_snapshot": 15,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Washington County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3511,11 +3511,11 @@
       "harvest": {
         "county": "Wayne",
         "region_id": "southeast-region",
-        "male": 41,
-        "female": 26,
-        "total": 67,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 42,
+        "female": 35,
+        "total": 77,
+        "change_since_previous_snapshot": 10,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Wayne County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3535,10 +3535,10 @@
         "county": "Webster",
         "region_id": "green-river-region",
         "male": 13,
-        "female": 33,
-        "total": 46,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 60,
+        "total": 73,
+        "change_since_previous_snapshot": 27,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Webster County, start with wooded draws and staging cover connecting bedding to crops or mast. The broader landscape is rolling farmland broken by wooded draws, river bottoms, and karst ridges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3557,11 +3557,11 @@
       "harvest": {
         "county": "Whitley",
         "region_id": "southeast-region",
-        "male": 40,
+        "male": 45,
         "female": 30,
-        "total": 70,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "total": 75,
+        "change_since_previous_snapshot": 5,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Whitley County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3581,10 +3581,10 @@
         "county": "Wolfe",
         "region_id": "southeast-region",
         "male": 10,
-        "female": 5,
-        "total": 15,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "female": 7,
+        "total": 17,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Wolfe County, start with benches and side-hill trails linking thick bedding cover with active oak feed. The broader landscape is rugged ridges, benches, hollows, and confined creek bottoms. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
@@ -3603,11 +3603,11 @@
       "harvest": {
         "county": "Woodford",
         "region_id": "bluegrass-region",
-        "male": 11,
-        "female": 7,
-        "total": 18,
-        "change_since_previous_snapshot": null,
-        "comparison_date": null,
+        "male": 12,
+        "female": 8,
+        "total": 20,
+        "change_since_previous_snapshot": 2,
+        "comparison_date": "2026-09-25",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
       "tactic": "In Woodford County, start with narrow timber funnels and creek cover between secure bedding and food. The broader landscape is rolling farm country with wooded drainages, small ridges, and developed edges. Use the wind to cover a secure staging route before deer enter exposed food. Treat the good food outlook as regional context and confirm fresh local sign."
