@@ -1,13 +1,13 @@
 {
   "schema_version": "1.5.0",
-  "generated_at": "2026-09-28T02:14:55.618713+00:00",
-  "valid_until": "2026-09-28T11:00:00+00:00",
+  "generated_at": "2026-09-28T18:18:50.693305+00:00",
+  "valid_until": "2026-09-29T11:00:00+00:00",
   "data_status": {
     "weather": "current",
     "barometric_pressure": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-09-28T02:14:55.619235+00:00",
-    "harvest_statewide_total": 7693,
+    "harvest_retrieved_at": "2026-09-28T18:18:50.693878+00:00",
+    "harvest_statewide_total": 7958,
     "harvest_comparison_date": "2026-09-27",
     "mast": "latest-available-prior-season",
     "crops": "annual-land-cover",
@@ -79,11 +79,11 @@
       "region_id": "purchase-region",
       "region_name": "Purchase Region",
       "score": {
-        "value": 6.0,
+        "value": 6.1,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 6.1,
+        "weather_score": 6.5,
         "season_phase_score": 5.8,
         "food_score": 5.8,
         "pressure_score": 6.8,
@@ -128,11 +128,11 @@
         },
         "harvest": {
           "county_count": 14,
-          "male": 253,
-          "female": 562,
-          "total": 815,
-          "harvest_per_county": 58.2,
-          "activity_index": 0.908,
+          "male": 260,
+          "female": 596,
+          "total": 856,
+          "harvest_per_county": 61.1,
+          "activity_index": 0.922,
           "score": 4.8
         }
       },
@@ -148,41 +148,32 @@
       },
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
-        "temperature_trend": "Steady",
-        "temperature_change_f": 3.2,
+        "temperature_trend": "Cooling",
+        "temperature_change_f": -9.2,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.01,
+        "pressure_change_inhg": -0.03,
         "pressure_adjustment": 0.0,
         "pressure_station": "KPAH",
-        "pressure_observed_at": "2026-09-28T01:50:00+00:00",
+        "pressure_observed_at": "2026-09-28T18:05:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
-      "best_window": "Monday Morning",
+      "best_window": "Wednesday Morning",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Tonight",
-          "start_time": "2026-09-27T20:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 51.7,
-          "wind_mph": 2.3,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-28T06:00:00-05:00",
+          "name": "This Afternoon",
+          "start_time": "2026-09-28T13:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 78.7,
-          "wind_mph": 4.3,
+          "temperature_f": 80.7,
+          "wind_mph": 4.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
         {
-          "name": "Monday Night",
+          "name": "Tonight",
           "start_time": "2026-09-28T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 53.7,
+          "temperature_f": 54.7,
           "wind_mph": 2.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
@@ -191,8 +182,8 @@
           "name": "Tuesday",
           "start_time": "2026-09-29T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 83.0,
-          "wind_mph": 2.0,
+          "temperature_f": 84.3,
+          "wind_mph": 2.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -200,7 +191,7 @@
           "name": "Tuesday Night",
           "start_time": "2026-09-29T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 60.7,
+          "temperature_f": 59.0,
           "wind_mph": 2.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
@@ -209,28 +200,37 @@
           "name": "Wednesday",
           "start_time": "2026-09-30T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 89.7,
-          "wind_mph": 5.7,
+          "temperature_f": 90.0,
+          "wind_mph": 5.2,
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Sunny"
+          "short_forecast": "Sunny"
         },
         {
           "name": "Wednesday Night",
           "start_time": "2026-09-30T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 67.3,
-          "wind_mph": 5.0,
-          "precipitation_probability": 1.3,
+          "temperature_f": 67.7,
+          "wind_mph": 5.7,
+          "precipitation_probability": 0.3,
           "short_forecast": "Partly Cloudy"
         },
         {
           "name": "Thursday",
           "start_time": "2026-10-01T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 89.0,
-          "wind_mph": 9.3,
-          "precipitation_probability": 17.3,
-          "short_forecast": "Slight Chance Rain Showers"
+          "temperature_f": 90.7,
+          "wind_mph": 9.0,
+          "precipitation_probability": 5.0,
+          "short_forecast": "Mostly Sunny"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-10-01T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 69.3,
+          "wind_mph": 6.0,
+          "precipitation_probability": 26.0,
+          "short_forecast": "Chance Rain Showers"
         }
       ],
       "sample_points": [
@@ -258,11 +258,11 @@
       "region_id": "green-river-region",
       "region_name": "Green River Region",
       "score": {
-        "value": 6.0,
+        "value": 6.4,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 6.0,
+        "weather_score": 7.1,
         "season_phase_score": 5.8,
         "food_score": 5.8,
         "pressure_score": 7.0,
@@ -307,11 +307,11 @@
         },
         "harvest": {
           "county_count": 25,
-          "male": 753,
-          "female": 1095,
-          "total": 1848,
-          "harvest_per_county": 73.9,
-          "activity_index": 1.153,
+          "male": 771,
+          "female": 1139,
+          "total": 1910,
+          "harvest_per_county": 76.4,
+          "activity_index": 1.152,
           "score": 5.4
         }
       },
@@ -327,51 +327,42 @@
       },
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
-        "temperature_trend": "Steady",
-        "temperature_change_f": 3.5,
+        "temperature_trend": "Cooling",
+        "temperature_change_f": -10.4,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.01,
+        "pressure_change_inhg": -0.03,
         "pressure_adjustment": 0.0,
         "pressure_station": "KOWB",
-        "pressure_observed_at": "2026-09-28T02:00:00+00:00",
+        "pressure_observed_at": "2026-09-28T18:00:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Monday Afternoon",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Tonight",
-          "start_time": "2026-09-27T21:00:00-05:00",
-          "is_daytime": false,
-          "temperature_f": 49.0,
-          "wind_mph": 2.8,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Partly Cloudy"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-28T06:00:00-05:00",
+          "name": "This Afternoon",
+          "start_time": "2026-09-28T12:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 79.7,
-          "wind_mph": 2.5,
+          "temperature_f": 80.0,
+          "wind_mph": 4.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
         {
-          "name": "Monday Night",
+          "name": "Tonight",
           "start_time": "2026-09-28T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 51.7,
-          "wind_mph": 2.0,
+          "temperature_f": 51.0,
+          "wind_mph": 2.2,
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Clear"
         },
         {
           "name": "Tuesday",
           "start_time": "2026-09-29T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 83.0,
-          "wind_mph": 1.7,
+          "temperature_f": 82.3,
+          "wind_mph": 1.5,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -379,7 +370,7 @@
           "name": "Tuesday Night",
           "start_time": "2026-09-29T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 59.7,
+          "temperature_f": 58.0,
           "wind_mph": 2.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
@@ -397,8 +388,8 @@
           "name": "Wednesday Night",
           "start_time": "2026-09-30T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 67.3,
-          "wind_mph": 5.3,
+          "temperature_f": 66.7,
+          "wind_mph": 6.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Partly Cloudy"
         },
@@ -406,10 +397,19 @@
           "name": "Thursday",
           "start_time": "2026-10-01T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 91.0,
-          "wind_mph": 8.7,
-          "precipitation_probability": 15.0,
-          "short_forecast": "Mostly Sunny then Slight Chance Rain Showers"
+          "temperature_f": 91.7,
+          "wind_mph": 8.3,
+          "precipitation_probability": 7.0,
+          "short_forecast": "Mostly Sunny"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-10-01T18:00:00-05:00",
+          "is_daytime": false,
+          "temperature_f": 69.0,
+          "wind_mph": 5.2,
+          "precipitation_probability": 29.7,
+          "short_forecast": "Chance Rain Showers"
         }
       ],
       "sample_points": [
@@ -437,11 +437,11 @@
       "region_id": "bluegrass-region",
       "region_name": "Bluegrass Region",
       "score": {
-        "value": 6.0,
+        "value": 6.4,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 6.1,
+        "weather_score": 7.1,
         "season_phase_score": 5.8,
         "food_score": 5.8,
         "pressure_score": 7.2,
@@ -486,11 +486,11 @@
         },
         "harvest": {
           "county_count": 31,
-          "male": 944,
-          "female": 909,
-          "total": 1853,
-          "harvest_per_county": 59.8,
-          "activity_index": 0.932,
+          "male": 959,
+          "female": 936,
+          "total": 1895,
+          "harvest_per_county": 61.1,
+          "activity_index": 0.922,
           "score": 4.8
         }
       },
@@ -506,41 +506,32 @@
       },
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
-        "temperature_trend": "Steady",
-        "temperature_change_f": 1.5,
+        "temperature_trend": "Cooling",
+        "temperature_change_f": -12.0,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.01,
+        "pressure_change_inhg": -0.03,
         "pressure_adjustment": 0.0,
         "pressure_station": "KLOU",
-        "pressure_observed_at": "2026-09-28T02:00:00+00:00",
+        "pressure_observed_at": "2026-09-28T18:05:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Monday Afternoon",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Tonight",
-          "start_time": "2026-09-27T18:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 50.7,
-          "wind_mph": 4.5,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Clear"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-28T06:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-09-28T13:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 78.0,
-          "wind_mph": 3.7,
+          "temperature_f": 77.3,
+          "wind_mph": 5.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
         {
-          "name": "Monday Night",
+          "name": "Tonight",
           "start_time": "2026-09-28T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 52.7,
+          "temperature_f": 51.0,
           "wind_mph": 3.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
@@ -549,16 +540,16 @@
           "name": "Tuesday",
           "start_time": "2026-09-29T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 80.7,
-          "wind_mph": 2.0,
+          "temperature_f": 80.0,
+          "wind_mph": 1.7,
           "precipitation_probability": 0.0,
-          "short_forecast": "Patchy Fog then Sunny"
+          "short_forecast": "Sunny"
         },
         {
           "name": "Tuesday Night",
           "start_time": "2026-09-29T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 57.7,
+          "temperature_f": 56.3,
           "wind_mph": 2.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
@@ -567,28 +558,37 @@
           "name": "Wednesday",
           "start_time": "2026-09-30T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 86.3,
-          "wind_mph": 4.2,
-          "precipitation_probability": 0.3,
-          "short_forecast": "Mostly Sunny"
+          "temperature_f": 87.3,
+          "wind_mph": 4.7,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
         },
         {
           "name": "Wednesday Night",
           "start_time": "2026-09-30T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 65.7,
+          "temperature_f": 66.3,
           "wind_mph": 5.0,
-          "precipitation_probability": 0.3,
+          "precipitation_probability": 0.0,
           "short_forecast": "Partly Cloudy"
         },
         {
           "name": "Thursday",
           "start_time": "2026-10-01T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 89.3,
-          "wind_mph": 9.5,
-          "precipitation_probability": 9.7,
-          "short_forecast": "Partly Sunny then Slight Chance Rain Showers"
+          "temperature_f": 90.0,
+          "wind_mph": 9.2,
+          "precipitation_probability": 3.7,
+          "short_forecast": "Mostly Sunny"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-10-01T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 68.0,
+          "wind_mph": 6.7,
+          "precipitation_probability": 23.7,
+          "short_forecast": "Slight Chance Rain Showers"
         }
       ],
       "sample_points": [
@@ -616,11 +616,11 @@
       "region_id": "northeast-region",
       "region_name": "Northeast Region",
       "score": {
-        "value": 5.9,
-        "label": "fair"
+        "value": 6.3,
+        "label": "good"
       },
       "inputs": {
-        "weather_score": 6.0,
+        "weather_score": 7.1,
         "season_phase_score": 5.8,
         "food_score": 5.7,
         "pressure_score": 6.7,
@@ -665,11 +665,11 @@
         },
         "harvest": {
           "county_count": 21,
-          "male": 728,
-          "female": 574,
-          "total": 1302,
-          "harvest_per_county": 62.0,
-          "activity_index": 0.967,
+          "male": 747,
+          "female": 594,
+          "total": 1341,
+          "harvest_per_county": 63.9,
+          "activity_index": 0.963,
           "score": 4.9
         }
       },
@@ -685,42 +685,33 @@
       },
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
-        "temperature_trend": "Steady",
-        "temperature_change_f": 3.8,
+        "temperature_trend": "Cooling",
+        "temperature_change_f": -9.0,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.01,
+        "pressure_change_inhg": 0.0,
         "pressure_adjustment": 0.0,
         "pressure_station": "KFGX",
-        "pressure_observed_at": "2026-09-28T01:35:00+00:00",
+        "pressure_observed_at": "2026-09-28T17:35:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
-      "best_window": "Monday Morning",
+      "best_window": "Monday Afternoon",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Tonight",
-          "start_time": "2026-09-27T22:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 47.7,
-          "wind_mph": 1.7,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Clear then Areas Of Fog"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-28T06:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-09-28T14:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 75.3,
-          "wind_mph": 2.3,
+          "temperature_f": 74.0,
+          "wind_mph": 3.7,
           "precipitation_probability": 0.0,
-          "short_forecast": "Areas Of Fog then Sunny"
+          "short_forecast": "Sunny"
         },
         {
-          "name": "Monday Night",
+          "name": "Tonight",
           "start_time": "2026-09-28T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 52.7,
-          "wind_mph": 2.2,
+          "temperature_f": 49.7,
+          "wind_mph": 1.8,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear then Patchy Fog"
         },
@@ -728,17 +719,17 @@
           "name": "Tuesday",
           "start_time": "2026-09-29T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 77.7,
-          "wind_mph": 1.3,
+          "temperature_f": 78.3,
+          "wind_mph": 1.0,
           "precipitation_probability": 0.0,
-          "short_forecast": "Sunny"
+          "short_forecast": "Patchy Fog then Sunny"
         },
         {
           "name": "Tuesday Night",
           "start_time": "2026-09-29T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 52.7,
-          "wind_mph": 1.7,
+          "temperature_f": 51.0,
+          "wind_mph": 1.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
         },
@@ -746,16 +737,16 @@
           "name": "Wednesday",
           "start_time": "2026-09-30T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 83.7,
+          "temperature_f": 84.7,
           "wind_mph": 2.5,
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Sunny"
+          "short_forecast": "Areas Of Fog then Mostly Sunny"
         },
         {
           "name": "Wednesday Night",
           "start_time": "2026-09-30T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 61.3,
+          "temperature_f": 60.7,
           "wind_mph": 3.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Partly Cloudy"
@@ -765,9 +756,18 @@
           "start_time": "2026-10-01T06:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 87.3,
-          "wind_mph": 5.7,
-          "precipitation_probability": 2.3,
+          "wind_mph": 5.5,
+          "precipitation_probability": 0.3,
           "short_forecast": "Mostly Sunny"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-10-01T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 66.0,
+          "wind_mph": 4.5,
+          "precipitation_probability": 11.0,
+          "short_forecast": "Partly Cloudy"
         }
       ],
       "sample_points": [
@@ -795,11 +795,11 @@
       "region_id": "southeast-region",
       "region_name": "Southeast Region",
       "score": {
-        "value": 5.9,
-        "label": "fair"
+        "value": 6.3,
+        "label": "good"
       },
       "inputs": {
-        "weather_score": 6.0,
+        "weather_score": 7.1,
         "season_phase_score": 5.8,
         "food_score": 5.7,
         "pressure_score": 6.5,
@@ -844,11 +844,11 @@
         },
         "harvest": {
           "county_count": 29,
-          "male": 862,
-          "female": 1013,
-          "total": 1875,
-          "harvest_per_county": 64.7,
-          "activity_index": 1.009,
+          "male": 892,
+          "female": 1064,
+          "total": 1956,
+          "harvest_per_county": 67.4,
+          "activity_index": 1.017,
           "score": 5.0
         }
       },
@@ -864,41 +864,32 @@
       },
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
-        "temperature_trend": "Steady",
-        "temperature_change_f": 3.3,
+        "temperature_trend": "Cooling",
+        "temperature_change_f": -8.7,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.02,
+        "pressure_change_inhg": -0.01,
         "pressure_adjustment": 0.0,
         "pressure_station": "KSME",
-        "pressure_observed_at": "2026-09-28T01:55:00+00:00",
+        "pressure_observed_at": "2026-09-28T17:35:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
-      "best_window": "Monday Morning",
+      "best_window": "Monday Afternoon",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Tonight",
-          "start_time": "2026-09-27T22:00:00-04:00",
-          "is_daytime": false,
-          "temperature_f": 47.0,
-          "wind_mph": 1.3,
-          "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
-        },
-        {
-          "name": "Monday",
-          "start_time": "2026-09-28T06:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-09-28T14:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 77.0,
-          "wind_mph": 2.7,
+          "temperature_f": 76.7,
+          "wind_mph": 5.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
         {
-          "name": "Monday Night",
+          "name": "Tonight",
           "start_time": "2026-09-28T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 51.3,
+          "temperature_f": 50.3,
           "wind_mph": 2.7,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
@@ -907,26 +898,26 @@
           "name": "Tuesday",
           "start_time": "2026-09-29T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 81.7,
+          "temperature_f": 82.0,
           "wind_mph": 1.7,
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Sunny"
+          "short_forecast": "Sunny"
         },
         {
           "name": "Tuesday Night",
           "start_time": "2026-09-29T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 54.3,
-          "wind_mph": 1.7,
+          "temperature_f": 52.7,
+          "wind_mph": 1.3,
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Clear"
         },
         {
           "name": "Wednesday",
           "start_time": "2026-09-30T06:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 86.3,
-          "wind_mph": 3.5,
+          "wind_mph": 3.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -934,7 +925,7 @@
           "name": "Wednesday Night",
           "start_time": "2026-09-30T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 62.3,
+          "temperature_f": 62.0,
           "wind_mph": 4.0,
           "precipitation_probability": 0.0,
           "short_forecast": "Mostly Clear"
@@ -944,9 +935,18 @@
           "start_time": "2026-10-01T06:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 88.0,
-          "wind_mph": 6.2,
-          "precipitation_probability": 2.0,
-          "short_forecast": "Mostly Sunny"
+          "wind_mph": 6.5,
+          "precipitation_probability": 0.0,
+          "short_forecast": "Sunny"
+        },
+        {
+          "name": "Thursday Night",
+          "start_time": "2026-10-01T18:00:00-04:00",
+          "is_daytime": false,
+          "temperature_f": 64.7,
+          "wind_mph": 5.2,
+          "precipitation_probability": 6.3,
+          "short_forecast": "Partly Cloudy"
         }
       ],
       "sample_points": [
@@ -1029,10 +1029,10 @@
       "harvest": {
         "county": "Adair",
         "region_id": "southeast-region",
-        "male": 52,
-        "female": 65,
-        "total": 117,
-        "change_since_previous_snapshot": 5,
+        "male": 55,
+        "female": 69,
+        "total": 124,
+        "change_since_previous_snapshot": 12,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1095,10 +1095,10 @@
       "harvest": {
         "county": "Allen",
         "region_id": "green-river-region",
-        "male": 47,
+        "male": 48,
         "female": 27,
-        "total": 74,
-        "change_since_previous_snapshot": 6,
+        "total": 75,
+        "change_since_previous_snapshot": 7,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1162,9 +1162,9 @@
         "county": "Anderson",
         "region_id": "bluegrass-region",
         "male": 73,
-        "female": 57,
-        "total": 130,
-        "change_since_previous_snapshot": 8,
+        "female": 58,
+        "total": 131,
+        "change_since_previous_snapshot": 9,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1415,10 +1415,10 @@
       "harvest": {
         "county": "Bell",
         "region_id": "southeast-region",
-        "male": 14,
-        "female": 20,
-        "total": 34,
-        "change_since_previous_snapshot": 1,
+        "male": 15,
+        "female": 21,
+        "total": 36,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1482,9 +1482,9 @@
         "county": "Boone",
         "region_id": "bluegrass-region",
         "male": 16,
-        "female": 37,
-        "total": 53,
-        "change_since_previous_snapshot": 2,
+        "female": 39,
+        "total": 55,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1608,10 +1608,10 @@
       "harvest": {
         "county": "Boyd",
         "region_id": "northeast-region",
-        "male": 35,
-        "female": 29,
-        "total": 64,
-        "change_since_previous_snapshot": 1,
+        "male": 36,
+        "female": 30,
+        "total": 66,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1674,10 +1674,10 @@
       "harvest": {
         "county": "Boyle",
         "region_id": "bluegrass-region",
-        "male": 13,
+        "male": 14,
         "female": 9,
-        "total": 22,
-        "change_since_previous_snapshot": 1,
+        "total": 23,
+        "change_since_previous_snapshot": 2,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1740,10 +1740,10 @@
       "harvest": {
         "county": "Bracken",
         "region_id": "northeast-region",
-        "male": 45,
-        "female": 32,
-        "total": 77,
-        "change_since_previous_snapshot": 6,
+        "male": 48,
+        "female": 34,
+        "total": 82,
+        "change_since_previous_snapshot": 11,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1806,10 +1806,10 @@
       "harvest": {
         "county": "Breathitt",
         "region_id": "southeast-region",
-        "male": 16,
-        "female": 12,
-        "total": 28,
-        "change_since_previous_snapshot": 3,
+        "male": 19,
+        "female": 13,
+        "total": 32,
+        "change_since_previous_snapshot": 7,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1872,10 +1872,10 @@
       "harvest": {
         "county": "Breckinridge",
         "region_id": "green-river-region",
-        "male": 63,
-        "female": 178,
-        "total": 241,
-        "change_since_previous_snapshot": 16,
+        "male": 65,
+        "female": 184,
+        "total": 249,
+        "change_since_previous_snapshot": 24,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -1939,9 +1939,9 @@
         "county": "Bullitt",
         "region_id": "bluegrass-region",
         "male": 36,
-        "female": 43,
-        "total": 79,
-        "change_since_previous_snapshot": 4,
+        "female": 48,
+        "total": 84,
+        "change_since_previous_snapshot": 9,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2004,10 +2004,10 @@
       "harvest": {
         "county": "Butler",
         "region_id": "green-river-region",
-        "male": 45,
+        "male": 47,
         "female": 25,
-        "total": 70,
-        "change_since_previous_snapshot": 6,
+        "total": 72,
+        "change_since_previous_snapshot": 8,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2071,9 +2071,9 @@
         "county": "Caldwell",
         "region_id": "purchase-region",
         "male": 25,
-        "female": 20,
-        "total": 45,
-        "change_since_previous_snapshot": 0,
+        "female": 21,
+        "total": 46,
+        "change_since_previous_snapshot": 1,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2137,9 +2137,9 @@
         "county": "Calloway",
         "region_id": "purchase-region",
         "male": 17,
-        "female": 82,
-        "total": 99,
-        "change_since_previous_snapshot": 3,
+        "female": 90,
+        "total": 107,
+        "change_since_previous_snapshot": 11,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2268,10 +2268,10 @@
       "harvest": {
         "county": "Carlisle",
         "region_id": "purchase-region",
-        "male": 3,
-        "female": 18,
-        "total": 21,
-        "change_since_previous_snapshot": 4,
+        "male": 5,
+        "female": 19,
+        "total": 24,
+        "change_since_previous_snapshot": 7,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2400,10 +2400,10 @@
       "harvest": {
         "county": "Carter",
         "region_id": "northeast-region",
-        "male": 59,
-        "female": 33,
-        "total": 92,
-        "change_since_previous_snapshot": 3,
+        "male": 60,
+        "female": 34,
+        "total": 94,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2467,9 +2467,9 @@
         "county": "Casey",
         "region_id": "southeast-region",
         "male": 32,
-        "female": 41,
-        "total": 73,
-        "change_since_previous_snapshot": 2,
+        "female": 45,
+        "total": 77,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2532,10 +2532,10 @@
       "harvest": {
         "county": "Christian",
         "region_id": "purchase-region",
-        "male": 64,
-        "female": 53,
-        "total": 117,
-        "change_since_previous_snapshot": 3,
+        "male": 65,
+        "female": 54,
+        "total": 119,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2664,10 +2664,10 @@
       "harvest": {
         "county": "Clay",
         "region_id": "southeast-region",
-        "male": 39,
+        "male": 42,
         "female": 21,
-        "total": 60,
-        "change_since_previous_snapshot": 2,
+        "total": 63,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2731,9 +2731,9 @@
         "county": "Clinton",
         "region_id": "southeast-region",
         "male": 30,
-        "female": 16,
-        "total": 46,
-        "change_since_previous_snapshot": 2,
+        "female": 19,
+        "total": 49,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2796,10 +2796,10 @@
       "harvest": {
         "county": "Crittenden",
         "region_id": "purchase-region",
-        "male": 25,
-        "female": 41,
-        "total": 66,
-        "change_since_previous_snapshot": 2,
+        "male": 26,
+        "female": 43,
+        "total": 69,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2862,10 +2862,10 @@
       "harvest": {
         "county": "Cumberland",
         "region_id": "southeast-region",
-        "male": 32,
-        "female": 15,
-        "total": 47,
-        "change_since_previous_snapshot": 2,
+        "male": 34,
+        "female": 16,
+        "total": 50,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3055,10 +3055,10 @@
       "harvest": {
         "county": "Elliott",
         "region_id": "northeast-region",
-        "male": 29,
-        "female": 14,
-        "total": 43,
-        "change_since_previous_snapshot": 2,
+        "male": 31,
+        "female": 15,
+        "total": 46,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3253,10 +3253,10 @@
       "harvest": {
         "county": "Fleming",
         "region_id": "northeast-region",
-        "male": 32,
+        "male": 34,
         "female": 30,
-        "total": 62,
-        "change_since_previous_snapshot": 3,
+        "total": 64,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3310,9 +3310,9 @@
         "county": "Floyd",
         "region_id": "northeast-region",
         "male": 43,
-        "female": 18,
-        "total": 61,
-        "change_since_previous_snapshot": 4,
+        "female": 20,
+        "total": 63,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3376,9 +3376,9 @@
         "county": "Franklin",
         "region_id": "bluegrass-region",
         "male": 36,
-        "female": 31,
-        "total": 67,
-        "change_since_previous_snapshot": 2,
+        "female": 33,
+        "total": 69,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3640,9 +3640,9 @@
         "county": "Grant",
         "region_id": "bluegrass-region",
         "male": 36,
-        "female": 47,
-        "total": 83,
-        "change_since_previous_snapshot": 1,
+        "female": 50,
+        "total": 86,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3706,9 +3706,9 @@
         "county": "Graves",
         "region_id": "purchase-region",
         "male": 12,
-        "female": 116,
-        "total": 128,
-        "change_since_previous_snapshot": 19,
+        "female": 123,
+        "total": 135,
+        "change_since_previous_snapshot": 26,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3772,9 +3772,9 @@
         "county": "Grayson",
         "region_id": "green-river-region",
         "male": 42,
-        "female": 34,
-        "total": 76,
-        "change_since_previous_snapshot": 3,
+        "female": 37,
+        "total": 79,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3838,9 +3838,9 @@
         "county": "Green",
         "region_id": "southeast-region",
         "male": 58,
-        "female": 31,
-        "total": 89,
-        "change_since_previous_snapshot": 3,
+        "female": 32,
+        "total": 90,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3904,9 +3904,9 @@
         "county": "Greenup",
         "region_id": "northeast-region",
         "male": 39,
-        "female": 49,
-        "total": 88,
-        "change_since_previous_snapshot": 2,
+        "female": 50,
+        "total": 89,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -3969,10 +3969,10 @@
       "harvest": {
         "county": "Hancock",
         "region_id": "green-river-region",
-        "male": 6,
-        "female": 9,
-        "total": 15,
-        "change_since_previous_snapshot": 1,
+        "male": 7,
+        "female": 10,
+        "total": 17,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4035,10 +4035,10 @@
       "harvest": {
         "county": "Hardin",
         "region_id": "green-river-region",
-        "male": 60,
-        "female": 164,
-        "total": 224,
-        "change_since_previous_snapshot": 23,
+        "male": 62,
+        "female": 170,
+        "total": 232,
+        "change_since_previous_snapshot": 31,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4157,10 +4157,10 @@
       "harvest": {
         "county": "Harrison",
         "region_id": "bluegrass-region",
-        "male": 59,
+        "male": 61,
         "female": 36,
-        "total": 95,
-        "change_since_previous_snapshot": 3,
+        "total": 97,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4223,10 +4223,10 @@
       "harvest": {
         "county": "Hart",
         "region_id": "green-river-region",
-        "male": 60,
-        "female": 37,
-        "total": 97,
-        "change_since_previous_snapshot": 3,
+        "male": 62,
+        "female": 38,
+        "total": 100,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4290,9 +4290,9 @@
         "county": "Henderson",
         "region_id": "green-river-region",
         "male": 12,
-        "female": 37,
-        "total": 49,
-        "change_since_previous_snapshot": 7,
+        "female": 44,
+        "total": 56,
+        "change_since_previous_snapshot": 14,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4487,10 +4487,10 @@
       "harvest": {
         "county": "Hopkins",
         "region_id": "green-river-region",
-        "male": 45,
+        "male": 46,
         "female": 65,
-        "total": 110,
-        "change_since_previous_snapshot": 3,
+        "total": 111,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4553,10 +4553,10 @@
       "harvest": {
         "county": "Jackson",
         "region_id": "southeast-region",
-        "male": 57,
-        "female": 48,
-        "total": 105,
-        "change_since_previous_snapshot": 4,
+        "male": 58,
+        "female": 49,
+        "total": 107,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4619,10 +4619,10 @@
       "harvest": {
         "county": "Jefferson",
         "region_id": "bluegrass-region",
-        "male": 27,
-        "female": 29,
-        "total": 56,
-        "change_since_previous_snapshot": 2,
+        "male": 29,
+        "female": 30,
+        "total": 59,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4686,9 +4686,9 @@
         "county": "Jessamine",
         "region_id": "bluegrass-region",
         "male": 17,
-        "female": 13,
-        "total": 30,
-        "change_since_previous_snapshot": 0,
+        "female": 14,
+        "total": 31,
+        "change_since_previous_snapshot": 1,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4746,10 +4746,10 @@
       "harvest": {
         "county": "Johnson",
         "region_id": "northeast-region",
-        "male": 36,
+        "male": 38,
         "female": 34,
-        "total": 70,
-        "change_since_previous_snapshot": 3,
+        "total": 72,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4812,10 +4812,10 @@
       "harvest": {
         "county": "Kenton",
         "region_id": "bluegrass-region",
-        "male": 23,
+        "male": 25,
         "female": 29,
-        "total": 52,
-        "change_since_previous_snapshot": 6,
+        "total": 54,
+        "change_since_previous_snapshot": 8,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4868,10 +4868,10 @@
       "harvest": {
         "county": "Knott",
         "region_id": "southeast-region",
-        "male": 21,
+        "male": 22,
         "female": 17,
-        "total": 38,
-        "change_since_previous_snapshot": 4,
+        "total": 39,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5064,10 +5064,10 @@
       "harvest": {
         "county": "Laurel",
         "region_id": "southeast-region",
-        "male": 47,
-        "female": 112,
-        "total": 159,
-        "change_since_previous_snapshot": 12,
+        "male": 48,
+        "female": 120,
+        "total": 168,
+        "change_since_previous_snapshot": 21,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5125,10 +5125,10 @@
       "harvest": {
         "county": "Lawrence",
         "region_id": "northeast-region",
-        "male": 26,
-        "female": 42,
-        "total": 68,
-        "change_since_previous_snapshot": 4,
+        "male": 27,
+        "female": 44,
+        "total": 71,
+        "change_since_previous_snapshot": 7,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5191,10 +5191,10 @@
       "harvest": {
         "county": "Lee",
         "region_id": "southeast-region",
-        "male": 19,
+        "male": 20,
         "female": 10,
-        "total": 29,
-        "change_since_previous_snapshot": 3,
+        "total": 30,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5241,10 +5241,10 @@
       "harvest": {
         "county": "Leslie",
         "region_id": "southeast-region",
-        "male": 16,
+        "male": 18,
         "female": 17,
-        "total": 33,
-        "change_since_previous_snapshot": 1,
+        "total": 35,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5363,10 +5363,10 @@
       "harvest": {
         "county": "Lewis",
         "region_id": "northeast-region",
-        "male": 41,
+        "male": 42,
         "female": 32,
-        "total": 73,
-        "change_since_previous_snapshot": 3,
+        "total": 74,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5430,9 +5430,9 @@
         "county": "Lincoln",
         "region_id": "southeast-region",
         "male": 29,
-        "female": 71,
-        "total": 100,
-        "change_since_previous_snapshot": 3,
+        "female": 75,
+        "total": 104,
+        "change_since_previous_snapshot": 7,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5496,9 +5496,9 @@
         "county": "Livingston",
         "region_id": "purchase-region",
         "male": 11,
-        "female": 28,
-        "total": 39,
-        "change_since_previous_snapshot": 3,
+        "female": 30,
+        "total": 41,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5561,10 +5561,10 @@
       "harvest": {
         "county": "Logan",
         "region_id": "green-river-region",
-        "male": 37,
-        "female": 16,
-        "total": 53,
-        "change_since_previous_snapshot": 6,
+        "male": 39,
+        "female": 17,
+        "total": 56,
+        "change_since_previous_snapshot": 9,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5627,10 +5627,10 @@
       "harvest": {
         "county": "Lyon",
         "region_id": "purchase-region",
-        "male": 21,
-        "female": 28,
-        "total": 49,
-        "change_since_previous_snapshot": 3,
+        "male": 23,
+        "female": 29,
+        "total": 52,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5694,9 +5694,9 @@
         "county": "Madison",
         "region_id": "bluegrass-region",
         "male": 21,
-        "female": 26,
-        "total": 47,
-        "change_since_previous_snapshot": 3,
+        "female": 27,
+        "total": 48,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5825,10 +5825,10 @@
       "harvest": {
         "county": "Marion",
         "region_id": "bluegrass-region",
-        "male": 42,
+        "male": 44,
         "female": 35,
-        "total": 77,
-        "change_since_previous_snapshot": 6,
+        "total": 79,
+        "change_since_previous_snapshot": 8,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5892,9 +5892,9 @@
         "county": "Marshall",
         "region_id": "purchase-region",
         "male": 17,
-        "female": 77,
-        "total": 94,
-        "change_since_previous_snapshot": 7,
+        "female": 85,
+        "total": 102,
+        "change_since_previous_snapshot": 15,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5957,10 +5957,10 @@
       "harvest": {
         "county": "Martin",
         "region_id": "northeast-region",
-        "male": 22,
+        "male": 23,
         "female": 19,
-        "total": 41,
-        "change_since_previous_snapshot": 6,
+        "total": 42,
+        "change_since_previous_snapshot": 7,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6090,9 +6090,9 @@
         "county": "McCracken",
         "region_id": "purchase-region",
         "male": 8,
-        "female": 17,
-        "total": 25,
-        "change_since_previous_snapshot": 2,
+        "female": 20,
+        "total": 28,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6145,10 +6145,10 @@
       "harvest": {
         "county": "McCreary",
         "region_id": "southeast-region",
-        "male": 22,
-        "female": 20,
-        "total": 42,
-        "change_since_previous_snapshot": 2,
+        "male": 23,
+        "female": 21,
+        "total": 44,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6212,9 +6212,9 @@
         "county": "McLean",
         "region_id": "green-river-region",
         "male": 3,
-        "female": 20,
-        "total": 23,
-        "change_since_previous_snapshot": 4,
+        "female": 21,
+        "total": 24,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6278,9 +6278,9 @@
         "county": "Meade",
         "region_id": "green-river-region",
         "male": 28,
-        "female": 69,
-        "total": 97,
-        "change_since_previous_snapshot": 5,
+        "female": 72,
+        "total": 100,
+        "change_since_previous_snapshot": 8,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6409,10 +6409,10 @@
       "harvest": {
         "county": "Mercer",
         "region_id": "bluegrass-region",
-        "male": 35,
-        "female": 19,
-        "total": 54,
-        "change_since_previous_snapshot": 2,
+        "male": 36,
+        "female": 20,
+        "total": 56,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6475,10 +6475,10 @@
       "harvest": {
         "county": "Metcalfe",
         "region_id": "green-river-region",
-        "male": 28,
+        "male": 29,
         "female": 52,
-        "total": 80,
-        "change_since_previous_snapshot": 4,
+        "total": 81,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6542,9 +6542,9 @@
         "county": "Monroe",
         "region_id": "green-river-region",
         "male": 12,
-        "female": 22,
-        "total": 34,
-        "change_since_previous_snapshot": 4,
+        "female": 25,
+        "total": 37,
+        "change_since_previous_snapshot": 7,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6673,10 +6673,10 @@
       "harvest": {
         "county": "Morgan",
         "region_id": "northeast-region",
-        "male": 41,
-        "female": 30,
-        "total": 71,
-        "change_since_previous_snapshot": 2,
+        "male": 42,
+        "female": 32,
+        "total": 74,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6739,10 +6739,10 @@
       "harvest": {
         "county": "Muhlenberg",
         "region_id": "green-river-region",
-        "male": 55,
-        "female": 66,
-        "total": 121,
-        "change_since_previous_snapshot": 3,
+        "male": 56,
+        "female": 67,
+        "total": 123,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6805,10 +6805,10 @@
       "harvest": {
         "county": "Nelson",
         "region_id": "bluegrass-region",
-        "male": 49,
+        "male": 51,
         "female": 61,
-        "total": 110,
-        "change_since_previous_snapshot": 7,
+        "total": 112,
+        "change_since_previous_snapshot": 9,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6872,9 +6872,9 @@
         "county": "Nicholas",
         "region_id": "northeast-region",
         "male": 22,
-        "female": 7,
-        "total": 29,
-        "change_since_previous_snapshot": 0,
+        "female": 8,
+        "total": 30,
+        "change_since_previous_snapshot": 1,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6937,10 +6937,10 @@
       "harvest": {
         "county": "Ohio",
         "region_id": "green-river-region",
-        "male": 30,
-        "female": 35,
-        "total": 65,
-        "change_since_previous_snapshot": 1,
+        "male": 32,
+        "female": 36,
+        "total": 68,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7135,10 +7135,10 @@
       "harvest": {
         "county": "Owsley",
         "region_id": "southeast-region",
-        "male": 7,
+        "male": 9,
         "female": 4,
-        "total": 11,
-        "change_since_previous_snapshot": 3,
+        "total": 13,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7202,9 +7202,9 @@
         "county": "Pendleton",
         "region_id": "bluegrass-region",
         "male": 61,
-        "female": 65,
-        "total": 126,
-        "change_since_previous_snapshot": 6,
+        "female": 66,
+        "total": 127,
+        "change_since_previous_snapshot": 7,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7257,10 +7257,10 @@
       "harvest": {
         "county": "Perry",
         "region_id": "southeast-region",
-        "male": 27,
-        "female": 27,
-        "total": 54,
-        "change_since_previous_snapshot": 2,
+        "male": 29,
+        "female": 28,
+        "total": 57,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7318,10 +7318,10 @@
       "harvest": {
         "county": "Pike",
         "region_id": "northeast-region",
-        "male": 91,
-        "female": 104,
-        "total": 195,
-        "change_since_previous_snapshot": 8,
+        "male": 94,
+        "female": 110,
+        "total": 204,
+        "change_since_previous_snapshot": 17,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7384,10 +7384,10 @@
       "harvest": {
         "county": "Powell",
         "region_id": "southeast-region",
-        "male": 10,
+        "male": 11,
         "female": 22,
-        "total": 32,
-        "change_since_previous_snapshot": 5,
+        "total": 33,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7451,9 +7451,9 @@
         "county": "Pulaski",
         "region_id": "southeast-region",
         "male": 65,
-        "female": 126,
-        "total": 191,
-        "change_since_previous_snapshot": 18,
+        "female": 132,
+        "total": 197,
+        "change_since_previous_snapshot": 24,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7582,10 +7582,10 @@
       "harvest": {
         "county": "Rockcastle",
         "region_id": "southeast-region",
-        "male": 26,
-        "female": 60,
-        "total": 86,
-        "change_since_previous_snapshot": 12,
+        "male": 28,
+        "female": 64,
+        "total": 92,
+        "change_since_previous_snapshot": 18,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7648,10 +7648,10 @@
       "harvest": {
         "county": "Rowan",
         "region_id": "northeast-region",
-        "male": 22,
-        "female": 14,
-        "total": 36,
-        "change_since_previous_snapshot": 2,
+        "male": 23,
+        "female": 15,
+        "total": 38,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7715,9 +7715,9 @@
         "county": "Russell",
         "region_id": "southeast-region",
         "male": 23,
-        "female": 38,
-        "total": 61,
-        "change_since_previous_snapshot": 5,
+        "female": 41,
+        "total": 64,
+        "change_since_previous_snapshot": 8,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7781,9 +7781,9 @@
         "county": "Scott",
         "region_id": "bluegrass-region",
         "male": 31,
-        "female": 28,
-        "total": 59,
-        "change_since_previous_snapshot": 4,
+        "female": 30,
+        "total": 61,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7847,9 +7847,9 @@
         "county": "Shelby",
         "region_id": "bluegrass-region",
         "male": 73,
-        "female": 46,
-        "total": 119,
-        "change_since_previous_snapshot": 3,
+        "female": 48,
+        "total": 121,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7979,9 +7979,9 @@
         "county": "Spencer",
         "region_id": "bluegrass-region",
         "male": 38,
-        "female": 53,
-        "total": 91,
-        "change_since_previous_snapshot": 3,
+        "female": 55,
+        "total": 93,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8044,10 +8044,10 @@
       "harvest": {
         "county": "Taylor",
         "region_id": "southeast-region",
-        "male": 42,
+        "male": 44,
         "female": 46,
-        "total": 88,
-        "change_since_previous_snapshot": 6,
+        "total": 90,
+        "change_since_previous_snapshot": 8,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8176,10 +8176,10 @@
       "harvest": {
         "county": "Trigg",
         "region_id": "purchase-region",
-        "male": 40,
+        "male": 41,
         "female": 26,
-        "total": 66,
-        "change_since_previous_snapshot": 2,
+        "total": 67,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8308,10 +8308,10 @@
       "harvest": {
         "county": "Union",
         "region_id": "green-river-region",
-        "male": 10,
-        "female": 49,
-        "total": 59,
-        "change_since_previous_snapshot": 5,
+        "male": 11,
+        "female": 52,
+        "total": 63,
+        "change_since_previous_snapshot": 9,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8440,10 +8440,10 @@
       "harvest": {
         "county": "Washington",
         "region_id": "bluegrass-region",
-        "male": 84,
-        "female": 60,
-        "total": 144,
-        "change_since_previous_snapshot": 0,
+        "male": 87,
+        "female": 62,
+        "total": 149,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8507,9 +8507,9 @@
         "county": "Wayne",
         "region_id": "southeast-region",
         "male": 42,
-        "female": 51,
-        "total": 93,
-        "change_since_previous_snapshot": 6,
+        "female": 55,
+        "total": 97,
+        "change_since_previous_snapshot": 10,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8573,9 +8573,9 @@
         "county": "Webster",
         "region_id": "green-river-region",
         "male": 14,
-        "female": 95,
-        "total": 109,
-        "change_since_previous_snapshot": 9,
+        "female": 101,
+        "total": 115,
+        "change_since_previous_snapshot": 15,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8638,10 +8638,10 @@
       "harvest": {
         "county": "Whitley",
         "region_id": "southeast-region",
-        "male": 52,
-        "female": 41,
-        "total": 93,
-        "change_since_previous_snapshot": 7,
+        "male": 54,
+        "female": 45,
+        "total": 99,
+        "change_since_previous_snapshot": 13,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8766,9 +8766,9 @@
         "county": "Woodford",
         "region_id": "bluegrass-region",
         "male": 12,
-        "female": 12,
-        "total": 24,
-        "change_since_previous_snapshot": 2,
+        "female": 13,
+        "total": 25,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-27",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
