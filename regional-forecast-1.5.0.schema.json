@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bluegrasswhitetail.com/schemas/regional-forecast-1.5.0.json",
+  "title": "Bluegrass Whitetail Daily County Forecast",
+  "description": "Additive Wix-facing 1.x contract with legal-light weather, barometric trend, regional rut stage, crop cover, and drought context.",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "valid_until", "data_status", "source", "legend", "limitations", "regions", "counties"],
+  "properties": {
+    "schema_version": {"const": "1.5.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "valid_until": {"type": "string", "format": "date-time"},
+    "data_status": {
+      "type": "object",
+      "required": ["weather", "barometric_pressure", "harvest", "mast", "crops", "drought", "pressure", "rut"],
+      "additionalProperties": true
+    },
+    "source": {"type": "object"},
+    "legend": {
+      "type": "object",
+      "required": ["movement_rating", "weather", "rut_stage", "best_window", "harvest_activity", "food_outlook", "hunting_pressure", "county_tactic"]
+    },
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "regions": {
+      "type": "array", "minItems": 5, "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["region_id", "region_name", "score", "inputs", "evidence", "rut", "weather_context", "best_window", "tactic", "periods", "sample_points"],
+        "properties": {
+          "region_id": {"enum": ["purchase-region", "green-river-region", "bluegrass-region", "northeast-region", "southeast-region"]},
+          "region_name": {"type": "string", "minLength": 1},
+          "score": {
+            "type": "object", "required": ["value", "label"],
+            "properties": {"value": {"type": "number", "minimum": 0, "maximum": 10}, "label": {"enum": ["poor", "fair", "good", "excellent"]}},
+            "additionalProperties": true
+          },
+          "inputs": {"type": "object", "required": ["weather_score", "season_phase_score", "food_score", "pressure_score", "harvest_signal_score"]},
+          "evidence": {"type": "object", "required": ["food", "pressure", "harvest"]},
+          "rut": {"type": "object", "required": ["stage", "score", "peak_window", "confidence", "guidance", "source_url"]},
+          "weather_context": {"type": "object", "required": ["legal_light_basis", "temperature_trend", "barometric_trend", "pressure_adjustment"]},
+          "best_window": {"anyOf": [{"const": "Unavailable"}, {"type": "string", "pattern": " (Morning|Afternoon)$"}]},
+          "tactic": {"type": "string", "minLength": 1},
+          "periods": {"type": "array"},
+          "sample_points": {"type": "array", "minItems": 3}
+        },
+        "additionalProperties": true
+      }
+    },
+    "counties": {
+      "type": "array", "minItems": 120, "maxItems": 120,
+      "items": {
+        "type": "object",
+        "required": ["county_name", "region_id", "habitat", "harvest", "food_context", "tactic"],
+        "properties": {
+          "county_name": {"type": "string", "minLength": 1},
+          "region_id": {"type": "string"},
+          "habitat": {"type": "object", "required": ["profile", "terrain", "cover", "focus", "confidence", "basis"]},
+          "harvest": {"type": "object", "required": ["total", "male", "female", "change_since_previous_snapshot", "comparison_date"]},
+          "food_context": {"type": "object", "required": ["mast", "crop", "drought", "scoring_note"]},
+          "tactic": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
