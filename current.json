@@ -1,13 +1,13 @@
 {
   "schema_version": "1.5.0",
-  "generated_at": "2026-10-01T14:09:40.565530+00:00",
+  "generated_at": "2026-10-01T17:11:27.372306+00:00",
   "valid_until": "2026-10-02T11:00:00+00:00",
   "data_status": {
     "weather": "current",
     "barometric_pressure": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-10-01T14:09:40.565934+00:00",
-    "harvest_statewide_total": 8645,
+    "harvest_retrieved_at": "2026-10-01T17:11:27.373025+00:00",
+    "harvest_statewide_total": 8659,
     "harvest_comparison_date": "2026-09-30",
     "mast": "latest-available-prior-season",
     "crops": "annual-land-cover",
@@ -79,11 +79,11 @@
       "region_id": "purchase-region",
       "region_name": "Purchase Region",
       "score": {
-        "value": 6.3,
+        "value": 6.2,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.2,
+        "weather_score": 6.9,
         "season_phase_score": 5.8,
         "food_score": 5.8,
         "pressure_score": 6.7,
@@ -128,11 +128,11 @@
         },
         "harvest": {
           "county_count": 14,
-          "male": 276,
-          "female": 649,
-          "total": 925,
-          "harvest_per_county": 66.1,
-          "activity_index": 0.917,
+          "male": 277,
+          "female": 650,
+          "total": 927,
+          "harvest_per_county": 66.2,
+          "activity_index": 0.918,
           "score": 4.8
         }
       },
@@ -149,24 +149,24 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Cooling",
-        "temperature_change_f": -16.0,
+        "temperature_change_f": -20.3,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.05,
+        "pressure_change_inhg": 0.04,
         "pressure_adjustment": 0.0,
         "pressure_station": "KPAH",
-        "pressure_observed_at": "2026-10-01T13:55:00+00:00",
+        "pressure_observed_at": "2026-10-01T16:40:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Friday Afternoon",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Today",
-          "start_time": "2026-10-01T09:00:00-05:00",
+          "name": "This Afternoon",
+          "start_time": "2026-10-01T12:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 92.0,
-          "wind_mph": 10.2,
-          "precipitation_probability": 0.3,
+          "wind_mph": 11.3,
+          "precipitation_probability": 0.0,
           "short_forecast": "Mostly Sunny"
         },
         {
@@ -175,7 +175,7 @@
           "is_daytime": false,
           "temperature_f": 69.7,
           "wind_mph": 6.0,
-          "precipitation_probability": 33.3,
+          "precipitation_probability": 25.3,
           "short_forecast": "Mostly Cloudy then Slight Chance Showers And Thunderstorms"
         },
         {
@@ -183,17 +183,17 @@
           "start_time": "2026-10-02T06:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 75.7,
-          "wind_mph": 5.3,
-          "precipitation_probability": 92.0,
-          "short_forecast": "Showers And Thunderstorms"
+          "wind_mph": 5.2,
+          "precipitation_probability": 89.0,
+          "short_forecast": "Chance Showers And Thunderstorms then Showers And Thunderstorms"
         },
         {
           "name": "Friday Night",
           "start_time": "2026-10-02T18:00:00-05:00",
           "is_daytime": false,
           "temperature_f": 57.3,
-          "wind_mph": 8.7,
-          "precipitation_probability": 48.7,
+          "wind_mph": 8.2,
+          "precipitation_probability": 37.3,
           "short_forecast": "Slight Chance Rain Showers"
         },
         {
@@ -258,11 +258,11 @@
       "region_id": "green-river-region",
       "region_name": "Green River Region",
       "score": {
-        "value": 6.4,
+        "value": 6.3,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.2,
+        "weather_score": 6.9,
         "season_phase_score": 5.8,
         "food_score": 5.8,
         "pressure_score": 6.9,
@@ -307,10 +307,10 @@
         },
         "harvest": {
           "county_count": 25,
-          "male": 827,
-          "female": 1256,
-          "total": 2083,
-          "harvest_per_county": 83.3,
+          "male": 828,
+          "female": 1259,
+          "total": 2087,
+          "harvest_per_county": 83.5,
           "activity_index": 1.157,
           "score": 5.4
         }
@@ -328,60 +328,60 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Cooling",
-        "temperature_change_f": -15.3,
+        "temperature_change_f": -20.8,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.04,
+        "pressure_change_inhg": 0.05,
         "pressure_adjustment": 0.0,
         "pressure_station": "KOWB",
-        "pressure_observed_at": "2026-10-01T13:50:00+00:00",
+        "pressure_observed_at": "2026-10-01T15:05:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
-      "best_window": "Sunday Morning",
+      "best_window": "Friday Afternoon",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Today",
-          "start_time": "2026-10-01T09:00:00-05:00",
+          "name": "This Afternoon",
+          "start_time": "2026-10-01T12:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 92.3,
+          "temperature_f": 92.0,
           "wind_mph": 10.3,
-          "precipitation_probability": 0.3,
+          "precipitation_probability": 0.0,
           "short_forecast": "Mostly Sunny"
         },
         {
           "name": "Tonight",
           "start_time": "2026-10-01T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 70.0,
-          "wind_mph": 6.7,
-          "precipitation_probability": 17.3,
+          "temperature_f": 70.3,
+          "wind_mph": 6.5,
+          "precipitation_probability": 12.7,
           "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Friday",
           "start_time": "2026-10-02T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 76.7,
-          "wind_mph": 6.0,
-          "precipitation_probability": 93.0,
+          "temperature_f": 77.7,
+          "wind_mph": 6.3,
+          "precipitation_probability": 86.0,
           "short_forecast": "Showers And Thunderstorms"
         },
         {
           "name": "Friday Night",
           "start_time": "2026-10-02T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 56.7,
-          "wind_mph": 9.3,
-          "precipitation_probability": 54.0,
+          "temperature_f": 57.3,
+          "wind_mph": 7.8,
+          "precipitation_probability": 40.0,
           "short_forecast": "Slight Chance Rain Showers"
         },
         {
           "name": "Saturday",
           "start_time": "2026-10-03T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 71.0,
-          "wind_mph": 8.3,
-          "precipitation_probability": 32.7,
+          "temperature_f": 71.7,
+          "wind_mph": 7.7,
+          "precipitation_probability": 20.7,
           "short_forecast": "Mostly Sunny"
         },
         {
@@ -437,11 +437,11 @@
       "region_id": "bluegrass-region",
       "region_name": "Bluegrass Region",
       "score": {
-        "value": 6.4,
+        "value": 6.6,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.2,
+        "weather_score": 7.8,
         "season_phase_score": 5.8,
         "food_score": 5.8,
         "pressure_score": 7.1,
@@ -486,11 +486,11 @@
         },
         "harvest": {
           "county_count": 31,
-          "male": 1005,
+          "male": 1007,
           "female": 1031,
-          "total": 2036,
+          "total": 2038,
           "harvest_per_county": 65.7,
-          "activity_index": 0.912,
+          "activity_index": 0.911,
           "score": 4.8
         }
       },
@@ -507,78 +507,78 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Cooling",
-        "temperature_change_f": -13.7,
+        "temperature_change_f": -16.8,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.04,
+        "pressure_change_inhg": 0.01,
         "pressure_adjustment": 0.0,
         "pressure_station": "KLOU",
-        "pressure_observed_at": "2026-10-01T13:25:00+00:00",
+        "pressure_observed_at": "2026-10-01T16:40:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
-      "best_window": "Sunday Morning",
+      "best_window": "Friday Morning",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Today",
-          "start_time": "2026-10-01T10:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-10-01T12:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 90.7,
-          "wind_mph": 10.8,
-          "precipitation_probability": 1.0,
+          "temperature_f": 90.3,
+          "wind_mph": 12.7,
+          "precipitation_probability": 0.3,
           "short_forecast": "Mostly Sunny"
         },
         {
           "name": "Tonight",
           "start_time": "2026-10-01T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 69.3,
+          "temperature_f": 70.3,
           "wind_mph": 7.3,
-          "precipitation_probability": 13.0,
+          "precipitation_probability": 4.0,
           "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Friday",
           "start_time": "2026-10-02T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 75.0,
-          "wind_mph": 8.0,
-          "precipitation_probability": 92.0,
+          "temperature_f": 76.0,
+          "wind_mph": 7.8,
+          "precipitation_probability": 88.7,
           "short_forecast": "Showers And Thunderstorms"
         },
         {
           "name": "Friday Night",
           "start_time": "2026-10-02T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 53.3,
-          "wind_mph": 9.8,
-          "precipitation_probability": 39.3,
-          "short_forecast": "Chance Rain Showers then Mostly Cloudy"
+          "temperature_f": 54.0,
+          "wind_mph": 9.0,
+          "precipitation_probability": 36.3,
+          "short_forecast": "Chance Rain Showers"
         },
         {
           "name": "Saturday",
           "start_time": "2026-10-03T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 69.0,
-          "wind_mph": 9.7,
-          "precipitation_probability": 19.0,
-          "short_forecast": "Mostly Sunny"
+          "temperature_f": 69.7,
+          "wind_mph": 9.0,
+          "precipitation_probability": 12.0,
+          "short_forecast": "Partly Sunny"
         },
         {
           "name": "Saturday Night",
           "start_time": "2026-10-03T18:00:00-04:00",
           "is_daytime": false,
           "temperature_f": 53.0,
-          "wind_mph": 5.3,
-          "precipitation_probability": 7.7,
+          "wind_mph": 5.5,
+          "precipitation_probability": 7.3,
           "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Sunday",
           "start_time": "2026-10-04T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 72.3,
+          "temperature_f": 72.7,
           "wind_mph": 5.0,
-          "precipitation_probability": 11.0,
+          "precipitation_probability": 10.3,
           "short_forecast": "Mostly Sunny"
         },
         {
@@ -587,7 +587,7 @@
           "is_daytime": false,
           "temperature_f": 49.7,
           "wind_mph": 4.7,
-          "precipitation_probability": 3.3,
+          "precipitation_probability": 3.0,
           "short_forecast": "Partly Cloudy"
         }
       ],
@@ -616,11 +616,11 @@
       "region_id": "northeast-region",
       "region_name": "Northeast Region",
       "score": {
-        "value": 6.3,
+        "value": 6.5,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.2,
+        "weather_score": 7.8,
         "season_phase_score": 5.8,
         "food_score": 5.7,
         "pressure_score": 6.6,
@@ -666,9 +666,9 @@
         "harvest": {
           "county_count": 21,
           "male": 808,
-          "female": 648,
-          "total": 1456,
-          "harvest_per_county": 69.3,
+          "female": 650,
+          "total": 1458,
+          "harvest_per_county": 69.4,
           "activity_index": 0.962,
           "score": 4.9
         }
@@ -686,23 +686,23 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Cooling",
-        "temperature_change_f": -12.2,
+        "temperature_change_f": -16.1,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.05,
+        "pressure_change_inhg": 0.02,
         "pressure_adjustment": 0.0,
         "pressure_station": "KFGX",
-        "pressure_observed_at": "2026-10-01T13:35:00+00:00",
+        "pressure_observed_at": "2026-10-01T16:35:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
-      "best_window": "Friday Afternoon",
+      "best_window": "Saturday Morning",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Today",
-          "start_time": "2026-10-01T10:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-10-01T13:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 87.3,
-          "wind_mph": 7.5,
+          "wind_mph": 8.7,
           "precipitation_probability": 0.3,
           "short_forecast": "Sunny"
         },
@@ -710,8 +710,8 @@
           "name": "Tonight",
           "start_time": "2026-10-01T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 65.0,
-          "wind_mph": 4.3,
+          "temperature_f": 65.3,
+          "wind_mph": 4.5,
           "precipitation_probability": 0.3,
           "short_forecast": "Partly Cloudy"
         },
@@ -719,7 +719,7 @@
           "name": "Friday",
           "start_time": "2026-10-02T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 80.3,
+          "temperature_f": 81.0,
           "wind_mph": 5.8,
           "precipitation_probability": 92.7,
           "short_forecast": "Rain Showers"
@@ -728,19 +728,19 @@
           "name": "Friday Night",
           "start_time": "2026-10-02T18:00:00-04:00",
           "is_daytime": false,
-          "temperature_f": 52.7,
-          "wind_mph": 5.5,
-          "precipitation_probability": 69.7,
+          "temperature_f": 53.0,
+          "wind_mph": 5.3,
+          "precipitation_probability": 68.0,
           "short_forecast": "Chance Rain Showers"
         },
         {
           "name": "Saturday",
           "start_time": "2026-10-03T06:00:00-04:00",
           "is_daytime": true,
-          "temperature_f": 68.0,
-          "wind_mph": 6.0,
-          "precipitation_probability": 45.7,
-          "short_forecast": "Partly Sunny"
+          "temperature_f": 68.3,
+          "wind_mph": 5.7,
+          "precipitation_probability": 47.0,
+          "short_forecast": "Slight Chance Rain Showers"
         },
         {
           "name": "Saturday Night",
@@ -748,7 +748,7 @@
           "is_daytime": false,
           "temperature_f": 54.7,
           "wind_mph": 2.7,
-          "precipitation_probability": 27.7,
+          "precipitation_probability": 27.0,
           "short_forecast": "Mostly Cloudy"
         },
         {
@@ -757,7 +757,7 @@
           "is_daytime": true,
           "temperature_f": 71.3,
           "wind_mph": 2.0,
-          "precipitation_probability": 29.0,
+          "precipitation_probability": 27.7,
           "short_forecast": "Partly Sunny"
         },
         {
@@ -766,7 +766,7 @@
           "is_daytime": false,
           "temperature_f": 49.3,
           "wind_mph": 2.0,
-          "precipitation_probability": 14.7,
+          "precipitation_probability": 14.0,
           "short_forecast": "Partly Cloudy"
         }
       ],
@@ -795,11 +795,11 @@
       "region_id": "southeast-region",
       "region_name": "Southeast Region",
       "score": {
-        "value": 6.2,
+        "value": 6.5,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.0,
+        "weather_score": 7.8,
         "season_phase_score": 5.8,
         "food_score": 5.7,
         "pressure_score": 6.4,
@@ -844,10 +844,10 @@
         },
         "harvest": {
           "county_count": 29,
-          "male": 970,
-          "female": 1175,
-          "total": 2145,
-          "harvest_per_county": 74.0,
+          "male": 971,
+          "female": 1178,
+          "total": 2149,
+          "harvest_per_county": 74.1,
           "activity_index": 1.027,
           "score": 5.1
         }
@@ -865,23 +865,23 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Cooling",
-        "temperature_change_f": -8.2,
+        "temperature_change_f": -13.0,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.05,
+        "pressure_change_inhg": 0.02,
         "pressure_adjustment": 0.0,
         "pressure_station": "KSME",
-        "pressure_observed_at": "2026-10-01T13:35:00+00:00",
+        "pressure_observed_at": "2026-10-01T16:35:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Saturday Morning",
       "tactic": "Set up between secure bedding and the best verified food source with a clean wind. Prioritize current food, water, and low-impact bedding-to-feed routes. Confirm legal hours and fresh sign locally.",
       "periods": [
         {
-          "name": "Today",
-          "start_time": "2026-10-01T10:00:00-04:00",
+          "name": "This Afternoon",
+          "start_time": "2026-10-01T13:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 87.7,
-          "wind_mph": 9.0,
+          "wind_mph": 10.3,
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -1294,9 +1294,9 @@
         "county": "Barren",
         "region_id": "green-river-region",
         "male": 33,
-        "female": 19,
-        "total": 52,
-        "change_since_previous_snapshot": 1,
+        "female": 20,
+        "total": 53,
+        "change_since_previous_snapshot": 2,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2004,10 +2004,10 @@
       "harvest": {
         "county": "Butler",
         "region_id": "green-river-region",
-        "male": 50,
-        "female": 26,
-        "total": 76,
-        "change_since_previous_snapshot": 0,
+        "male": 51,
+        "female": 27,
+        "total": 78,
+        "change_since_previous_snapshot": 2,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -2533,9 +2533,9 @@
         "county": "Christian",
         "region_id": "purchase-region",
         "male": 69,
-        "female": 60,
-        "total": 129,
-        "change_since_previous_snapshot": 1,
+        "female": 61,
+        "total": 130,
+        "change_since_previous_snapshot": 2,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -4554,9 +4554,9 @@
         "county": "Jackson",
         "region_id": "southeast-region",
         "male": 60,
-        "female": 52,
-        "total": 112,
-        "change_since_previous_snapshot": 1,
+        "female": 53,
+        "total": 113,
+        "change_since_previous_snapshot": 2,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5065,9 +5065,9 @@
         "county": "Laurel",
         "region_id": "southeast-region",
         "male": 57,
-        "female": 135,
-        "total": 192,
-        "change_since_previous_snapshot": 5,
+        "female": 136,
+        "total": 193,
+        "change_since_previous_snapshot": 6,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -5495,10 +5495,10 @@
       "harvest": {
         "county": "Livingston",
         "region_id": "purchase-region",
-        "male": 14,
+        "male": 15,
         "female": 37,
-        "total": 51,
-        "change_since_previous_snapshot": 3,
+        "total": 52,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -6938,9 +6938,9 @@
         "county": "Ohio",
         "region_id": "green-river-region",
         "male": 33,
-        "female": 39,
-        "total": 72,
-        "change_since_previous_snapshot": 0,
+        "female": 40,
+        "total": 73,
+        "change_since_previous_snapshot": 1,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7069,10 +7069,10 @@
       "harvest": {
         "county": "Owen",
         "region_id": "bluegrass-region",
-        "male": 19,
+        "male": 20,
         "female": 40,
-        "total": 59,
-        "change_since_previous_snapshot": 2,
+        "total": 60,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7258,9 +7258,9 @@
         "county": "Perry",
         "region_id": "southeast-region",
         "male": 30,
-        "female": 32,
-        "total": 62,
-        "change_since_previous_snapshot": 0,
+        "female": 33,
+        "total": 63,
+        "change_since_previous_snapshot": 1,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7319,9 +7319,9 @@
         "county": "Pike",
         "region_id": "northeast-region",
         "male": 99,
-        "female": 120,
-        "total": 219,
-        "change_since_previous_snapshot": 3,
+        "female": 122,
+        "total": 221,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8440,10 +8440,10 @@
       "harvest": {
         "county": "Washington",
         "region_id": "bluegrass-region",
-        "male": 92,
+        "male": 93,
         "female": 66,
-        "total": 158,
-        "change_since_previous_snapshot": 3,
+        "total": 159,
+        "change_since_previous_snapshot": 4,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -8638,10 +8638,10 @@
       "harvest": {
         "county": "Whitley",
         "region_id": "southeast-region",
-        "male": 57,
+        "male": 58,
         "female": 50,
-        "total": 107,
-        "change_since_previous_snapshot": 2,
+        "total": 108,
+        "change_since_previous_snapshot": 3,
         "comparison_date": "2026-09-30",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
