@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5.0",
-  "generated_at": "2026-10-02T20:29:52.716229+00:00",
+  "generated_at": "2026-10-02T20:52:38.708154+00:00",
   "valid_until": "2026-10-03T08:00:00+00:00",
   "data_status": {
     "county_weather": {
@@ -10,7 +10,7 @@
     "weather": "current",
     "barometric_pressure": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-10-02T20:29:52.716944+00:00",
+    "harvest_retrieved_at": "2026-10-02T20:52:38.708796+00:00",
     "harvest_statewide_total": 8794,
     "harvest_comparison_date": "2026-10-01",
     "mast": "latest-available-prior-season",
@@ -160,7 +160,7 @@
         "pressure_change_inhg": 0.04,
         "pressure_adjustment": 0.0,
         "pressure_station": "KPAH",
-        "pressure_observed_at": "2026-10-02T20:05:00+00:00",
+        "pressure_observed_at": "2026-10-02T20:40:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Friday Afternoon",
@@ -336,10 +336,10 @@
         "temperature_trend": "Steady",
         "temperature_change_f": -4.3,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": 0.04,
+        "pressure_change_inhg": 0.02,
         "pressure_adjustment": 0.0,
         "pressure_station": "KOWB",
-        "pressure_observed_at": "2026-10-02T20:05:00+00:00",
+        "pressure_observed_at": "2026-10-02T20:40:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Friday Afternoon",
@@ -347,11 +347,11 @@
       "periods": [
         {
           "name": "This Afternoon",
-          "start_time": "2026-10-02T15:00:00-05:00",
+          "start_time": "2026-10-02T14:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 75.7,
           "wind_mph": 7.7,
-          "precipitation_probability": 72.3,
+          "precipitation_probability": 74.0,
           "short_forecast": "Showers And Thunderstorms"
         },
         {
@@ -443,11 +443,11 @@
       "region_id": "bluegrass-region",
       "region_name": "Bluegrass Region",
       "score": {
-        "value": 6.4,
+        "value": 6.2,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.6,
+        "weather_score": 7.0,
         "season_phase_score": 5.8,
         "food_score": 5.8,
         "pressure_score": 6.6,
@@ -513,12 +513,12 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Steady",
-        "temperature_change_f": -2.0,
+        "temperature_change_f": -1.7,
         "barometric_trend": "Steady",
         "pressure_change_inhg": 0.03,
         "pressure_adjustment": 0.0,
         "pressure_station": "KLOU",
-        "pressure_observed_at": "2026-10-02T20:05:00+00:00",
+        "pressure_observed_at": "2026-10-02T20:40:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Friday Afternoon",
@@ -526,10 +526,10 @@
       "periods": [
         {
           "name": "This Afternoon",
-          "start_time": "2026-10-02T15:00:00-04:00",
+          "start_time": "2026-10-02T16:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 73.7,
-          "wind_mph": 7.8,
+          "wind_mph": 8.3,
           "precipitation_probability": 72.3,
           "short_forecast": "Rain Showers"
         },
@@ -622,11 +622,11 @@
       "region_id": "northeast-region",
       "region_name": "Northeast Region",
       "score": {
-        "value": 6.4,
+        "value": 6.2,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.6,
+        "weather_score": 7.0,
         "season_phase_score": 5.8,
         "food_score": 5.7,
         "pressure_score": 6.1,
@@ -692,12 +692,12 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Steady",
-        "temperature_change_f": -2.7,
+        "temperature_change_f": -1.0,
         "barometric_trend": "Steady",
         "pressure_change_inhg": 0.03,
         "pressure_adjustment": 0.0,
         "pressure_station": "KFGX",
-        "pressure_observed_at": "2026-10-02T19:55:00+00:00",
+        "pressure_observed_at": "2026-10-02T20:35:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Monday Morning",
@@ -705,11 +705,11 @@
       "periods": [
         {
           "name": "This Afternoon",
-          "start_time": "2026-10-02T15:00:00-04:00",
+          "start_time": "2026-10-02T16:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 79.7,
           "wind_mph": 6.0,
-          "precipitation_probability": 85.0,
+          "precipitation_probability": 77.3,
           "short_forecast": "Showers And Thunderstorms"
         },
         {
@@ -873,10 +873,10 @@
         "temperature_trend": "Cooling",
         "temperature_change_f": -9.0,
         "barometric_trend": "Steady",
-        "pressure_change_inhg": -0.02,
+        "pressure_change_inhg": -0.03,
         "pressure_adjustment": 0.0,
         "pressure_station": "KSME",
-        "pressure_observed_at": "2026-10-02T19:55:00+00:00",
+        "pressure_observed_at": "2026-10-02T20:15:00+00:00",
         "pressure_note": "Observed six-hour NWS station trend; small supporting adjustment only because barometric research is mixed."
       },
       "best_window": "Monday Morning",
