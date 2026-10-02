@@ -1,13 +1,13 @@
 {
   "schema_version": "1.5.0",
-  "generated_at": "2026-10-02T13:46:44.467759+00:00",
+  "generated_at": "2026-10-02T13:50:34.942313+00:00",
   "valid_until": "2026-10-03T11:00:00+00:00",
   "data_status": {
     "weather": "current",
     "barometric_pressure": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-10-02T13:46:44.468169+00:00",
-    "harvest_statewide_total": 8779,
+    "harvest_retrieved_at": "2026-10-02T13:50:34.943691+00:00",
+    "harvest_statewide_total": 8780,
     "harvest_comparison_date": "2026-10-01",
     "mast": "latest-available-prior-season",
     "crops": "annual-land-cover",
@@ -341,10 +341,10 @@
       "periods": [
         {
           "name": "Today",
-          "start_time": "2026-10-02T06:00:00-05:00",
+          "start_time": "2026-10-02T08:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 75.7,
-          "wind_mph": 4.2,
+          "wind_mph": 4.3,
           "precipitation_probability": 97.3,
           "short_forecast": "Rain Showers"
         },
@@ -520,10 +520,10 @@
       "periods": [
         {
           "name": "Today",
-          "start_time": "2026-10-02T08:00:00-04:00",
+          "start_time": "2026-10-02T09:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 74.0,
-          "wind_mph": 7.7,
+          "wind_mph": 6.0,
           "precipitation_probability": 96.0,
           "short_forecast": "Showers And Thunderstorms"
         },
@@ -666,8 +666,8 @@
         "harvest": {
           "county_count": 21,
           "male": 818,
-          "female": 666,
-          "total": 1484,
+          "female": 667,
+          "total": 1485,
           "harvest_per_county": 70.7,
           "activity_index": 0.966,
           "score": 4.9
@@ -699,7 +699,7 @@
       "periods": [
         {
           "name": "Today",
-          "start_time": "2026-10-02T08:00:00-04:00",
+          "start_time": "2026-10-02T09:00:00-04:00",
           "is_daytime": true,
           "temperature_f": 80.0,
           "wind_mph": 6.3,
@@ -7319,9 +7319,9 @@
         "county": "Pike",
         "region_id": "northeast-region",
         "male": 99,
-        "female": 126,
-        "total": 225,
-        "change_since_previous_snapshot": 4,
+        "female": 127,
+        "total": 226,
+        "change_since_previous_snapshot": 5,
         "comparison_date": "2026-10-01",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
