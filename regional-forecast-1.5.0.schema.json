@@ -173,7 +173,35 @@
             "minLength": 1
           },
           "periods": {
-            "type": "array"
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "wind_direction": {
+                  "enum": [
+                    "N",
+                    "NNE",
+                    "NE",
+                    "ENE",
+                    "E",
+                    "ESE",
+                    "SE",
+                    "SSE",
+                    "S",
+                    "SSW",
+                    "SW",
+                    "WSW",
+                    "W",
+                    "WNW",
+                    "NW",
+                    "NNW",
+                    "CALM",
+                    "VARIABLE",
+                    null
+                  ]
+                }
+              }
+            }
           },
           "sample_points": {
             "type": "array",
@@ -293,7 +321,35 @@
             ]
           },
           "periods": {
-            "type": "array"
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "wind_direction": {
+                  "enum": [
+                    "N",
+                    "NNE",
+                    "NE",
+                    "ENE",
+                    "E",
+                    "ESE",
+                    "SE",
+                    "SSE",
+                    "S",
+                    "SSW",
+                    "SW",
+                    "WSW",
+                    "W",
+                    "WNW",
+                    "NW",
+                    "NNW",
+                    "CALM",
+                    "VARIABLE",
+                    null
+                  ]
+                }
+              }
+            }
           },
           "weather_location": {
             "type": "object",
