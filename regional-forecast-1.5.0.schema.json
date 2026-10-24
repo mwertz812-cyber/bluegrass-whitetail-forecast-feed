@@ -206,6 +206,9 @@
           "sample_points": {
             "type": "array",
             "minItems": 3
+          },
+          "best_window_detail": {
+            "$ref": "#/$defs/huntWindow"
           }
         },
         "additionalProperties": true
@@ -378,11 +381,57 @@
                 ]
               }
             }
+          },
+          "best_window_detail": {
+            "$ref": "#/$defs/huntWindow"
           }
         },
         "additionalProperties": true
       }
     }
   },
-  "additionalProperties": true
+  "additionalProperties": true,
+  "$defs": {
+    "huntWindow": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "label",
+        "start_time",
+        "end_time",
+        "weather",
+        "reasons",
+        "basis"
+      ],
+      "properties": {
+        "start_time": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "end_time": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "weather": {
+          "type": "object",
+          "required": [
+            "temperature_f",
+            "wind_mph",
+            "wind_direction",
+            "precipitation_probability"
+          ]
+        },
+        "reasons": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
 }
