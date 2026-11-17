@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5.0",
-  "generated_at": "2026-11-17T18:11:18.733466+00:00",
+  "generated_at": "2026-11-17T18:14:48.903778+00:00",
   "valid_until": "2026-11-18T09:00:00+00:00",
   "data_status": {
     "county_weather": {
@@ -10,8 +10,8 @@
     "weather": "current",
     "barometric_pressure": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-11-17T18:11:18.734128+00:00",
-    "harvest_statewide_total": 88223,
+    "harvest_retrieved_at": "2026-11-17T18:14:48.904522+00:00",
+    "harvest_statewide_total": 88228,
     "harvest_comparison_date": "2026-11-16",
     "mast": "current-season-survey",
     "crops": "annual-land-cover",
@@ -213,8 +213,8 @@
       "tactic": "Cover bedding-to-food travel routes; cooling should support earlier movement. Favor all-day-capable funnels and doe bedding edges; movement can occur throughout daylight. Confirm legal hours and fresh sign locally. West survey: white oak good, red oak poor. Scout producing white oaks for fresh feeding sign. If sign is absent, check remaining mast, green browse or verified crop edges close to secure cover. Abundant acorns can spread deer through timber; limited mast does not guarantee daylight movement.",
       "periods": [
         {
-          "name": "Today",
-          "start_time": "2026-11-17T11:00:00-06:00",
+          "name": "This Afternoon",
+          "start_time": "2026-11-17T12:00:00-06:00",
           "is_daytime": true,
           "temperature_f": 61.3,
           "wind_mph": 2.7,
@@ -226,7 +226,7 @@
           "name": "Tonight",
           "start_time": "2026-11-17T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 35.7,
+          "temperature_f": 36.0,
           "wind_mph": 2.7,
           "wind_direction": "ESE",
           "precipitation_probability": 0.0,
@@ -246,7 +246,7 @@
           "name": "Wednesday Night",
           "start_time": "2026-11-18T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 39.7,
+          "temperature_f": 39.3,
           "wind_mph": 2.0,
           "wind_direction": "SE",
           "precipitation_probability": 0.0,
@@ -256,7 +256,7 @@
           "name": "Thursday",
           "start_time": "2026-11-19T06:00:00-06:00",
           "is_daytime": true,
-          "temperature_f": 68.3,
+          "temperature_f": 68.7,
           "wind_mph": 2.5,
           "wind_direction": "SSE",
           "precipitation_probability": 0.0,
@@ -266,7 +266,7 @@
           "name": "Thursday Night",
           "start_time": "2026-11-19T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 43.0,
+          "temperature_f": 42.3,
           "wind_mph": 1.7,
           "wind_direction": "E",
           "precipitation_probability": 1.0,
@@ -276,7 +276,7 @@
           "name": "Friday",
           "start_time": "2026-11-20T06:00:00-06:00",
           "is_daytime": true,
-          "temperature_f": 70.3,
+          "temperature_f": 70.7,
           "wind_mph": 3.8,
           "wind_direction": "ESE",
           "precipitation_probability": 2.0,
@@ -286,7 +286,7 @@
           "name": "Friday Night",
           "start_time": "2026-11-20T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 47.7,
+          "temperature_f": 48.0,
           "wind_mph": 3.0,
           "wind_direction": "ESE",
           "precipitation_probability": 6.7,
@@ -390,10 +390,10 @@
         },
         "harvest": {
           "county_count": 25,
-          "male": 14194,
+          "male": 14195,
           "female": 10134,
-          "total": 24328,
-          "harvest_per_county": 973.1,
+          "total": 24329,
+          "harvest_per_county": 973.2,
           "activity_index": 1.324,
           "score": 5.8
         }
@@ -623,9 +623,9 @@
         },
         "harvest": {
           "county_count": 31,
-          "male": 12978,
+          "male": 12979,
           "female": 9590,
-          "total": 22568,
+          "total": 22569,
           "harvest_per_county": 728.0,
           "activity_index": 0.99,
           "score": 5.0
@@ -680,7 +680,7 @@
       "periods": [
         {
           "name": "This Afternoon",
-          "start_time": "2026-11-17T12:00:00-05:00",
+          "start_time": "2026-11-17T13:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 56.7,
           "wind_mph": 1.7,
@@ -856,10 +856,10 @@
         },
         "harvest": {
           "county_count": 21,
-          "male": 8413,
+          "male": 8415,
           "female": 4797,
-          "total": 13210,
-          "harvest_per_county": 629.0,
+          "total": 13212,
+          "harvest_per_county": 629.1,
           "activity_index": 0.856,
           "score": 4.6
         }
@@ -912,12 +912,12 @@
       "tactic": "Cover bedding-to-food travel routes; cooling should support earlier movement. Favor all-day-capable funnels and doe bedding edges; movement can occur throughout daylight. Confirm legal hours and fresh sign locally. East survey: white oak average, red oak failure. Scout producing white oaks for fresh feeding sign. If sign is absent, check remaining mast, green browse or verified crop edges close to secure cover. Abundant acorns can spread deer through timber; limited mast does not guarantee daylight movement.",
       "periods": [
         {
-          "name": "Today",
-          "start_time": "2026-11-17T06:00:00-05:00",
+          "name": "This Afternoon",
+          "start_time": "2026-11-17T13:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 58.3,
           "wind_mph": 2.0,
-          "wind_direction": "VARIABLE",
+          "wind_direction": "ENE",
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -935,7 +935,7 @@
           "name": "Wednesday",
           "start_time": "2026-11-18T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 63.7,
+          "temperature_f": 64.0,
           "wind_mph": 0.7,
           "wind_direction": "E",
           "precipitation_probability": 0.0,
@@ -945,17 +945,17 @@
           "name": "Wednesday Night",
           "start_time": "2026-11-18T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 33.0,
+          "temperature_f": 32.3,
           "wind_mph": 0.3,
           "wind_direction": "SE",
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Clear then Patchy Fog"
         },
         {
           "name": "Thursday",
           "start_time": "2026-11-19T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 65.7,
+          "temperature_f": 66.0,
           "wind_mph": 0.8,
           "wind_direction": "VARIABLE",
           "precipitation_probability": 0.0,
@@ -965,27 +965,27 @@
           "name": "Thursday Night",
           "start_time": "2026-11-19T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 37.7,
+          "temperature_f": 38.3,
           "wind_mph": 0.0,
           "wind_direction": "CALM",
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Mostly Clear then Patchy Fog"
         },
         {
           "name": "Friday",
           "start_time": "2026-11-20T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 66.0,
+          "temperature_f": 65.7,
           "wind_mph": 1.7,
           "wind_direction": "ENE",
           "precipitation_probability": 0.0,
-          "short_forecast": "Sunny"
+          "short_forecast": "Patchy Fog then Sunny"
         },
         {
           "name": "Friday Night",
           "start_time": "2026-11-20T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 42.3,
+          "temperature_f": 42.7,
           "wind_mph": 2.0,
           "wind_direction": "E",
           "precipitation_probability": 0.0,
@@ -1090,9 +1090,9 @@
         "harvest": {
           "county_count": 29,
           "male": 11169,
-          "female": 6093,
-          "total": 17262,
-          "harvest_per_county": 595.2,
+          "female": 6094,
+          "total": 17263,
+          "harvest_per_county": 595.3,
           "activity_index": 0.81,
           "score": 4.5
         }
@@ -1110,7 +1110,7 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Cooling",
-        "temperature_change_f": -13.0,
+        "temperature_change_f": -12.2,
         "barometric_trend": "Steady",
         "pressure_change_inhg": 0.03,
         "pressure_adjustment": 0.0,
@@ -1130,14 +1130,14 @@
           "name": "Selected hunt window",
           "start_time": "2026-11-18T08:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 38.0,
+          "temperature_f": 40.3,
           "wind_mph": 1.0,
-          "wind_direction": "ESE",
+          "wind_direction": "E",
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
         "reasons": [
-          "38\u00b0F average: cool feeding-to-bedding conditions",
+          "40.3\u00b0F average: cool feeding-to-bedding conditions",
           "1 mph wind: light wind can make scent unpredictable"
         ],
         "basis": "Full forecast hours between local sunrise and sunset; confirm local legal hunting hours"
@@ -1150,7 +1150,7 @@
           "is_daytime": true,
           "temperature_f": 61.3,
           "wind_mph": 2.3,
-          "wind_direction": "E",
+          "wind_direction": "VARIABLE",
           "precipitation_probability": 0.0,
           "short_forecast": "Sunny"
         },
@@ -1168,7 +1168,7 @@
           "name": "Wednesday",
           "start_time": "2026-11-18T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 65.3,
+          "temperature_f": 65.7,
           "wind_mph": 1.7,
           "wind_direction": "E",
           "precipitation_probability": 0.0,
@@ -1178,17 +1178,17 @@
           "name": "Wednesday Night",
           "start_time": "2026-11-18T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 33.7,
+          "temperature_f": 33.0,
           "wind_mph": 0.7,
           "wind_direction": "ESE",
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Clear"
         },
         {
           "name": "Thursday",
           "start_time": "2026-11-19T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 68.0,
+          "temperature_f": 68.3,
           "wind_mph": 1.0,
           "wind_direction": "ESE",
           "precipitation_probability": 0.0,
@@ -1198,7 +1198,7 @@
           "name": "Thursday Night",
           "start_time": "2026-11-19T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 36.7,
+          "temperature_f": 37.3,
           "wind_mph": 0.7,
           "wind_direction": "NE",
           "precipitation_probability": 0.7,
@@ -1208,9 +1208,9 @@
           "name": "Friday",
           "start_time": "2026-11-20T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 68.3,
+          "temperature_f": 68.0,
           "wind_mph": 2.7,
-          "wind_direction": "ENE",
+          "wind_direction": "E",
           "precipitation_probability": 0.7,
           "short_forecast": "Mostly Sunny"
         },
@@ -1221,7 +1221,7 @@
           "temperature_f": 42.7,
           "wind_mph": 2.3,
           "wind_direction": "E",
-          "precipitation_probability": 1.0,
+          "precipitation_probability": 1.3,
           "short_forecast": "Partly Cloudy"
         }
       ],
@@ -6446,9 +6446,9 @@
         "county": "Casey",
         "region_id": "southeast-region",
         "male": 587,
-        "female": 316,
-        "total": 903,
-        "change_since_previous_snapshot": 104,
+        "female": 317,
+        "total": 904,
+        "change_since_previous_snapshot": 105,
         "comparison_date": "2026-11-16",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -9608,10 +9608,10 @@
       "harvest": {
         "county": "Franklin",
         "region_id": "bluegrass-region",
-        "male": 399,
+        "male": 400,
         "female": 319,
-        "total": 718,
-        "change_since_previous_snapshot": 48,
+        "total": 719,
+        "change_since_previous_snapshot": 49,
         "comparison_date": "2026-11-16",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -16587,10 +16587,10 @@
       "harvest": {
         "county": "Lewis",
         "region_id": "northeast-region",
-        "male": 601,
+        "male": 602,
         "female": 341,
-        "total": 942,
-        "change_since_previous_snapshot": 93,
+        "total": 943,
+        "change_since_previous_snapshot": 94,
         "comparison_date": "2026-11-16",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -17949,10 +17949,10 @@
       "harvest": {
         "county": "Magoffin",
         "region_id": "northeast-region",
-        "male": 417,
+        "male": 418,
         "female": 84,
-        "total": 501,
-        "change_since_previous_snapshot": 34,
+        "total": 502,
+        "change_since_previous_snapshot": 35,
         "comparison_date": "2026-11-16",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -25415,10 +25415,10 @@
       "harvest": {
         "county": "Simpson",
         "region_id": "green-river-region",
-        "male": 232,
+        "male": 233,
         "female": 149,
-        "total": 381,
-        "change_since_previous_snapshot": 30,
+        "total": 382,
+        "change_since_previous_snapshot": 31,
         "comparison_date": "2026-11-16",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
