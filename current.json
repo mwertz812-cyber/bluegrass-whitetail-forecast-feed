@@ -1,6 +1,6 @@
 {
   "schema_version": "1.5.0",
-  "generated_at": "2026-11-27T18:41:09.134560+00:00",
+  "generated_at": "2026-11-27T18:43:56.179000+00:00",
   "valid_until": "2026-11-28T09:00:00+00:00",
   "data_status": {
     "county_weather": {
@@ -10,8 +10,8 @@
     "weather": "current",
     "barometric_pressure": "current",
     "harvest": "current",
-    "harvest_retrieved_at": "2026-11-27T18:41:09.135008+00:00",
-    "harvest_statewide_total": 130109,
+    "harvest_retrieved_at": "2026-11-27T18:43:56.180034+00:00",
+    "harvest_statewide_total": 130112,
     "harvest_comparison_date": "2026-11-26",
     "mast": "current-season-survey",
     "crops": "annual-land-cover",
@@ -160,8 +160,8 @@
         "harvest": {
           "county_count": 14,
           "male": 9456,
-          "female": 7202,
-          "total": 16658,
+          "female": 7203,
+          "total": 16659,
           "harvest_per_county": 1189.9,
           "activity_index": 1.097,
           "score": 5.2
@@ -221,78 +221,78 @@
           "temperature_f": 45.3,
           "wind_mph": 9.8,
           "wind_direction": "WSW",
-          "precipitation_probability": 1.7,
-          "short_forecast": "Partly Sunny"
+          "precipitation_probability": 4.0,
+          "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Tonight",
           "start_time": "2026-11-27T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 32.7,
+          "temperature_f": 30.3,
           "wind_mph": 5.2,
           "wind_direction": "SSW",
           "precipitation_probability": 0.3,
-          "short_forecast": "Partly Cloudy"
+          "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Saturday",
           "start_time": "2026-11-28T06:00:00-06:00",
           "is_daytime": true,
-          "temperature_f": 56.3,
-          "wind_mph": 6.3,
+          "temperature_f": 55.3,
+          "wind_mph": 6.7,
           "wind_direction": "SSW",
-          "precipitation_probability": 1.3,
+          "precipitation_probability": 0.0,
           "short_forecast": "Mostly Sunny"
         },
         {
           "name": "Saturday Night",
           "start_time": "2026-11-28T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 42.7,
-          "wind_mph": 7.7,
+          "temperature_f": 43.7,
+          "wind_mph": 8.0,
           "wind_direction": "S",
-          "precipitation_probability": 66.0,
-          "short_forecast": "Cloudy then Showers And Thunderstorms Likely"
+          "precipitation_probability": 63.7,
+          "short_forecast": "Cloudy then Light Rain Likely"
         },
         {
           "name": "Sunday",
           "start_time": "2026-11-29T06:00:00-06:00",
           "is_daytime": true,
-          "temperature_f": 58.3,
-          "wind_mph": 15.7,
+          "temperature_f": 55.3,
+          "wind_mph": 14.8,
           "wind_direction": "WSW",
-          "precipitation_probability": 97.0,
-          "short_forecast": "Showers And Thunderstorms"
+          "precipitation_probability": 92.7,
+          "short_forecast": "Light Rain"
         },
         {
           "name": "Sunday Night",
           "start_time": "2026-11-29T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 30.0,
-          "wind_mph": 7.7,
+          "temperature_f": 28.0,
+          "wind_mph": 7.0,
           "wind_direction": "WNW",
-          "precipitation_probability": 3.7,
-          "short_forecast": "Mostly Cloudy"
+          "precipitation_probability": 6.3,
+          "short_forecast": "Partly Cloudy"
         },
         {
           "name": "Monday",
           "start_time": "2026-11-30T06:00:00-06:00",
           "is_daytime": true,
           "temperature_f": 50.3,
-          "wind_mph": 2.0,
-          "wind_direction": "WNW",
+          "wind_mph": 1.7,
+          "wind_direction": "W",
           "precipitation_probability": 0.0,
-          "short_forecast": "Sunny"
+          "short_forecast": "Mostly Sunny"
         },
         {
           "name": "Monday Night",
           "start_time": "2026-11-30T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 30.0,
-          "wind_mph": 1.7,
+          "temperature_f": 29.0,
+          "wind_mph": 1.3,
           "wind_direction": "E",
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Clear"
+          "short_forecast": "Partly Cloudy"
         }
       ],
       "sample_points": [
@@ -394,10 +394,10 @@
         },
         "harvest": {
           "county_count": 25,
-          "male": 20477,
+          "male": 20478,
           "female": 15104,
-          "total": 35581,
-          "harvest_per_county": 1423.2,
+          "total": 35582,
+          "harvest_per_county": 1423.3,
           "activity_index": 1.313,
           "score": 5.8
         }
@@ -453,60 +453,60 @@
           "name": "Today",
           "start_time": "2026-11-27T11:00:00-06:00",
           "is_daytime": true,
-          "temperature_f": 42.0,
-          "wind_mph": 13.7,
+          "temperature_f": 42.7,
+          "wind_mph": 13.8,
           "wind_direction": "W",
-          "precipitation_probability": 33.3,
+          "precipitation_probability": 22.3,
           "short_forecast": "Slight Chance Rain Showers then Mostly Cloudy"
         },
         {
           "name": "Tonight",
           "start_time": "2026-11-27T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 31.0,
-          "wind_mph": 7.5,
+          "temperature_f": 31.7,
+          "wind_mph": 7.7,
           "wind_direction": "SW",
-          "precipitation_probability": 4.7,
+          "precipitation_probability": 4.0,
           "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Saturday",
           "start_time": "2026-11-28T06:00:00-06:00",
           "is_daytime": true,
-          "temperature_f": 54.3,
-          "wind_mph": 7.3,
+          "temperature_f": 53.7,
+          "wind_mph": 7.5,
           "wind_direction": "SW",
-          "precipitation_probability": 0.3,
+          "precipitation_probability": 0.7,
           "short_forecast": "Mostly Sunny"
         },
         {
           "name": "Saturday Night",
           "start_time": "2026-11-28T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 42.3,
-          "wind_mph": 7.5,
+          "temperature_f": 42.7,
+          "wind_mph": 7.3,
           "wind_direction": "S",
-          "precipitation_probability": 25.7,
+          "precipitation_probability": 37.7,
           "short_forecast": "Mostly Cloudy then Chance Light Rain"
         },
         {
           "name": "Sunday",
           "start_time": "2026-11-29T06:00:00-06:00",
           "is_daytime": true,
-          "temperature_f": 55.3,
-          "wind_mph": 15.5,
+          "temperature_f": 56.0,
+          "wind_mph": 16.2,
           "wind_direction": "SSW",
-          "precipitation_probability": 98.0,
-          "short_forecast": "Rain"
+          "precipitation_probability": 98.7,
+          "short_forecast": "Showers And Thunderstorms"
         },
         {
           "name": "Sunday Night",
           "start_time": "2026-11-29T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 29.3,
-          "wind_mph": 9.7,
+          "temperature_f": 30.0,
+          "wind_mph": 10.5,
           "wind_direction": "W",
-          "precipitation_probability": 46.0,
+          "precipitation_probability": 44.7,
           "short_forecast": "Slight Chance Rain Showers then Mostly Cloudy"
         },
         {
@@ -523,11 +523,11 @@
           "name": "Monday Night",
           "start_time": "2026-11-30T18:00:00-06:00",
           "is_daytime": false,
-          "temperature_f": 28.0,
+          "temperature_f": 28.3,
           "wind_mph": 1.2,
           "wind_direction": "ENE",
           "precipitation_probability": 0.0,
-          "short_forecast": "Partly Cloudy"
+          "short_forecast": "Mostly Clear"
         }
       ],
       "sample_points": [
@@ -555,11 +555,11 @@
       "region_id": "bluegrass-region",
       "region_name": "Bluegrass Region",
       "score": {
-        "value": 6.1,
+        "value": 6.2,
         "label": "good"
       },
       "inputs": {
-        "weather_score": 7.8,
+        "weather_score": 7.9,
         "season_phase_score": 7.0,
         "food_score": 5.3,
         "pressure_score": 2.4,
@@ -650,7 +650,7 @@
       "weather_context": {
         "legal_light_basis": "First and last three NWS daylight hours",
         "temperature_trend": "Steady",
-        "temperature_change_f": 0.2,
+        "temperature_change_f": 0.3,
         "barometric_trend": "Rising",
         "pressure_change_inhg": 0.1,
         "pressure_adjustment": 0.3,
@@ -670,15 +670,15 @@
           "name": "Selected hunt window",
           "start_time": "2026-11-28T08:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 35.7,
-          "wind_mph": 7.0,
-          "wind_direction": "SSW",
+          "temperature_f": 37.0,
+          "wind_mph": 6.3,
+          "wind_direction": "S",
           "precipitation_probability": 0.0,
-          "short_forecast": "Mostly Sunny"
+          "short_forecast": "Mostly Cloudy"
         },
         "reasons": [
-          "35.7\u00b0F average: cool feeding-to-bedding conditions",
-          "7 mph wind: manageable scent planning; confirm direction on site"
+          "37\u00b0F average: cool feeding-to-bedding conditions",
+          "6.3 mph wind: manageable scent planning; confirm direction on site"
         ],
         "basis": "Full forecast hours between local sunrise and sunset; confirm local legal hunting hours"
       },
@@ -686,32 +686,32 @@
       "periods": [
         {
           "name": "Today",
-          "start_time": "2026-11-27T06:00:00-05:00",
+          "start_time": "2026-11-27T10:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 41.7,
-          "wind_mph": 15.5,
-          "wind_direction": "W",
-          "precipitation_probability": 71.3,
-          "short_forecast": "Rain Showers Likely"
+          "wind_mph": 14.3,
+          "wind_direction": "WSW",
+          "precipitation_probability": 64.3,
+          "short_forecast": "Chance Rain Showers"
         },
         {
           "name": "Tonight",
           "start_time": "2026-11-27T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 32.3,
-          "wind_mph": 11.2,
+          "temperature_f": 32.0,
+          "wind_mph": 11.0,
           "wind_direction": "WSW",
-          "precipitation_probability": 26.0,
+          "precipitation_probability": 19.7,
           "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Saturday",
           "start_time": "2026-11-28T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 51.3,
+          "temperature_f": 51.7,
           "wind_mph": 8.3,
           "wind_direction": "SW",
-          "precipitation_probability": 0.7,
+          "precipitation_probability": 0.0,
           "short_forecast": "Mostly Sunny"
         },
         {
@@ -721,7 +721,7 @@
           "temperature_f": 40.0,
           "wind_mph": 5.5,
           "wind_direction": "S",
-          "precipitation_probability": 9.7,
+          "precipitation_probability": 8.7,
           "short_forecast": "Mostly Cloudy"
         },
         {
@@ -729,9 +729,9 @@
           "start_time": "2026-11-29T06:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 53.3,
-          "wind_mph": 11.8,
+          "wind_mph": 12.0,
           "wind_direction": "S",
-          "precipitation_probability": 99.7,
+          "precipitation_probability": 99.3,
           "short_forecast": "Rain Showers"
         },
         {
@@ -739,26 +739,26 @@
           "start_time": "2026-11-29T18:00:00-05:00",
           "is_daytime": false,
           "temperature_f": 31.3,
-          "wind_mph": 12.5,
+          "wind_mph": 12.3,
           "wind_direction": "W",
-          "precipitation_probability": 98.0,
+          "precipitation_probability": 97.7,
           "short_forecast": "Rain Showers"
         },
         {
           "name": "Monday",
           "start_time": "2026-11-30T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 45.7,
-          "wind_mph": 5.8,
+          "temperature_f": 46.3,
+          "wind_mph": 5.5,
           "wind_direction": "W",
-          "precipitation_probability": 5.7,
+          "precipitation_probability": 7.7,
           "short_forecast": "Mostly Sunny"
         },
         {
           "name": "Monday Night",
           "start_time": "2026-11-30T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 28.0,
+          "temperature_f": 28.7,
           "wind_mph": 1.3,
           "wind_direction": "VARIABLE",
           "precipitation_probability": 0.0,
@@ -1099,10 +1099,10 @@
         },
         "harvest": {
           "county_count": 29,
-          "male": 16994,
+          "male": 16995,
           "female": 8431,
-          "total": 25425,
-          "harvest_per_county": 876.7,
+          "total": 25426,
+          "harvest_per_county": 876.8,
           "activity_index": 0.809,
           "score": 4.5
         }
@@ -1156,10 +1156,10 @@
       "periods": [
         {
           "name": "This Afternoon",
-          "start_time": "2026-11-27T12:00:00-05:00",
+          "start_time": "2026-11-27T13:00:00-05:00",
           "is_daytime": true,
           "temperature_f": 39.3,
-          "wind_mph": 14.0,
+          "wind_mph": 13.3,
           "wind_direction": "WSW",
           "precipitation_probability": 56.0,
           "short_forecast": "Chance Light Rain"
@@ -1168,7 +1168,7 @@
           "name": "Tonight",
           "start_time": "2026-11-27T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 31.7,
+          "temperature_f": 32.0,
           "wind_mph": 9.3,
           "wind_direction": "WSW",
           "precipitation_probability": 50.0,
@@ -1178,7 +1178,7 @@
           "name": "Saturday",
           "start_time": "2026-11-28T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 54.7,
+          "temperature_f": 54.0,
           "wind_mph": 7.3,
           "wind_direction": "SSW",
           "precipitation_probability": 2.3,
@@ -1189,39 +1189,39 @@
           "start_time": "2026-11-28T18:00:00-05:00",
           "is_daytime": false,
           "temperature_f": 37.3,
-          "wind_mph": 4.8,
+          "wind_mph": 4.3,
           "wind_direction": "S",
-          "precipitation_probability": 1.7,
+          "precipitation_probability": 1.0,
           "short_forecast": "Mostly Cloudy"
         },
         {
           "name": "Sunday",
           "start_time": "2026-11-29T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 57.0,
+          "temperature_f": 57.3,
           "wind_mph": 11.5,
           "wind_direction": "S",
-          "precipitation_probability": 98.3,
+          "precipitation_probability": 98.7,
           "short_forecast": "Light Rain"
         },
         {
           "name": "Sunday Night",
           "start_time": "2026-11-29T18:00:00-05:00",
           "is_daytime": false,
-          "temperature_f": 31.3,
-          "wind_mph": 12.3,
+          "temperature_f": 32.0,
+          "wind_mph": 13.3,
           "wind_direction": "WSW",
-          "precipitation_probability": 98.3,
+          "precipitation_probability": 98.7,
           "short_forecast": "Light Rain"
         },
         {
           "name": "Monday",
           "start_time": "2026-11-30T06:00:00-05:00",
           "is_daytime": true,
-          "temperature_f": 46.7,
-          "wind_mph": 4.2,
+          "temperature_f": 46.0,
+          "wind_mph": 4.8,
           "wind_direction": "W",
-          "precipitation_probability": 11.3,
+          "precipitation_probability": 9.7,
           "short_forecast": "Mostly Sunny"
         },
         {
@@ -1232,7 +1232,7 @@
           "wind_mph": 1.0,
           "wind_direction": "N",
           "precipitation_probability": 0.0,
-          "short_forecast": "Partly Cloudy"
+          "short_forecast": "Mostly Clear"
         }
       ],
       "sample_points": [
@@ -6683,9 +6683,9 @@
         "county": "Christian",
         "region_id": "purchase-region",
         "male": 1406,
-        "female": 950,
-        "total": 2356,
-        "change_since_previous_snapshot": 22,
+        "female": 951,
+        "total": 2357,
+        "change_since_previous_snapshot": 23,
         "comparison_date": "2026-11-26",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -7817,10 +7817,10 @@
       "harvest": {
         "county": "Cumberland",
         "region_id": "southeast-region",
-        "male": 546,
+        "male": 547,
         "female": 378,
-        "total": 924,
-        "change_since_previous_snapshot": 19,
+        "total": 925,
+        "change_since_previous_snapshot": 20,
         "comparison_date": "2026-11-26",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
@@ -12786,10 +12786,10 @@
       "harvest": {
         "county": "Henderson",
         "region_id": "green-river-region",
-        "male": 629,
+        "male": 630,
         "female": 460,
-        "total": 1089,
-        "change_since_previous_snapshot": 8,
+        "total": 1090,
+        "change_since_previous_snapshot": 9,
         "comparison_date": "2026-11-26",
         "classification_note": "KDFWR live results report male and female deer. Male is not identical to antlered because male fawns may be included."
       },
